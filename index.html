@@ -16,7 +16,7 @@ layout: default
       resolution: 'standard_resolution',
       links: 'false',
       target: 'instafeed',
-      template: '<div class="tagged studiobinocle"><img src="{{instafeed_img}}" /><span><a href="{{instafeed_link}}">♡{{instafeed_likes}}</a></span></div><div class="caption" id="sucked_caption">{{instafeed_caption}}</div>',
+      template: '<div class="tagged studiobinocle"><img src="{{instafeed_img}}" /><span><a target="_blank" href="{{instafeed_link}}">♡{{instafeed_likes}}</a></span></div><div class="caption" id="sucked_caption">{{instafeed_caption}}</div>',
       filter: function(image) {
         return image.tags.indexOf('pictureoftheday') >= 0;
       }

@@ -39,7 +39,7 @@
         links: 'false',
         sortBy: 'most-liked',
         limit: '20',
-        template: '<div class="tagged {{page.hash}}"><img src="{{instafeed_img}}" /><span><a href="{{instafeed_link}}">♡{{instafeed_likes}}</a></span></div><div class="caption">{{instafeed_caption}}</div>',
+        template: '<div class="tagged {{page.hash}}"><img src="{{instafeed_img}}" /><span><a target="_blank" href="{{instafeed_link}}">♡{{instafeed_likes}}</a></span></div><div class="caption">{{instafeed_caption}}</div>',
         filter: function(image) {
           return image.tags.indexOf('{{page.hash}}') >= 0;
         }

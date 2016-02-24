@@ -8,7 +8,8 @@
 # Site settings
 title: Binocle
 email: mail@binocle.it
-description: Binocle
+description: Studio Binocle founded by architect Lorenzo Bini
+copyright: Binocle
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://binocle.dev" # the base hostname & protocol for your site
 

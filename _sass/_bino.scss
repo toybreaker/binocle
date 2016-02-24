@@ -145,10 +145,11 @@ a {
 
 .caption {
   width: 100%;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
   text-align: center;
-  font-size: 1rem;
-  @include media( "screen", ">bp1Width") { font-size: 1.25rem;}
+  font-size: .75rem;
+  line-height: 1.2;
+  @include media( "screen", ">bp1Width") { font-size: 1rem;}
 }
 
 

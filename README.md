@@ -12,6 +12,12 @@ All photos © Binocle. All rights reserved.
 Thanks, Junglestar team
 
 
+## Editables
+
+Key files [here](https://github.com/toybreaker/binocle/tree/gh-pages/_includes/editables)
+
+
+
 ### dev time
 
 Install deps:

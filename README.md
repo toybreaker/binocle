@@ -14,9 +14,11 @@ Thanks, Junglestar team
 
 ## Editables
 
-Key files [here](https://github.com/toybreaker/binocle/tree/gh-pages/_includes/editables)
+Key files [here](https://github.com/toybreaker/binocle/tree/gh-pages/_includes/editables):
 
+- [contacts](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/contact.md)
 
+- [profile](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
 
 ### dev time
 
@@ -27,3 +29,9 @@ Install deps:
 Run Jekyll:
 
     bundle exec Jekyll serve
+
+### 2DO
+
+- projects intro txt editables
+- investigate svg rendering issues from win / chrome
+- windows / firefox test for svg ?

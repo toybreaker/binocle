@@ -1,0 +1,56 @@
+---
+
+---
+{% assign instafeed_img = '{{image}}' %}
+{% assign instafeed_link = '{{link}}' %}
+{% assign instafeed_likes = '{{likes}}' %}
+{% assign instafeed_caption = '{{caption}}' %}
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="bungkus group">
+
+      {% include hat.html %}
+
+      <h2 class="project_name">{{page.project}}</h2>
+
+      <div id="instafeed" class="sucked_shots group"></div>
+
+    </div>
+
+    {% include footer.html %}
+
+    <script type="text/javascript" src="/js/instafeed.min.js"></script>
+
+    {{ content }}
+
+    <script type="text/javascript">
+      var userFeed = new Instafeed({
+        get: 'user',
+        userId: '{{site.userId}}',
+        clientId: '{{site.clientId}}',
+        accessToken: '{{site.accessToken}}',
+        target: 'instafeed',
+        resolution: 'standard_resolution',
+        links: 'false',
+        sortBy: 'most-liked',
+        limit: '20',
+        template: '<div class="tagged {{page.hash}}"><img src="{{instafeed_img}}" /><span><a href="{{instafeed_link}}">♡{{instafeed_likes}}</a></span></div><div class="caption">{{instafeed_caption}}</div>',
+        filter: function(image) {
+          return image.tags.indexOf('{{page.hash}}') >= 0;
+        }
+        });
+      userFeed.run();
+    </script>
+
+    {% include script_menu_toggle.html %}
+    {% include script_profile_toggle.html %}
+    {% include script_google_analytics.html %}
+
+  </body>
+
+</html>

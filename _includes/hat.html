@@ -1,0 +1,14 @@
+<h1 class="logo group">
+  <a class="lo" id="binocle">Binocle</a>
+  <a class="go" id="works">Works</a>
+  {% include menu.html %}
+
+  <div class="profile group hide" id="profile">
+  {% capture prof %}{% include editables/profile.md %}{% endcapture %}
+  {{ prof | markdownify }}
+    <div class="contact">
+      {% capture conta %}{% include editables/contact.md %}{% endcapture %}
+      {{ conta | markdownify }}
+    </div>
+  </div>
+</h1>

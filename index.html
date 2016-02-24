@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% assign instafeed_img = '{{image}}' %}
+{% assign instafeed_link = '{{link}}' %}
+{% assign instafeed_likes = '{{likes}}' %}
+{% assign instafeed_caption = '{{caption}}' %}
+<script type="text/javascript">
+  var userFeed = new Instafeed({
+      get: 'user',
+      userId: '{{site.userId}}',
+      clientId: '{{site.clientId}}',
+      accessToken: '{{site.accessToken}}',
+      sortBy: 'most-liked',
+      resolution: 'standard_resolution',
+      links: 'false',
+      target: 'instafeed',
+      template: '<div class="tagged studiobinocle"><img src="{{instafeed_img}}" /><span><a href="{{instafeed_link}}">♡{{instafeed_likes}}</a></span></div><div class="caption" id="sucked_caption">{{instafeed_caption}}</div>',
+      filter: function(image) {
+        return image.tags.indexOf('pictureoftheday') >= 0;
+      }
+    });
+  userFeed.run();
+</script>

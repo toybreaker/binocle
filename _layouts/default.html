@@ -1,0 +1,33 @@
+---
+
+---
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="bungkus group">
+
+      {% include hat.html %}
+
+      <h2 class="project_name">{{page.project}}</h2>
+
+      <div id="instafeed" class="sucked_shots group"></div>
+
+    </div>
+
+    {% include footer.html %}
+
+    <script type="text/javascript" src="/js/instafeed.min.js"></script>
+
+    {{ content }}
+
+    {% include script_menu_toggle.html %}
+    {% include script_profile_toggle.html %}
+    {% include script_google_analytics.html %}
+
+  </body>
+
+</html>

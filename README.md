@@ -1,6 +1,5 @@
-# binocle
+binocle
 ---
-binocle.it
 
 ## Warning:
 
@@ -11,3 +10,14 @@ Please, ask for permission first by contacting us: info@junglestar.org
 All photos © Binocle. All rights reserved.
 
 Thanks, Junglestar team
+
+
+### dev time
+
+Install deps:
+
+    bundle install
+
+Run Jekyll:
+
+    bundle exec Jekyll serve

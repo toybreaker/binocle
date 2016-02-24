@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Binocle
+email: mail@binocle.it
+description: Binocle
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://binocle.dev" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+ input: GFM
+ hard_wrap: false
+permalink: /:categories/:title/
+
+exclude:
+ - Gemfile
+ - Gemfile.lock
+ - LICENSEß
+ - gulpfile.js
+ - package.json
+ - DS_Store
+ - Icon
+ - node_modules
+ - .workinprogress
+
+github: toybreaker
+google:
+  plus: #username
+  analytics:
+  verify:
+
+# instuff
+userId: '1568291819'
+clientId: '387d80cc65e1414198434cac0666c7d0'
+accessToken: '1568291819.387d80c.54f7945b8fd9410a9966d9d79f7f7762'

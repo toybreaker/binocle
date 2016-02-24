@@ -1,0 +1,170 @@
+body {
+  font: $font;
+  font-weight: 200;
+  margin:0;
+  padding:0;
+  background-color:$bg_color;
+}
+
+.hide {display: none;}
+
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear: both; }
+
+a {
+  font-weight: 200;
+  text-decoration: none;
+  color:$link_color;
+  text-transform: capitalize;
+  &.active { color:black; }
+}
+
+//menu: it's an <ul>
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 3rem 0 0 0;
+  @include media( "screen", ">bp1Width") {margin: 5rem 0 0 0;}
+  li {
+    text-align: center;
+    margin: .5rem 0;
+
+    a {
+      display: block;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1rem;
+      @include media( "screen", ">minWidth") {font-size: 1.5rem;}
+      &:hover {
+        color: lighten($link_color,20%);
+      }
+     }
+
+   }
+ }
+
+
+
+//wrap
+.bungkus{
+  padding: 1rem 0;
+  max-width: 96%;
+  margin: 0 auto;
+  @include media( "screen", ">bp1Width") {
+      max-width: 1000px;
+  }
+}
+
+//profile
+.profile{
+  max-width: 100%;
+  margin: 3rem auto;
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: left;
+  padding: 0 .5rem;
+  @include media( "screen", ">minWidth") {
+      text-align: justify;
+  }
+  &:before {
+    content: "";
+    display: block;
+    margin: 10vw auto 0 auto;
+    background-image: url(/p/binisquare.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50vw 50vw;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    @include media( "screen", ">minWidth") {
+      background-size: 40vw 40vw;
+      width: 40vw;
+      height: 40vw;
+      border-radius: 50%;
+    }
+    @include media( "screen", ">bp1Width") {
+      background-size: 30vw 30vw;
+      width: 30vw;
+      height: 30vw;
+      border-radius: 50%;
+    }
+  }
+  h2{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    @include media( "screen", ">bp1Width") { font-size: 1.5rem;}
+  }
+  .curri_link{
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .contact{
+    text-align: center;
+  }
+  strong{
+    font-weight: 400;
+  }
+  em {
+    display: block;
+    width: 100%;
+    font-style: normal;
+    text-align: center;
+  }
+
+}
+.contact a { text-transform: lowercase; }
+
+//images
+.tagged {
+  width: 100%;
+  display: block;
+  float: left;
+  margin: 0;
+  position: relative;
+  span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: -3px;
+    padding: 6px;
+    z-index: 1;
+    background-color: $bg_color;
+    color: black;
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.caption {
+  width: 100%;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1rem;
+  @include media( "screen", ">bp1Width") { font-size: 1.25rem;}
+}
+
+
+.footer{
+  display: block;
+  position: relative;
+  bottom: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+
+.project_name {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}

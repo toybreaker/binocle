@@ -53,7 +53,7 @@ a {
   max-width: 96%;
   margin: 0 auto;
   @include media( "screen", ">bp1Width") {
-      max-width: 1000px;
+      max-width: 900px;
   }
 }
 

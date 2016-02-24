@@ -40,6 +40,6 @@
 	],
 	"start_url": "http:\/\/binocle.it",
 	"display": "standalone",
-	"background_color": "#000",
+	"background_color": "#666",
 	"theme_color": "#000"
 }

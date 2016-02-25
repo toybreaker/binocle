@@ -1,1 +1,1 @@
-Founded in Milan in chioda
+chioda - intro text - markdown ready (in editables on github, dude!)

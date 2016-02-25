@@ -32,6 +32,6 @@ Run Jekyll:
 
 ### 2DO
 
-- projects intro txt editables
-- investigate svg rendering issues from win / chrome
-- windows / firefox test for svg ?
+- logo code re-factor: no bg svg, try include svg + flexbox
+- caption block use flexbox
+- 

@@ -32,5 +32,12 @@ Run Jekyll:
 
 ### 2DO
 
-- re-factor: logo code - no bg svg, try include svg + flexbox
-- align: instalikes + caption block use flexbox
+- aggiornare nomi e # works come da drive doc.
+
+- risoluzione immagini
+
+- testo instagram senza # / niente testo instagram
+
+- # che non caricano
+
+- segnalare link verso Instagram

@@ -1,6 +1,6 @@
 .header {
  display: block;
- margin-top: 1rem;
+ margin: $vertical_rhythm/2 0;
  height: 9vw;
  .showing-menu &,
  .showing-profile & {
@@ -9,30 +9,19 @@
 }
 
 .logo {
-  max-width: 100%;
-  display: -webkit-box;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 7vw;
-  .lo, .go{//<a id="binocle"...
-    width: 50%;
-    cursor: pointer;
-    display: block;
-  }
+  width: 100%;
   svg {
     height: 7vw;
     max-height: 50px;
+    &:hover { cursor: pointer;}
   }
 }
-
-
 
 //menu: it's an <ul>
 .menu {
   list-style: none;
   padding: 0;
-  margin: 3rem 0 0 0;
+  margin: $vertical_rhythm 0;
   @include media( "screen", ">bp1Width") {margin: 5rem 0 0 0;}
   li {
     text-align: center;

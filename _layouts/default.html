@@ -14,8 +14,6 @@
 
   <body class="home">
 
-    {% include svg/defs.html %}
-
     <div class="bungkus group">
 
       {% include header.html %}
@@ -42,7 +40,7 @@
           resolution: 'standard_resolution',
           links: 'false',
           target: 'instafeed',
-          template: '<a class="go_away" href="{{instafeed_link}}"><div class="hashed_image_wrap {{page.hash}}"><img src="{{instafeed_img}}" /></a>',
+          template: '<a class="go_away_link {{page.hash}}" href="{{instafeed_link}}"><img src="{{instafeed_img}}" /></a>',
           filter: function(image) {
             return image.tags.indexOf('{{page.hash}}') >= 0;
           }

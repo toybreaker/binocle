@@ -36,10 +36,8 @@ Run Jekyll:
 
 - risoluzione immagini
 
-- testo instagram senza # / niente testo instagram
-
 - hashtag che non caricano
 
-- segnalare link verso Instagram
+- fare link per amndari tutti i nostri visitatori su Instagram.
 
 - header logo da centrare...

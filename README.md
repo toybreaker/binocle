@@ -41,3 +41,5 @@ Run Jekyll:
 - hashtag che non caricano
 
 - segnalare link verso Instagram
+
+- header logo da centrare...

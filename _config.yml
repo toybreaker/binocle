@@ -12,7 +12,7 @@ description: Studio Binocle in Milan, Italy was founded by architect Lorenzo Bin
 copyright: Binocle
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://binocle.dev" # the base hostname & protocol for your site
-
+version: 0.1.1
 
 # Build settings
 markdown: kramdown

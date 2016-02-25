@@ -1,12 +1,18 @@
 ---
 
 ---
+{% capture intro %}{% include editables/{{page.hash}}.md %}{% endcapture %}
+
+{% assign instafeed_img = '{{image}}' %}
+{% assign instafeed_link = '{{link}}' %}
+{% assign instafeed_likes = '{{likes}}' %}
+{% assign instafeed_caption = '{{caption}}' %}
 <!DOCTYPE html>
 <html>
 
   {% include head.html %}
 
-  <body>
+  <body class="home">
 
     <div class="bungkus group">
 
@@ -23,6 +29,24 @@
     <script type="text/javascript" src="/js/instafeed.min.js"></script>
 
     {{ content }}
+
+    <script type="text/javascript">
+      var userFeed = new Instafeed({
+          get: 'user',
+          userId: '{{site.userId}}',
+          clientId: '{{site.clientId}}',
+          accessToken: '{{site.accessToken}}',
+          sortBy: 'most-liked',
+          resolution: 'standard_resolution',
+          links: 'false',
+          target: 'instafeed',
+          template: '<div class="tagged {{page.hash}}"><img src="{{instafeed_img}}" /><span><a target="_blank" href="{{instafeed_link}}">{{instafeed_likes}}</a></span><div class="caption">{{instafeed_caption}}</div></div>',
+          filter: function(image) {
+            return image.tags.indexOf('{{page.hash}}') >= 0;
+          }
+        });
+      userFeed.run();
+    </script>
 
     {% include script_menu_toggle.html %}
     {% include script_profile_toggle.html %}

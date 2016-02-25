@@ -3,7 +3,6 @@
 ---
 {% capture intro %}{% include editables/{{page.hash}}.md %}{% endcapture %}
 
-
 {% assign instafeed_img = '{{image}}' %}
 {% assign instafeed_link = '{{link}}' %}
 {% assign instafeed_likes = '{{likes}}' %}
@@ -20,14 +19,12 @@
       {% include hat.html %}
 
       <div id="instafeed" class="sucked_shots group">
+
         <h2 class="project_name">{{page.project}}</h2>
-        <div class="intro">
-          {{ intro | markdownify }}
-        </div>
+
+        <div class="intro">{{ intro | markdownify }} </div>
 
       </div>
-
-
 
     </div>
 

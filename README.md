@@ -38,6 +38,6 @@ Run Jekyll:
 
 - testo instagram senza # / niente testo instagram
 
-- # che non caricano
+- hashtag che non caricano
 
 - segnalare link verso Instagram

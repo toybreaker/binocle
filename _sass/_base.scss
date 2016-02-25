@@ -38,10 +38,10 @@ svg{
 //wrap
 .bungkus{
   padding: 1rem 0;
-  max-width: 96%;
-  margin: 0 auto;
+  max-width: 100%;
   @include media( "screen", ">bp1Width") {
       max-width: 800px;
+      margin: 0 auto;
   }
 }
 

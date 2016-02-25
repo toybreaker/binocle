@@ -4,9 +4,9 @@
 .logo{
   width: 100%;
   .lo, .go{
-    max-height: 15px;
+    max-height: 20px;
     @include media( "screen", ">minWidth") {
-      min-height: 30px;
+      min-height: 40px;
     }
     @include media( "screen", ">bp1Width") {
       min-height: 50px;

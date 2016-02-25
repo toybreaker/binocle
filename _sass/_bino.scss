@@ -1,5 +1,14 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   font: $font;
+  font-size: 1rem;
   font-weight: 200;
   margin:0;
   padding:0;
@@ -119,6 +128,36 @@ a {
 }
 .contact a { text-transform: lowercase; }
 
+
+// flexbox
+.sucked_shots {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  .tagged {
+    margin-top: 2rem;
+    -webkit-box-ordinal-group:3;
+    order:2;
+  }
+  .intro {
+    padding:0 .5rem 2rem .5rem;
+    font-size:1.2rem;
+    text-align: left;
+    @include media( "screen", ">minWidth") { text-align: justify;}
+  }
+  div:nth-child(2) {
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+  }
+  div:nth-child(3) {
+    -webkit-box-ordinal-group:0;
+    order:-1;
+
+  }
+}
+
 //images
 .tagged {
   width: 100%;
@@ -127,16 +166,20 @@ a {
   margin: 0;
   position: relative;
   span {
-    display: block;
     position: absolute;
     bottom: 0;
-    left: -3px;
-    padding: 6px;
+    left: 0;
+    padding: 6px 6px 0 0;
     z-index: 1;
-    background-color: $bg_color;
-    color: black;
-    font-weight: bold;
-    font-size: .8rem;
+    a {
+      font-weight: lighter;
+      font-weight: 100;
+      font-size: 3rem;
+      line-height: .1;
+      padding: 0;
+      margin: 0;
+      color: lighten(black,85%);
+    }
   }
   img {
     width: 100%;
@@ -145,10 +188,10 @@ a {
 
 .caption {
   width: 100%;
-  padding: 2rem 0 1.5rem 0;
-  text-align: center;
+  padding: .5rem 0 0 4.25rem;
+  text-align: ledt;
   font-size: .75rem;
-  line-height: 1.2;
+  min-height: 48px;
   @include media( "screen", ">bp1Width") { font-size: 1rem;}
 }
 
@@ -165,6 +208,8 @@ a {
 
 .project_name {
   font-size: 2rem;
+  @include media( "screen", ">minWidth") { font-size: 2.5rem;}
+  @include media( "screen", ">bp1Width") { font-size: 3rem;}
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;

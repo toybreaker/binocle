@@ -1,6 +1,9 @@
 ---
 
 ---
+{% capture intro %}{% include editables/{{page.hash}}.md %}{% endcapture %}
+
+
 {% assign instafeed_img = '{{image}}' %}
 {% assign instafeed_link = '{{link}}' %}
 {% assign instafeed_likes = '{{likes}}' %}
@@ -10,15 +13,21 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="works">
 
     <div class="bungkus group">
 
       {% include hat.html %}
 
-      <h2 class="project_name">{{page.project}}</h2>
+      <div id="instafeed" class="sucked_shots group">
+        <h2 class="project_name">{{page.project}}</h2>
+        <div class="intro">
+          {{ intro | markdownify }}
+        </div>
 
-      <div id="instafeed" class="sucked_shots group"></div>
+      </div>
+
+
 
     </div>
 
@@ -39,7 +48,7 @@
         links: 'false',
         sortBy: 'most-liked',
         limit: '20',
-        template: '<div class="tagged {{page.hash}}"><img src="{{instafeed_img}}" /><span><a target="_blank" href="{{instafeed_link}}">{{instafeed_likes}}</a></span></div><div class="caption">{{instafeed_caption}}</div>',
+        template: '<div class="tagged {{page.hash}}"><img src="{{instafeed_img}}" /><span><a target="_blank" href="{{instafeed_link}}">{{instafeed_likes}}</a></span><div class="caption">{{instafeed_caption}}</div></div>',
         filter: function(image) {
           return image.tags.indexOf('{{page.hash}}') >= 0;
         }

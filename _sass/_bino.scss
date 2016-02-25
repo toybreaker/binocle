@@ -143,14 +143,21 @@ a {
   }
   .intro {
     padding:0 .5rem 2rem .5rem;
-    font-size:1.2rem;
+    font-size:1.1rem;
     text-align: left;
-    @include media( "screen", ">minWidth") { text-align: justify;}
+    @include media( "screen", ">bp1Width") { text-align: justify;}
     a {
       border-bottom: 1px solid gray;
       &:hover{ border-bottom: 1px solid black; }
     }
-    table { width: 100%;}
+    table {
+      width: 100%;
+      font-size:1rem;
+      td {
+        text-align: left;
+        padding-bottom: .25rem;;
+        vertical-align: baseline; }
+    }
   }
   div:nth-child(2) {
     -webkit-box-ordinal-group: 2;

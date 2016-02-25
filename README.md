@@ -38,6 +38,6 @@ Run Jekyll:
 
 - hashtag che non caricano
 
-- fare link per amndari tutti i nostri visitatori su Instagram.
+- fare link su foto e mandare tutti i nostri visitatori su Instagram.
 
 - header logo da centrare...

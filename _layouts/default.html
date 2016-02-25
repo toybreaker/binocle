@@ -18,9 +18,9 @@
 
     <div class="bungkus group">
 
-      {% include hat.html %}
+      {% include header.html %}
 
-      <h2 class="project_name">{{page.project}}</h2>
+      <h2 class="work_name">{{page.project}}</h2>
 
       <div id="instafeed" class="sucked_shots group"></div>
 
@@ -42,7 +42,7 @@
           resolution: 'standard_resolution',
           links: 'false',
           target: 'instafeed',
-          template: '<div class="tagged {{page.hash}}"><img src="{{instafeed_img}}" /><span><a target="_blank" href="{{instafeed_link}}">{{instafeed_likes}}</a></span><div class="caption">{{instafeed_caption}}</div></div>',
+          template: '<div class="hashed_image_wrap {{page.hash}}"><img src="{{instafeed_img}}" /><div class="caption"><span><a target="_blank" href="{{instafeed_link}}">{{instafeed_likes}}</a></span>{{instafeed_caption}}</div></div>',
           filter: function(image) {
             return image.tags.indexOf('{{page.hash}}') >= 0;
           }

@@ -1,0 +1,53 @@
+.header {
+ display: block;
+ height: 9vw;
+ .showing-menu &,
+ .showing-profile & {
+   height: auto;
+ }
+}
+
+.logo {
+  max-width: 100%;
+  display: -webkit-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7vw;
+  .lo, .go{//<a id="binocle"...
+    width: 50%;
+    cursor: pointer;
+    display: block;
+  }
+  svg {
+    height: 7vw;
+    max-height: 50px;
+  }
+}
+
+
+
+//menu: it's an <ul>
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 3rem 0 0 0;
+  @include media( "screen", ">bp1Width") {margin: 5rem 0 0 0;}
+  li {
+    text-align: center;
+    margin: .5rem 0;
+
+    a {
+      display: block;
+      width: 100%;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1rem;
+      @include media( "screen", ">minWidth") {font-size: 1.5rem;}
+      &:hover {
+        color: lighten($link_color,20%);
+      }
+     }
+
+   }
+ }

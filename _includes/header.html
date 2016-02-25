@@ -1,11 +1,14 @@
-<h1 class="logo group">
-  <a class="lo" id="binocle">
-    {% include svg/use.html id="vector--binocle" class="vector--binocle" %}
-  </a>
-  <a class="go" id="works">
-    {% include svg/use.html id="vector--works" class="vector--works" %}
-  </a>
-  
+<div class="header">
+
+  <div class="logo">
+    <a class="lo" id="binocle">
+      {% include svg/use.html id="vector--binocle" class="vector--binocle" %}
+    </a>
+    <a class="go" id="works">
+      {% include svg/use.html id="vector--works" class="vector--works" %}
+    </a>
+  </div>
+
   {% include menu.html %}
 
   <div class="profile group hide" id="profile">
@@ -16,4 +19,4 @@
       {{ conta | markdownify }}
     </div>
   </div>
-</h1>
+</div>

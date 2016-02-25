@@ -1,0 +1,63 @@
+
+
+//profile
+.profile{
+  max-width: 100%;
+  margin: 3rem auto;
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: left;
+  padding: 0 .5rem;
+  @include media( "screen", ">minWidth") {
+      text-align: justify;
+  }
+  &:before {
+    content: "";
+    display: block;
+    margin: 10vw auto 0 auto;
+    background-image: url(/p/binisquare.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 50vw 50vw;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    @include media( "screen", ">minWidth") {
+      background-size: 40vw 40vw;
+      width: 40vw;
+      height: 40vw;
+      border-radius: 50%;
+    }
+    @include media( "screen", ">bp1Width") {
+      background-size: 30vw 30vw;
+      width: 30vw;
+      height: 30vw;
+      border-radius: 50%;
+    }
+  }
+  h2{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    @include media( "screen", ">bp1Width") { font-size: 1.5rem;}
+  }
+  .curri_link{
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .contact{
+    text-align: center;
+  }
+  strong{
+    font-weight: 400;
+  }
+  em {
+    display: block;
+    width: 100%;
+    font-style: normal;
+    text-align: center;
+  }
+
+}
+.contact a { text-transform: lowercase; }

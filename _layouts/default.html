@@ -42,7 +42,7 @@
           resolution: 'standard_resolution',
           links: 'false',
           target: 'instafeed',
-          template: '<div class="hashed_image_wrap {{page.hash}}"><img src="{{instafeed_img}}" /><a class="to_insta_link" target="_blank" href="{{instafeed_link}}"><div class="msg hide"></div><div class="sucked_photo_details"><span class="likes">{{instafeed_likes}}</span><span class="caption">{{instafeed_caption}}</span></div></a></div>',
+          template: '<a class="go_away" href="{{instafeed_link}}"><div class="hashed_image_wrap {{page.hash}}"><img src="{{instafeed_img}}" /></a>',
           filter: function(image) {
             return image.tags.indexOf('{{page.hash}}') >= 0;
           }

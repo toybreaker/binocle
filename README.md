@@ -32,6 +32,5 @@ Run Jekyll:
 
 ### 2DO
 
-- logo code re-factor: no bg svg, try include svg + flexbox
-- caption block use flexbox
-- 
+- re-factor: logo code - no bg svg, try include svg + flexbox
+- align: instalikes + caption block use flexbox

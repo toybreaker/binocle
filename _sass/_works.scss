@@ -110,6 +110,11 @@
 
     .caption{
       text-align: left;
+      a & {
+        color: #aaa;
+
+      }
+      a:hover &{color: #666;}
     }
 
 //not yet or maybe never

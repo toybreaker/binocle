@@ -91,12 +91,17 @@
         visibility: hidden;
       }
       &:before {
-        content: "Instagram";
+        width:48px;
+        height: 48px;
+        content: "";
+        background: url('data:image/svg+xml;utf8,<svg shape-rendering="geometricPrecision" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path fill="#ccc" d="M674.4 170.9H325.8c-85.4 0-154.8 69.5-154.8 154.8v348.5c0 85.4 69.5 154.8 154.8 154.8h348.5c85.4 0 154.8-69.5 154.8-154.8V486.7h.1V325.8c0-85.4-69.5-154.9-154.8-154.9z"/><path fill="#FFF" d="M674.4 215.9c60.5 0 109.8 49.2 109.8 109.8v115.9h-.1v232.6c0 60.5-49.2 109.8-109.8 109.8H325.8C265.3 784 216 734.8 216 674.2V325.8c0-60.5 49.2-109.8 109.8-109.8h348.6"/><path fill="#ccc"  d="M500 600.1c55.1 0 100.1-44.8 100.1-100.1 0-21.8-7.1-41.9-18.9-58.3-18.2-25.2-47.8-41.7-81.1-41.7-33.4 0-62.8 16.5-81.1 41.7-11.8 16.5-18.9 36.6-18.9 58.3-.2 55.1 44.8 100.1 99.9 100.1z"/><path fill="#ccc" d="M655.4 500c0 85.6-69.7 155.4-155.4 155.4-85.8 0-155.4-69.8-155.4-155.4 0-20.6 4.1-40.3 11.5-58.3h-84.9v232.6c0 30 24.5 54.3 54.5 54.3h348.6c30 0 54.5-24.3 54.5-54.3V441.7h-84.9c7.3 18 11.5 37.7 11.5 58.3zM718.4 377.7v-96.4h-12.6l-83.9.3.4 96.3"/></svg>');
+
+        background-repeat: no-repeat;
+        background-position: bottom left;
         visibility: hidden;
         position: absolute;
-        background: $bg_color;
         left: 0;
-        bottom: 1rem;
+
         .to_insta_link:hover & {
           visibility: visible;
         }

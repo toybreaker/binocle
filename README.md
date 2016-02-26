@@ -16,11 +16,11 @@ Thanks, Junglestar team
 
 #### Key files:
 
-- Add a line here to add a new work in [the menu](https://github.com/toybreaker/binocle/tree/gh-pages/_data/):
+- Add a new line in [this file](https://github.com/toybreaker/binocle/tree/gh-pages/_data/) sto add a new work in the menu
 
-- [contacts](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/contact.md)
+- edit [contacts](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/contact.md)
 
-- [profile](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
+- edit  [profile](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
 
 ### dev time
 

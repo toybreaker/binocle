@@ -1,7 +1,6 @@
 ---
 
 ---
-{% capture intro %}{% include editables/{{page.hash}}.md %}{% endcapture %}
 
 {% assign instafeed_img = '{{image}}' %}
 {% assign instafeed_link = '{{link}}' %}
@@ -22,7 +21,7 @@
 
         <h2 class="work_name">{{page.project}}</h2>
 
-        <div class="intro">{{ intro | markdownify }} </div>
+        <div class="intro">{{ content | markdownify }}</div>
 
       </div>
 
@@ -31,8 +30,6 @@
     {% include footer.html %}
 
     <script type="text/javascript" src="/js/instafeed.min.js"></script>
-
-    {{ content }}
 
     <script type="text/javascript">
       var userFeed = new Instafeed({

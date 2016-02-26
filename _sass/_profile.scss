@@ -1,6 +1,4 @@
 
-
-//profile
 .profile{
   max-width: 100%;
   margin: 3rem auto;
@@ -11,6 +9,7 @@
   @include media( "screen", ">minWidth") {
       text-align: justify;
   }
+
   &:before {
     content: "";
     display: block;
@@ -35,23 +34,26 @@
       border-radius: 50%;
     }
   }
+
   h2{
     margin-top: 2rem;
     text-align: center;
     font-size: 1.1rem;
     @include media( "screen", ">bp1Width") { font-size: 1.5rem;}
   }
+
   .curri_link{
     display: block;
     text-align: center;
     width: 100%;
   }
+
   .contact{
     text-align: center;
   }
-  strong{
-    font-weight: 400;
-  }
+
+  strong{ font-weight: 400; }
+  
   em {
     display: block;
     width: 100%;

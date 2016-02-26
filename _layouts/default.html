@@ -1,8 +1,6 @@
 ---
 
 ---
-{% capture intro %}{% include editables/{{page.hash}}.md %}{% endcapture %}
-
 {% assign instafeed_img = '{{image}}' %}
 {% assign instafeed_link = '{{link}}' %}
 {% assign instafeed_likes = '{{likes}}' %}
@@ -17,8 +15,6 @@
     <div class="bungkus group">
 
       {% include header.html %}
-
-      <h2 class="work_name">{{page.project}}</h2>
 
       <div id="instafeed" class="sucked_shots group"></div>
 

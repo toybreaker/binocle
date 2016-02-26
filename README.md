@@ -28,7 +28,7 @@ Run Jekyll:
 
     bundle exec Jekyll serve
 
-### 2DO
+## 2DOs
 
 - risoluzione immagini massimizzare
 

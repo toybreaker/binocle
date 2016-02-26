@@ -32,8 +32,8 @@ Run Jekyll:
 
 ### 2DO
 
-- aggiornare nomi e # works come da drive doc.
-
 - risoluzione immagini
 
 - hashtag che non caricano
+
+- invece dell'azzurro quando schiacci testo link su mobile..

@@ -14,7 +14,9 @@ Thanks, Junglestar team
 
 ## Editables
 
-Key files [here](https://github.com/toybreaker/binocle/tree/gh-pages/_includes/editables):
+#### Key files:
+
+- Add a line here to add a new work in [the menu](https://github.com/toybreaker/binocle/tree/gh-pages/_data/):
 
 - [contacts](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/contact.md)
 
@@ -32,8 +34,8 @@ Run Jekyll:
 
 ### 2DO
 
-- risoluzione immagini
+- risoluzione immagini massimizzare
 
-- hashtag che non caricano
+- ricaricare tutt ele immagini uploadate prima 2016
 
 - invece dell'azzurro quando schiacci testo link su mobile..

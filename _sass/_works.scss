@@ -30,26 +30,10 @@
 }
 
 
-
-
-//1 > 2
-// .work_name {
-//   -webkit-box-ordinal-group: 2;
-//   order: 1;
-// }
-
-
-//3 > 1
-// .go_away_link: {
-//   -webkit-box-ordinal-group:0;
-//   order:-1;
-// }
-
 .sucked_shots:nth-child(1) {
 background-color: red;
 margin:2rem 0;
 }
-
 
 .intro {
   padding:0 2rem 2rem 2rem;
@@ -68,11 +52,6 @@ margin:2rem 0;
   }
 }
 
-
-.hashed_image_wrap {
-
-}
-
 .go_away_link {
   width: 100%;
   display: block;
@@ -83,9 +62,4 @@ margin:2rem 0;
   img {
     width: 100%;
   }
-}
-
-
-.sucked_photo_details{
-  display: none;
 }

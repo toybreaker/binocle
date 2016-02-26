@@ -1,0 +1,30 @@
+work1:
+  name: PATIO V M
+  hashtag: #patiovm
+  year: 2007
+work2:
+  name: GARDENS H E
+  hashtag: #gardenshe
+  year: 2008
+work3:
+  name: BASTARD STORE
+  hashtag: #bastardstore
+  year: 2008
+#
+# year,hashtag,name
+# 2007,#patiovm,patio v m
+# 2008,#gardenshe,gardens h e
+# 2008,#bastardstore,bastard store
+# 2008,#yanpeiming,atelier yan pei ming
+# 2009,#unabox,unabox
+# 2009,#housecv,house c v
+# 2010,#kosho,kosho
+# 2010,#dancolen,dan colen show
+# 2011,#zumbini,zumbini offices
+# 2011,#spazio33,#pazio33
+# 2012,#acircleinasquare,a circle in a square
+# 2012,#basementgo,basement g o
+# 2015,#housedl,house d l
+# 2016,#housedm,house d m
+# 2016,#housebm,house b m
+# 2016,#mdcgallery,mdc gallery

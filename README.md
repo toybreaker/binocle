@@ -37,7 +37,3 @@ Run Jekyll:
 - risoluzione immagini
 
 - hashtag che non caricano
-
-- fare link su foto e mandare tutti i nostri visitatori su Instagram.
-
-- header logo da centrare...

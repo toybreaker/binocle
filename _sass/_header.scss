@@ -22,7 +22,7 @@
   list-style: none;
   padding: 0;
   margin: $vertical_rhythm 0;
-  @include media( "screen", ">bp1Width") {margin: 5rem 0 0 0;}
+  // @include media( "screen", ">bp1Width") {margin: 5rem 0 0 0;}
   li {
     text-align: center;
     margin: .5rem 0;

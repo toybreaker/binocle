@@ -51,11 +51,13 @@
   {% include menu.html %}
 
   <div class="profile group hide" id="profile">
-  {% capture prof %}{% include editables/profile.md %}{% endcapture %}
-  {{ prof | markdownify }}
+    {% capture prof %}{% include editables/profile.md %}{% endcapture %}
+    {{ prof | markdownify }}
+
     <div class="contact">
-      {% capture conta %}{% include editables/contact.md %}{% endcapture %}
-      {{ conta | markdownify }}
+      <h3 id="contact">Contact</h3>
+      <p>{{site.address}} {{site.zip}} {{site.city}} - {{site.country}} {{site.telephone}} - <a href="mailto:{{site.email}}">{{site.email}}</a>
+      </p>
     </div>
   </div>
 </div>

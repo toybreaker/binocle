@@ -7,6 +7,13 @@ Despite this repo being public, it doesn't mean that all these assets are open-s
 All photos © Binocle. All rights reserved.  
 Thanks, Junglestar team  
 
+## Features:
+- standalone webapp (after "add to home screen" on android)
+- csv driven menu
+- plain javascript
+- address use [microformat](https://schema.org/Organization)
+- work intro use markdown inside {{content}}
+
 
 ## Editing Guide:
 

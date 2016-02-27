@@ -8,15 +8,17 @@ All photos © Binocle. All rights reserved.
 Thanks, Junglestar team  
 
 
-## Editables
+## Editing Guide:
 
-#### Key files:
+**New work project?**  
+Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv)
 
-- New work project? Add a new line in [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv)
+**Update contact infos, tel?**     
+Change [lines 11>15 in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_config.yml)
 
-- Edit [contacts](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/contact.md)
+**Profile fine tuning?**    
+Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
 
-- Edit  [profile](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
 
 ## dev
 

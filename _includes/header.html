@@ -54,9 +54,18 @@
     {% capture prof %}{% include editables/profile.md %}{% endcapture %}
     {{ prof | markdownify }}
 
-    <div class="contact">
+    <div class="contact" itemscope itemtype="http://schema.org/Organization">
+
       <h3 id="contact">Contact</h3>
-      <p>{{site.address}} {{site.zip}} {{site.city}} - {{site.country}} {{site.telephone}} - <a href="mailto:{{site.email}}">{{site.email}}</a>
+
+      <p>
+        <span itemprop="name">{{site.title}}</span>
+        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <span itemprop="streetAddress">{{site.address}}</span>
+          <span itemprop="postalCode">{{site.zip}}</span>
+          <span itemprop="addressLocality">{{site.city}}, {{site.country}}</span>
+        </span>
+        <span itemprop="telephone">{{site.telephone}}</span> - <a href="mailto:{{site.email}}"><span itemprop="email">{{site.email}}</span></a>
       </p>
     </div>
   </div>

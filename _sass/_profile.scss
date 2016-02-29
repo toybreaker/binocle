@@ -20,18 +20,18 @@
     background-size: 50vw 50vw;
     width: 50vw;
     height: 50vw;
-    border-radius: none;
+    border-radius: 50%;
     @include media( "screen", ">minWidth") {
       background-size: 40vw 40vw;
       width: 40vw;
       height: 40vw;
-      border-radius: none;
+      border-radius: 50%;
     }
     @include media( "screen", ">bp1Width") {
       background-size: 30vw 30vw;
       width: 30vw;
       height: 30vw;
-      border-radius: none%;
+      border-radius: 50%%;
     }
   }
 

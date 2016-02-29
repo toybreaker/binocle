@@ -14,7 +14,7 @@
     content: "";
     display: block;
     margin: 10vw auto 0 auto;
-    background-image: url(/p/binisquare.jpg);
+    background-image: url(/p/cremlino.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 50vw 50vw;
@@ -25,7 +25,7 @@
       background-size: 40vw 40vw;
       width: 40vw;
       height: 40vw;
-      border-radius: 50%;
+      border-radius: none;
     }
     @include media( "screen", ">bp1Width") {
       background-size: 30vw 30vw;

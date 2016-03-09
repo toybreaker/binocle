@@ -39,10 +39,10 @@ Run Jekyll:
 
 ## 2DOs:
 
-[ ]  prova prendere immagini usando instagram image ID ?!
+- [ ]  prova prendere immagini usando instagram image ID ?!
 
-[ ] cerca middle-man service per succhiare oltre 20 foto.
+- [ ] cerca middle-man service per succhiare oltre 20 foto.
 
-[x] ricaricare tutte le immagini uploadate prima 2016 (in progress)
+- [x] ricaricare tutte le immagini uploadate prima 2016 (in progress)
 
-[ ] invece dell'azzurro quando schiacci testo link su mobile..
+- [ ] invece dell'azzurro quando schiacci testo link su mobile..

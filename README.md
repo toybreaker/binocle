@@ -37,10 +37,12 @@ Run Jekyll:
 
     bundle exec Jekyll serve
 
-## 2DOs
+## 2DOs:
 
-- risoluzione immagini massimizzare
+[ ]  prova prendere immagini usando instagram image ID ?!
 
-- ricaricare tutt ele immagini uploadate prima 2016
+[ ] cerca middle-man service per succhiare oltre 20 foto.
 
-- invece dell'azzurro quando schiacci testo link su mobile..
+[x] ricaricare tutte le immagini uploadate prima 2016 (in progress)
+
+[ ] invece dell'azzurro quando schiacci testo link su mobile..

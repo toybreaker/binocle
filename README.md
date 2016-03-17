@@ -39,10 +39,28 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [ ]  prova prendere immagini usando instagram image ID ?!
+- [ ] La discussione [qui](https://github.com/stevenschobert/instafeed.js/issues/345) lascia poco speranze di usare instafeed e di procedere con il progetto cosi come è fatto al momento. 'azz..
+
+- [ ] Si potrebbe usare [IFTTT](https://ifttt.com/instagram) in modo che ogni instagram post un worker copia il tutto su:
+
+  - binocle [github](https://ifttt.com/github).  
+  - binocle [drive](https://ifttt.com/connect/instagram/google_drive)
+
+
+  Vantaggi:
+
+  + crea archivio storico,  
+  + stessa semplcita nel workflow
+
+  Svantaggi:
+
+  - perdita dell' ordinamento in base ai likes del pubblico,  
+  - semplicità nel sistema
+
+- [ ] riesci a prendere img manualmente usando instagram image ID?!
 
 - [ ] cerca middle-man service per succhiare oltre 20 foto.
 
 - [x] ricaricare tutte le immagini uploadate prima 2016 (in progress)
 
-- [ ] invece dell'azzurro quando schiacci testo link su mobile..
+[ ] invece dell'azzurro quando schiacci testo link su mobile..

@@ -63,4 +63,4 @@ Run Jekyll:
 
 - [x] ricaricare tutte le immagini uploadate prima 2016 (in progress)
 
-[ ] invece dell'azzurro quando schiacci testo link su mobile..
+- [ ] invece dell'azzurro quando schiacci testo link su mobile..

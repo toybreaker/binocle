@@ -49,15 +49,15 @@ Run Jekyll:
 
   Vantaggi:
 
-  + crea archivio storico,  
-  + stessa semplcita nel workflow
+  + crea archivio storico   
+  + mantiene semplicità nel workflow
 
   Svantaggi:
 
-  - perdita dell' ordinamento in base ai likes del pubblico,  
+  - perdita dell' ordinamento in base ai likes del pubblico    
   - semplicità nel sistema
 
-- [ ] riesci a prendere img manualmente usando instagram image ID?!
+- [ ] riesci a prendere img manualmente usando instagram image ID?! tipo [questa](https://scontent-mxp1-1.cdninstagram.com/t51.2885-15/sh0.08/e35/p750x750/12724746_1761798947381200_470383680_n.jpg)  o [questa](https://scontent-mxp1-1.cdninstagram.com/t51.2885-15/e35/11261917_562258193942516_1108019599_n.jpg) o [questa](https://scontent-mxp1-1.cdninstagram.com/t51.2885-15/e35/p480x480/12531002_1684039925167816_1667080319_n.jpg) di bastardstore
 
 - [ ] cerca middle-man service per succhiare oltre 20 foto.
 

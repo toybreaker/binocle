@@ -4,9 +4,7 @@
   "description": "binocle",
   "main": "gulpfile.js",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.1.1",
-    "gulp-uncss": "^1.0.4"
+
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +19,6 @@
   "author": "toybreaker",
   "license": "ISC",
   "dependencies": {
-    "gulp-sass": "^2.1.1"
+    "imager.js": "^0.5.0"
   }
 }

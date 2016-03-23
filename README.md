@@ -29,6 +29,8 @@ Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/e
 
 ## dev
 
+npm install --save imager.js
+
 Install deps:
 
     bundle install

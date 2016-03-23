@@ -22,28 +22,6 @@
 
     {% include footer.html %}
 
-    <script type="text/javascript" src="/js/instafeed.min.js"></script>
-
-    {{ content }}
-
-    <script type="text/javascript">
-      var userFeed = new Instafeed({
-          get: 'user',
-          userId: '{{site.userId}}',
-          clientId: '{{site.clientId}}',
-          accessToken: '{{site.accessToken}}',
-          sortBy: 'most-liked',
-          resolution: 'standard_resolution',
-          links: 'false',
-          target: 'instafeed',
-          template: '<a class="go_away_link {{page.hash}}" href="{{instafeed_link}}"><img src="{{instafeed_img}}" /></a>',
-          filter: function(image) {
-            return image.tags.indexOf('{{page.hash}}') >= 0;
-          }
-        });
-      userFeed.run();
-    </script>
-
     {% include script_menu_toggle.html %}
     {% include script_profile_toggle.html %}
     {% include script_google_analytics.html %}

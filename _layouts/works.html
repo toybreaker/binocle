@@ -2,10 +2,6 @@
 
 ---
 
-{% assign instafeed_img = '{{image}}' %}
-{% assign instafeed_link = '{{link}}' %}
-{% assign instafeed_likes = '{{likes}}' %}
-{% assign instafeed_caption = '{{caption}}' %}
 <!DOCTYPE html>
 <html>
 
@@ -28,27 +24,6 @@
     </div>
 
     {% include footer.html %}
-
-    <script type="text/javascript" src="/js/instafeed.min.js"></script>
-
-    <script type="text/javascript">
-      var userFeed = new Instafeed({
-        get: 'user',
-        userId: '{{site.userId}}',
-        clientId: '{{site.clientId}}',
-        accessToken: '{{site.accessToken}}',
-        target: 'instafeed',
-        resolution: 'standard_resolution',
-        links: 'false',
-        sortBy: 'most-liked',
-        limit: '60',
-        template: '<a class="go_away_link {{page.hash}}" href="{{instafeed_link}}"><img src="{{instafeed_img}}" /></a>',
-        filter: function(image) {
-          return image.tags.indexOf('{{page.hash}}') >= 0;
-        }
-        });
-      userFeed.run();
-    </script>
 
     {% include script_menu_toggle.html %}
     {% include script_profile_toggle.html %}

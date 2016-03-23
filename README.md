@@ -37,10 +37,26 @@ Run Jekyll:
 
     bundle exec Jekyll serve
 
+
+#### frontend features
+  - no jquery yet...
+  - [RWD](https://en.wikipedia.org/wiki/Responsive_web_design) with [Imager.js](https://github.com/BBC-News/Imager.js/) to handle images
+
+#### setup
+  - `npm install` setup dependencies
+  - `npm install imagemin-pngquant` to work images
+
+#### dev features
+  - `gulp` task to compile sass and enable browsersync
+  - `gulp images` task to produce sized copies
+
+
+
+
 ## 2DOs:
 
 - [ ] gulp image processing
 
 - [ ] responsive images
 
-- [ ] invece dell'azzurro quando schiacci testo link su mobile..
+- [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile

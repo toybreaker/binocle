@@ -31,13 +31,13 @@ Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/e
 
 Install deps:
 
-    npm install --save imager.js
+```npm install --save imager.js```
 
-    bundle install
+```bundle install```
 
 Run Jekyll:
 
-    bundle exec Jekyll serve
+```bundle exec Jekyll serve```
 
 
 #### frontend features
@@ -45,12 +45,12 @@ Run Jekyll:
   - [RWD](https://en.wikipedia.org/wiki/Responsive_web_design) with [Imager.js](https://github.com/BBC-News/Imager.js/) to handle images
 
 #### setup
-  - `npm install` setup dependencies
-  - `npm install imagemin-pngquant` to work images
+  - ```npm install``` setup dependencies
+  - ```npm install imagemin-pngquant``` to work images
 
 #### dev features
-  - `gulp` task to compile sass and enable browsersync
-  - `gulp images` task to produce sized copies
+  - ```gulp``` task to compile sass and enable browsersync
+  - ```gulp images``` task to produce sized copies
 
 
 

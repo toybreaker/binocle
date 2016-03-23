@@ -8,11 +8,11 @@ All photos © Binocle. All rights reserved.
 Thanks, Junglestar team  
 
 ## Features:
-- standalone webapp (after "add to home screen" on android)
-- csv driven menu
-- plain javascript
-- address use [microformat](https://schema.org/Organization)
-- work intro use markdown inside {{content}}
+- [X] standalone webapp (after "add to home screen" on android)
+- [X] csv driven menu
+- [X] plain javascript
+- [X] address use [microformat](https://schema.org/Organization)
+- [X] work intro use markdown inside {{content}}
 
 
 ## Editing Guide:
@@ -39,17 +39,8 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [ ] La discussione [qui](https://github.com/stevenschobert/instafeed.js/issues/345) lascia poco speranze di usare instafeed e di procedere con il progetto cosi come è fatto al momento. 'azz..
+- [ ] gulp image processing
 
-
-- [X] riesci a prendere img manualmente usando instagram image ID?! tipo [questa](https://scontent-mxp1-1.cdninstagram.com/t51.2885-15/sh0.08/e35/p750x750/12724746_1761798947381200_470383680_n.jpg)  o [questa](https://scontent-mxp1-1.cdninstagram.com/t51.2885-15/e35/11261917_562258193942516_1108019599_n.jpg) o [questa](https://scontent-mxp1-1.cdninstagram.com/t51.2885-15/e35/p480x480/12531002_1684039925167816_1667080319_n.jpg) di bastardstore
-
-
-- [ ] Si potrebbe usare [IFTTT](https://ifttt.com/instagram) ma non posta diretto su github, quindi sarebbe da hostare altrove...
-
-
-- [ ] cerca middle-man service per succhiare oltre 20 foto. (cercato ma nn trovato)
-
-- [x] ricaricare tutte le immagini uploadate prima 2016 (in progress)
+- [ ] responsive images
 
 - [ ] invece dell'azzurro quando schiacci testo link su mobile..

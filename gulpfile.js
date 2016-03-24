@@ -17,7 +17,7 @@ var reload       = browserSync.reload;
 
 // Reponsive sizing
 gulp.task('images', function () {
-  return gulp.src('./_src/images/**/*')
+  return gulp.src('./_src/4images/**/*')
     .pipe(responsive({
       '*.jpg': [{
         width: 320,

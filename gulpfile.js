@@ -16,18 +16,11 @@ var pngquant     = require('imagemin-pngquant');
 var reload       = browserSync.reload;
 
 // Reponsive sizing
-gulp.task('images', function () {
-  return gulp.src('./_src/4images/**/*')
+gulp.task('jpg', function () {
+  return gulp.src('./_src/images/*.jpg')
     .pipe(responsive({
       '*.jpg': [{
-        width: 320,
-        quality: 51,
-        progressive: true,
-        sharper: true,
-        rename: {
-          suffix: '-320'
-        }
-      }, {
+        //nexus5
         width: 640,
         quality: 51,
         progressive: true,
@@ -36,6 +29,7 @@ gulp.task('images', function () {
           suffix: '-640'
         }
       }, {
+        //ipad
         width: 1024,
         quality: 51,
         progressive: true,
@@ -43,16 +37,54 @@ gulp.task('images', function () {
           suffix: '-1024'
         }
       }, {
-        width: 1680,
-        quality: 71,
+        //fullHD
+        width: 1920,
+        quality: 44,
         progressive: true,
         rename: {
-          suffix: '-1680'
+          suffix: '-1920'
         }
       }]
     }))
     .pipe(gulp.dest('./assets/p'));
 });
+
+gulp.task('tif', function () {
+  return gulp.src('./_src/images/*.tif')
+    .pipe(responsive({
+      '*.tif': [{
+        //nexus5
+        width: 640,
+        quality: 51,
+        progressive: true,
+        sharper: true,
+        rename: {
+          suffix: '-640',
+          extname: '.jpg'
+        }
+      }, {
+        //ipad
+        width: 1024,
+        quality: 51,
+        progressive: true,
+        rename: {
+          suffix: '-1024',
+          extname: '.jpg'
+        }
+      }, {
+        //fullHD
+        width: 1920,
+        quality: 44,
+        progressive: true,
+        rename: {
+          suffix: '-1920',
+          extname: '.jpg'
+        }
+      }]
+    }))
+    .pipe(gulp.dest('./assets/p'));
+});
+
 
 // Compress jpegs
 gulp.task('imagemin', function () {

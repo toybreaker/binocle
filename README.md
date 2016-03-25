@@ -80,7 +80,8 @@ Dependencies:
 
 - [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile
 
-- [ ] [grafickmagik](http://aheckmann.github.io/gm/docs.html)
+- [ ]  this from CLI works: ```gm convert BASTARDSTORE-00.tif BASTARDSTORE-00.jpg```
+ [grafickmagik](http://aheckmann.github.io/gm/docs.html)
 
 
 ## bugs

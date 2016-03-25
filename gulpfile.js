@@ -13,12 +13,38 @@ var rename       = require('gulp-rename');
 var responsive   = require('gulp-responsive');
 
 // testing...
+var rename       = require('gulp-gm');
 var gulpSharp    = require('gulp-sharp');
 var imagemin     = require('gulp-imagemin');
 var pngquant     = require('imagemin-pngquant');
 // end testing
 
 var reload       = browserSync.reload;
+
+
+// GM
+gulp.src('*.tif')
+  .pipe(gm(function (gmfile, done) {
+
+    gmfile.convert(function (err, convert) {
+      done(null, gmfile
+
+      );
+    });
+    // size(function (err, size) {
+    //
+    //   done(null, gmfile
+    //     .stroke("blue", 6)
+    //     .fill("transparent")
+    //     .drawRectangle(0, 0, size.width, size.height));
+    //
+    //});
+
+  }))
+  .pipe(gulp.dest('dist'));
+
+
+
 
 // Rename all to lowercase
 // OK!

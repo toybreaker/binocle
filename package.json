@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "devDependencies": {
     "browser-sync": "^1.7.2",
+    "change-case": "^2.3.1",
     "gulp": "^3.8.10",
     "gulp-autoprefixer": "^1.0.1",
     "gulp-filter": "^2.0.2",
@@ -13,6 +14,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-responsive": "^1.2.1",
     "gulp-ruby-sass": "^0.7.1",
+    "gulp-sharp": "^0.1.0",
     "imagemin-pngquant": "^4.2.0"
   },
   "scripts": {

@@ -8,21 +8,38 @@ var gulp         = require('gulp');
 var sass         = require('gulp-ruby-sass');
 var filter       = require('gulp-filter');
 var browserSync  = require('browser-sync');
-
+var changeCase   = require('change-case');
 var rename       = require('gulp-rename');
 var responsive   = require('gulp-responsive');
+
+// testing...
+var gulpSharp    = require('gulp-sharp');
 var imagemin     = require('gulp-imagemin');
 var pngquant     = require('imagemin-pngquant');
+// end testing
+
 var reload       = browserSync.reload;
 
+// Rename all to lowercase
+// OK!
+gulp.task("low", function () {
+  return gulp.src( './_src/p/*.*' )
+    .pipe(rename(function(fix) {
+       fix.basename = changeCase.lowerCase(fix.basename);
+     }))
+    .pipe(gulp.dest( '././_src/p_lowercased' ));
+});
+
 // Reponsive sizing
+
+// OK!
 gulp.task('jpg', function () {
-  return gulp.src('./_src/images/*.jpg')
+  return gulp.src('./_src/p_lowercased/*.jpg')
     .pipe(responsive({
       '*.jpg': [{
         //nexus5
         width: 640,
-        quality: 51,
+        quality: 61,
         progressive: true,
         sharper: true,
         rename: {
@@ -31,7 +48,7 @@ gulp.task('jpg', function () {
       }, {
         //ipad
         width: 1024,
-        quality: 51,
+        quality: 71,
         progressive: true,
         rename: {
           suffix: '-1024'
@@ -39,7 +56,7 @@ gulp.task('jpg', function () {
       }, {
         //fullHD
         width: 1920,
-        quality: 44,
+        quality: 61,
         progressive: true,
         rename: {
           suffix: '-1920'
@@ -49,8 +66,10 @@ gulp.task('jpg', function () {
     .pipe(gulp.dest('./assets/p'));
 });
 
+
+// shouild work, but doesnt..
 gulp.task('tif', function () {
-  return gulp.src('./_src/images/*.tif')
+  return gulp.src('./_src/p_lowercased/*.tif')
     .pipe(responsive({
       '*.tif': [{
         //nexus5
@@ -86,6 +105,42 @@ gulp.task('tif', function () {
 });
 
 
+
+// start______TEST STUFF__________
+
+// working only with jpg and how to rename?
+gulp.task('imageresize', function() {
+  return gulp.src('./_src/p_lowercased/*.+(jpeg|jpg|png|tiff|webp)')
+    .pipe(imageResize({ width: 1920 }))
+    .pipe(rename(function (path) { path.basename += "-1920"; }))
+    .pipe(imagemin({
+      progressive: true
+    }))
+    .pipe(gulp.dest('./assets/p'))
+    .pipe(rename({
+      suffix: '@2x'
+    }))
+    .pipe(imageResize({ width: 960 }))
+    .pipe(imagemin({
+      progressive: true
+    }))
+    .pipe(gulp.dest('./assets/p'))
+});
+
+// sharp lab.. maybe not
+gulp.task('sha', function(){
+
+  return gulp.src( './_src/p_lowercased/*.+(jpeg|jpg|png|tiff|webp)' )
+    .pipe(gulpSharp({
+      resize : [640],
+      max : true,
+      quality : 55,
+      progressive : true
+    }))
+    .pipe(gulp.dest('./assets/p'));
+
+});
+
 // Compress jpegs
 gulp.task('imagemin', function () {
   return gulp.src('./assets/p/*.jpg')
@@ -95,6 +150,7 @@ gulp.task('imagemin', function () {
       .pipe(gulp.dest('./assets/p/min'));
 });
 
+// end______TEST STUFF__________
 
 
 // Static Server + watching scss/html files

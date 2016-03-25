@@ -33,6 +33,10 @@ Install deps:
 
 ```npm install --save imager.js```
 
+```npm install --save-dev gulp-sharp```
+
+```npm install change-case --save-dev```
+
 ```bundle install```
 
 Run Jekyll:

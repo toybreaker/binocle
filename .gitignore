@@ -10,5 +10,3 @@ Gemfile.lock
 _src/
 *.tif
 _input
-
-__input

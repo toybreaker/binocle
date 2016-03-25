@@ -29,39 +29,40 @@ Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/e
 
 ## dev
 
-Install deps:
+Install dependencies:
 
 ```npm install --save imager.js```
 
-```npm install --save-dev gulp-sharp```
+```npm install --save-dev gulp-rename```
 
-```npm install change-case --save-dev```
+```npm install --save-dev change-case```
 
 ```bundle install```
 
-Run Jekyll:
+#### setup
+
+```npm install``` setup dependencies
+
+#### dev features
+  - ```gulp``` task to compile sass and enable browsersync
+  - ```gulp low``` to lowercase all photo names
+  - ```gulp jpg``` to produce sized copies from lowercased jpg
+
+
+  Run Jekyll:
 
 ```bundle exec Jekyll serve```
 
 
 #### frontend features
-  - no jquery yet...
-  - [RWD](https://en.wikipedia.org/wiki/Responsive_web_design) with [Imager.js](https://github.com/BBC-News/Imager.js/) to handle images
-
-#### setup
-  - ```npm install``` setup dependencies
-  - ```npm install imagemin-pngquant``` to work images
-
-#### dev features
-  - ```gulp``` task to compile sass and enable browsersync
-  - ```gulp images``` task to produce sized copies
-
+    - no jquery yet...
+    - [RWD](https://en.wikipedia.org/wiki/Responsive_web_design) with [Imager.js](https://github.com/BBC-News/Imager.js/) to handle images
 
 
 
 ## 2DOs:
 
-- [ ] gulp image processing
+- [ ] gulp tif processing?
 
 - [ ] responsive images
 

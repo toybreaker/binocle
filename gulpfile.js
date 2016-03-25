@@ -1,7 +1,7 @@
 'use strict';
 // GULP here process sass and enable browsersync
 // sourcemap handled automagically by gulp-ruby-sass
-// images task to optimize images.
+// images task to optimize images. (not complete!)
 
 // w/watch function now... and it works!!!!!
 var gulp         = require('gulp');

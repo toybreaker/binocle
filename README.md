@@ -39,7 +39,7 @@ Dependencies:
 
 ```npm install --save-dev change-case```
 
-```npm install gm```
+```npm install --save-dev gm```
 
 
 #### setup

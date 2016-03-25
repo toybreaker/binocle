@@ -39,6 +39,8 @@ Dependencies:
 
 ```npm install --save-dev change-case```
 
+```npm install gm```
+
 
 #### setup
 
@@ -78,10 +80,25 @@ Dependencies:
 
 - [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile
 
+- [ ] [grafickmagik](http://aheckmann.github.io/gm/docs.html)
+
 
 ## bugs
 
-processing tifs throws errors, try:
+processing tifs with [imagemagick](http://www.imagemagick.org/script/convert.php)
+
+```
+convert *.tif output.jpg
+```
+
+```
+convert *.tif output.jpg
+```
+
+
+trows errors, try:
+
+- adobe is [homefucked](https://forums.adobe.com/thread/1900216?start=0&tstart=0), [deutchfucked](https://forums.adobe.com/message/7732728#7732728)
 
 - google this: [RichTIFFIPTC problem ](https://www.google.it/search?q=problem+RichTIFFIPTC&oq=problem+RichTIFFIPTC)
 

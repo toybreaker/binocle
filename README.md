@@ -69,6 +69,7 @@ Dependencies:
 
 
 ## 2DOs:
+- [x] BASEMENT G O now starts to work. Rough example [here](http://binocle.junglestar.org/works/basementgo/)
 
 - [ ] gulp tif processing?
 

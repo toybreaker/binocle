@@ -87,6 +87,8 @@ processing tifs throws errors, try:
 
 - Re: Error: wrong data type 7 for "RichTIFFIPTC";
   tag ignored.  
-  Postby magick » 2009-10-02T16:32:49-07:00
+  Postby magick »\ 2009-10-02T16:32:49-07:00
 
  [This exception is thrown by the libTIFF. It apparently does not like the layout of your IPTC profile. Your best path forward would be to post this problem to the libTIFF bug list.](https://www.imagemagick.org/discourse-server/viewtopic.php?t=12872)
+
+- [ongoing Windows incompatibility](http://comments.gmane.org/gmane.comp.video.tiff/6355)

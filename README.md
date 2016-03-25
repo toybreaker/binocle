@@ -29,24 +29,25 @@ Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/e
 
 ## dev
 
-Install dependencies:
+Dependencies:
 
 ```npm install --save imager.js```
-
 ```npm install --save-dev gulp-rename```
-
 ```npm install --save-dev change-case```
 
-```bundle install```
 
 #### setup
 
+```bundle install``` setup
 ```npm install``` setup dependencies
 
 #### dev features
-  - ```gulp``` task to compile sass and enable browsersync
-  - ```gulp low``` to lowercase all photo names
-  - ```gulp jpg``` to produce sized copies from lowercased jpg
+
+```gulp``` task to compile sass and enable browsersync
+
+```gulp low``` to lowercase all photo names
+
+```gulp jpg``` to produce sized copies from lowercased jpg
 
 
   Run Jekyll:

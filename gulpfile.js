@@ -27,7 +27,7 @@ gulp.task("low", function () {
     .pipe(rename(function(fix) {
        fix.basename = changeCase.lowerCase(fix.basename);
      }))
-    .pipe(gulp.dest( '././_src/p_lowercased' ));
+    .pipe(gulp.dest( './_src/p_lowercased' ));
 });
 
 // Reponsive sizing

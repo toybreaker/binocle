@@ -35,12 +35,15 @@ Dependencies:
 
 ```npm install --save-dev gulp-rename```
 
+```npm install --save-dev gulp-responsive```
+
 ```npm install --save-dev change-case```
 
 
 #### setup
 
 ```bundle install``` setup
+
 ```npm install``` setup dependencies
 
 #### dev features

@@ -22,27 +22,47 @@ var pngquant     = require('imagemin-pngquant');
 var reload       = browserSync.reload;
 
 
+
+//GM
+// ok? no: TIFFFetchNormalTag error
+gulp.task("tif", function () {
+  gulp.src('./_src/p/*.tif')
+
+    .pipe(gm(function (gmfile) {
+
+      return gmfile.format("jpg");
+
+    }, {
+      imageMagick: true
+    }))
+
+    .pipe(gulp.dest('./_src/p_jpegged'));
+});
+
+
+
 // GM
-gulp.src('*.tif')
-  .pipe(gm(function (gmfile, done) {
+// not OK!
+// trow error:
+// vips warning: TIFFFetchNormalTag: Incompatible type for "RichTIFFIPTC"; tag ignored
+gulp.task("tifasync", function () {
 
-    gmfile.convert(function (err, convert) {
-      done(null, gmfile
+  gulp.src('./_src/p/*.tif')
+    .pipe(gm(function (gmfile, done) {
 
-      );
-    });
-    // size(function (err, size) {
-    //
-    //   done(null, gmfile
-    //     .stroke("blue", 6)
-    //     .fill("transparent")
-    //     .drawRectangle(0, 0, size.width, size.height));
-    //
-    //});
+      gmfile.convert(function (err, convert) {
 
-  }))
-  .pipe(gulp.dest('dist'));
+        done(null, gmfile
+          .format("jpg")
+        );
 
+      });
+
+    }, {
+      imageMagick: true
+    }))
+    .pipe(gulp.dest('./_src/p_jpegged'));
+});
 
 
 
@@ -93,6 +113,8 @@ gulp.task('jpg', function () {
 });
 
 
+// start______TEST STUFF__________
+
 // shouild work, but doesnt..
 gulp.task('tif', function () {
   return gulp.src('./_src/p_lowercased/*.tif')
@@ -130,9 +152,6 @@ gulp.task('tif', function () {
     .pipe(gulp.dest('./assets/p'));
 });
 
-
-
-// start______TEST STUFF__________
 
 // working only with jpg and how to rename?
 gulp.task('imageresize', function() {

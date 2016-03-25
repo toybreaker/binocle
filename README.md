@@ -32,7 +32,9 @@ Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/e
 Dependencies:
 
 ```npm install --save imager.js```
+
 ```npm install --save-dev gulp-rename```
+
 ```npm install --save-dev change-case```
 
 
@@ -58,7 +60,7 @@ Dependencies:
 #### frontend features:
 
  - no jquery yet...
- 
+
  - [RWD](https://en.wikipedia.org/wiki/Responsive_web_design) with [Imager.js](https://github.com/BBC-News/Imager.js/) to handle images
 
 

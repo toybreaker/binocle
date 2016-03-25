@@ -56,7 +56,9 @@ Dependencies:
 
 
 #### frontend features:
+
  - no jquery yet...
+ 
  - [RWD](https://en.wikipedia.org/wiki/Responsive_web_design) with [Imager.js](https://github.com/BBC-News/Imager.js/) to handle images
 
 

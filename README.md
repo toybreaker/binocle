@@ -71,8 +71,22 @@ Dependencies:
 ## 2DOs:
 - [x] BASEMENT G O now starts to work. Rough example [here](http://binocle.junglestar.org/works/basementgo/)
 
+
 - [ ] gulp tif processing?
 
 - [ ] responsive images
 
 - [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile
+
+
+## bugs
+
+processing tifs throws errors, try:
+
+- google this: [RichTIFFIPTC problem ](https://www.google.it/search?q=problem+RichTIFFIPTC&oq=problem+RichTIFFIPTC)
+
+- Re: Error: wrong data type 7 for "RichTIFFIPTC";
+  tag ignored.  
+  Postby magick » 2009-10-02T16:32:49-07:00
+
+ [This exception is thrown by the libTIFF. It apparently does not like the layout of your IPTC profile. Your best path forward would be to post this problem to the libTIFF bug list.](https://www.imagemagick.org/discourse-server/viewtopic.php?t=12872)

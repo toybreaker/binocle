@@ -40,7 +40,7 @@ gulp.task("tif", function () {
     .pipe(gulp.dest('./_src/p_jpegged'));
 });
 
-// not OK! 
+// not OK!
 // vips warning: TIFFFetchNormalTag: Incompatible type for "RichTIFFIPTC"; tag ignored
 gulp.task("tifasync", function () {
 
@@ -91,7 +91,7 @@ gulp.task('jpg', function () {
       }, {
         //ipad
         width: 1024,
-        quality: 71,
+        quality: 66,
         progressive: true,
         rename: {
           suffix: '-1024'
@@ -99,7 +99,7 @@ gulp.task('jpg', function () {
       }, {
         //fullHD
         width: 1920,
-        quality: 61,
+        quality: 71,
         progressive: true,
         rename: {
           suffix: '-1920'

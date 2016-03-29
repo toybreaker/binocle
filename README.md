@@ -42,19 +42,26 @@ Dependencies:
 ```npm install --save-dev gm```
 
 
-#### setup
+### setup
 
 ```bundle install``` setup
 
 ```npm install``` setup dependencies
 
-#### dev features
+### dev features
 
 ```gulp``` task to compile sass and enable browsersync
 
 ```gulp low``` to lowercase all photo names
 
-```gulp jpg``` to produce sized copies from lowercased jpg
+```gulp jpg``` to produce sized copies
+
+```gulp 2jpg``` to produce jpg from tifs
+
+This to work photos 1 by 1, from CLI: 
+```gm convert pippa-01.tif pippa-01.jpg```
+ [grafickmagik](http://aheckmann.github.io/gm/docs.html)
+
 
 
   Run Jekyll:
@@ -71,17 +78,10 @@ Dependencies:
 
 
 ## 2DOs:
-- [x] BASEMENT G O now starts to work. Rough example [here](http://binocle.junglestar.org/works/basementgo/)
-
-
-- [ ] gulp tif processing?
 
 - [ ] responsive images
 
 - [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile
-
-- [ ]  this from CLI works: ```gm convert BASTARDSTORE-00.tif BASTARDSTORE-00.jpg```
- [grafickmagik](http://aheckmann.github.io/gm/docs.html)
 
 
 ## bugs

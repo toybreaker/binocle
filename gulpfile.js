@@ -13,7 +13,7 @@ var rename       = require('gulp-rename');
 var responsive   = require('gulp-responsive');
 
 // testing...
-var rename       = require('gulp-gm');
+var gm       = require('gulp-gm');
 var gulpSharp    = require('gulp-sharp');
 var imagemin     = require('gulp-imagemin');
 var pngquant     = require('imagemin-pngquant');

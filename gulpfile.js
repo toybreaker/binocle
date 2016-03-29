@@ -40,24 +40,16 @@ gulp.task("tif", function () {
     .pipe(gulp.dest('./_src/p_jpegged'));
 });
 
-// not OK!
-// vips warning: TIFFFetchNormalTag: Incompatible type for "RichTIFFIPTC"; tag ignored
-gulp.task("tifasync", function () {
+// maybe OK!
+gulp.task("2jpg", function () {
 
   gulp.src('./_src/p/*.tif')
-    .pipe(gm(function (gmfile, done) {
+    .pipe(gm(function (gmfile) {
 
-      gmfile.convert(function (err, convert) {
+      return gmfile.setFormat('jpg');
 
-        done(null, gmfile
-          .format("jpg")
-        );
-
-      });
-
-    }, {
-      imageMagick: true
     }))
+
     .pipe(gulp.dest('./_src/p_jpegged'));
 });
 

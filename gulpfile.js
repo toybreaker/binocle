@@ -68,19 +68,19 @@ gulp.task("tifasync", function () {
 
 // Rename all to lowercase
 // OK!
-gulp.task("low", function () {
-  return gulp.src( './_src/p/*.*' )
+gulp.task("lower", function () {
+  return gulp.src( './_src/p_input/*.*' )
     .pipe(rename(function(fix) {
        fix.basename = changeCase.lowerCase(fix.basename);
      }))
-    .pipe(gulp.dest( './_src/p_lowercased' ));
+    .pipe(gulp.dest( './_src/p' ));
 });
 
 // Reponsive sizing
 
 // OK!
 gulp.task('jpg', function () {
-  return gulp.src('./_src/p_lowercased/*.jpg')
+  return gulp.src('./_src/p/*.jpg')
     .pipe(responsive({
       '*.jpg': [{
         //nexus5

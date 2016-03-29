@@ -24,7 +24,8 @@ var reload       = browserSync.reload;
 
 
 //GM
-// ok? no: TIFFFetchNormalTag error
+
+// not OK! TIFFFetchNormalTag error
 gulp.task("tif", function () {
   gulp.src('./_src/p/*.tif')
 
@@ -39,11 +40,7 @@ gulp.task("tif", function () {
     .pipe(gulp.dest('./_src/p_jpegged'));
 });
 
-
-
-// GM
-// not OK!
-// trow error:
+// not OK! 
 // vips warning: TIFFFetchNormalTag: Incompatible type for "RichTIFFIPTC"; tag ignored
 gulp.task("tifasync", function () {
 

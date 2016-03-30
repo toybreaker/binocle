@@ -81,6 +81,8 @@ Also can use this to work photos 1 by 1, from CLI:
 
 ## 2DOs:
 
+- [image]((http://binocle.junglestar.org/assets/p/gardenshe-01-1920.jpg) )
+
 - [ ] responsive images
 
 - [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile

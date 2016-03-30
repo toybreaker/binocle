@@ -9,31 +9,31 @@
   @include media( "screen", ">minWidth") {
       text-align: justify;
   }
-
-  &:before {
-    content: "";
-    display: block;
-    margin: 10vw auto 0 auto;
-    background-image: url(/assets/p/Cremlino.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 50vw 50vw;
-    width: 50vw;
-    height: 50vw;
-    border-radius: 50%;
-    @include media( "screen", ">minWidth") {
-      background-size: 40vw 40vw;
-      width: 40vw;
-      height: 40vw;
-      border-radius: 50%;
-    }
-    @include media( "screen", ">bp1Width") {
-      background-size: 30vw 30vw;
-      width: 30vw;
-      height: 30vw;
-      border-radius: 50%;
-    }
-  }
+  //
+  // &:before {
+  //   content: "";
+  //   display: block;
+  //   margin: 10vw auto 0 auto;
+  //   background-image: url(/assets/p/binocle-02.jpg);
+  //   background-position: center center;
+  //   background-repeat: no-repeat;
+  //   background-size: 50vw 50vw;
+  //   width: 50vw;
+  //   height: 50vw;
+  //   border-radius: 50%;
+  //   @include media( "screen", ">minWidth") {
+  //     background-size: 40vw 40vw;
+  //     width: 40vw;
+  //     height: 40vw;
+  //     border-radius: 50%;
+  //   }
+  //   @include media( "screen", ">bp1Width") {
+  //     background-size: 30vw 30vw;
+  //     width: 30vw;
+  //     height: 30vw;
+  //     border-radius: 50%;
+  //   }
+  // }
 
   h2{
     margin-top: 2rem;

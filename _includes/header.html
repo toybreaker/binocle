@@ -51,6 +51,11 @@
   {% include menu.html %}
 
   <div class="profile group hide" id="profile">
+
+    <div class="go_away_link">
+      <img src="/assets/p/binocle-02-1920.jpg" alt="Binocle profile"/>
+    </div>
+
     {% capture prof %}{% include editables/profile.md %}{% endcapture %}
     {{ prof | markdownify }}
 

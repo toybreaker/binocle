@@ -15,7 +15,7 @@ Thanks, Junglestar team
 - [X] work intro use markdown inside {{content}}
 
 
-## Editing Guide:
+## No frills editing Guide:
 
 **New work project?**  
 Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv)
@@ -25,6 +25,8 @@ Change [lines 11>15 in this file](https://github.com/toybreaker/binocle/blob/gh-
 
 **Profile fine tuning?**    
 Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
+
+**WORKS: disable + enable project?** Move project row form [works.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv) to [works_to_finish.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works_to_finish.csv). When done move it back.
 
 
 ## dev
@@ -81,36 +83,21 @@ Also can use this to work photos 1 by 1, from CLI:
 
 ## 2DOs:
 
-- [x]  [image]((http://binocle.junglestar.org/assets/p/gardenshe-01-1920.jpg) )
-
 - [ ] responsive images
 
 - [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile
 
+- [ ] home instagram, feed da @studiobinocle con #pictureoftheday oreder by mostliked, che dici?
 
-## bugs
+      Che funge solo con foto postate di recente, come abbiamo testato… però si. Se poi diventa noioso da mantenere, allora cambieremo..._
 
-processing tifs with [imagemagick](http://www.imagemagick.org/script/convert.php)
-
-```
-convert *.tif output.jpg
-```
-
-```
-convert *.tif output.jpg
-```
+- [ ] footer: binocle logo as favicon instead of ↺
 
 
-trows errors, try:
+## BUGS?!
 
-- adobe is [homefucked](https://forums.adobe.com/thread/1900216?start=0&tstart=0), [deutchfucked](https://forums.adobe.com/message/7732728#7732728)
+- [ ] Su mobile se clicco su progetti (per es. BASTARDSTORE) c’è ancora highlight blu. Sarebbe bello se fosse nero con testo bianco per una frazione di secondo quando clicco, così da feedback.
 
-- google this: [RichTIFFIPTC problem ](https://www.google.it/search?q=problem+RichTIFFIPTC&oq=problem+RichTIFFIPTC)
+    Si è una bassa priorità. Prima metto lo script che rende le img responsive, la home, il logo che si sposta… sta già segnato anche sul reame di github… ma da fare at refinement time, later...
 
-- Re: Error: wrong data type 7 for "RichTIFFIPTC";
-  tag ignored.  
-  Postby magick »\ 2009-10-02T16:32:49-07:00
-
- [This exception is thrown by the libTIFF. It apparently does not like the layout of your IPTC profile. Your best path forward would be to post this problem to the libTIFF bug list.](https://www.imagemagick.org/discourse-server/viewtopic.php?t=12872)
-
-- [ongoing Windows incompatibility](http://comments.gmane.org/gmane.comp.video.tiff/6355)
+- Sono sulla home (http://binocle.junglestar.org/) clicco BINOCLE e le due scritte ‘BINOCLE’ e ‘WORKS’ si spostano leggermente sulla sinistra… succede anche a te? Cliccando su ‘WORKS’ invece rimane bello fermo come dev’essere…

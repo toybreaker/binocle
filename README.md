@@ -39,7 +39,7 @@ Dependencies:
 
 ```npm install --save-dev change-case```
 
-```npm install --save-dev gm```
+```npm install --save-dev gulp-gm```
 
 
 ### setup
@@ -52,13 +52,15 @@ Dependencies:
 
 ```gulp``` task to compile sass and enable browsersync
 
-```gulp low``` to lowercase all photo names
-
-```gulp jpg``` to produce sized copies
+```gulp lower``` to lowercase all photo names
 
 ```gulp 2jpg``` to produce jpg from tifs
 
-This to work photos 1 by 1, from CLI: 
+```gulp jpg``` to produce sized copies
+
+
+
+Also can use this to work photos 1 by 1, from CLI:
 ```gm convert pippa-01.tif pippa-01.jpg```
  [grafickmagik](http://aheckmann.github.io/gm/docs.html)
 

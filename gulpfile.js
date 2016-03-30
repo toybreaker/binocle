@@ -11,9 +11,9 @@ var browserSync  = require('browser-sync');
 var changeCase   = require('change-case');
 var rename       = require('gulp-rename');
 var responsive   = require('gulp-responsive');
+var gm           = require('gulp-gm');
 
 // testing...
-var gm       = require('gulp-gm');
 var gulpSharp    = require('gulp-sharp');
 var imagemin     = require('gulp-imagemin');
 var pngquant     = require('imagemin-pngquant');
@@ -23,34 +23,18 @@ var reload       = browserSync.reload;
 
 
 
-//GM
-
-// not OK! TIFFFetchNormalTag error
-gulp.task("tif", function () {
-  gulp.src('./_src/p/*.tif')
-
-    .pipe(gm(function (gmfile) {
-
-      return gmfile.format("jpg");
-
-    }, {
-      imageMagick: true
-    }))
-
-    .pipe(gulp.dest('./_src/p_jpegged'));
-});
-
-// maybe OK!
+// GM GraphicsMagick
+// OK!
 gulp.task("2jpg", function () {
 
-  gulp.src('./_src/p/*.tif')
+  gulp.src('./_src/p_input/*.tif')
     .pipe(gm(function (gmfile) {
 
       return gmfile.setFormat('jpg');
 
     }))
 
-    .pipe(gulp.dest('./_src/p_jpegged'));
+    .pipe(gulp.dest('./_src/p_jpeg'));
 });
 
 
@@ -66,7 +50,6 @@ gulp.task("lower", function () {
 });
 
 // Reponsive sizing
-
 // OK!
 gulp.task('jpg', function () {
   return gulp.src('./_src/p/*.jpg')
@@ -104,7 +87,22 @@ gulp.task('jpg', function () {
 
 // start______TEST STUFF__________
 
-// shouild work, but doesnt..
+// not OK! TIFFFetchNormalTag error
+gulp.task("tif", function () {
+  gulp.src('./_src/p_input/*.tif')
+
+    .pipe(gm(function (gmfile) {
+
+      return gmfile.format("jpg");
+
+    }, {
+      imageMagick: true
+    }))
+
+    .pipe(gulp.dest('./_src/p_jpeg'));
+});
+
+// should work, but doesnt..
 gulp.task('tif', function () {
   return gulp.src('./_src/p_lowercased/*.tif')
     .pipe(responsive({
@@ -140,7 +138,6 @@ gulp.task('tif', function () {
     }))
     .pipe(gulp.dest('./assets/p'));
 });
-
 
 // working only with jpg and how to rename?
 gulp.task('imageresize', function() {

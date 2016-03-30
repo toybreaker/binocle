@@ -54,9 +54,9 @@ Dependencies:
 
 ```gulp lower``` to lowercase all photo names
 
-```gulp 2jpg``` to produce jpg from tifs
+```gulp tifs``` to produce jpg from tifs
 
-```gulp jpg``` to produce sized copies
+```gulp jpgs``` to produce sized copies
 
 
 

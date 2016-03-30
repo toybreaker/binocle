@@ -25,7 +25,7 @@ var reload       = browserSync.reload;
 
 // GM GraphicsMagick
 // OK!
-gulp.task("2jpg", function () {
+gulp.task("tifs", function () {
 
   gulp.src('./_src/p_input/*.tif')
     .pipe(gm(function (gmfile) {
@@ -38,21 +38,10 @@ gulp.task("2jpg", function () {
 });
 
 
-
-// Rename all to lowercase
-// OK!
-gulp.task("lower", function () {
-  return gulp.src( './_src/p_input/*.*' )
-    .pipe(rename(function(fix) {
-       fix.basename = changeCase.lowerCase(fix.basename);
-     }))
-    .pipe(gulp.dest( './_src/p' ));
-});
-
 // Reponsive sizing
 // OK!
-gulp.task('jpg', function () {
-  return gulp.src('./_src/p/*.jpg')
+gulp.task('jpgs', function () {
+  return gulp.src('./_src/p_jpeg/*.jpg')
     .pipe(responsive({
       '*.jpg': [{
         //nexus5
@@ -82,6 +71,17 @@ gulp.task('jpg', function () {
       }]
     }))
     .pipe(gulp.dest('./assets/p'));
+});
+
+
+// Rename all to lowercase
+// OK!
+gulp.task("lower", function () {
+  return gulp.src( './_src/p_input/*.*' )
+    .pipe(rename(function(fix) {
+       fix.basename = changeCase.lowerCase(fix.basename);
+     }))
+    .pipe(gulp.dest( './_src/p' ));
 });
 
 

@@ -85,7 +85,10 @@ Also can use this to work photos 1 by 1, from CLI:
 
 - [ ] responsive images
 
-- [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile
+- [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile.  
+Su mobile se clicco su progetti (per es. BASTARDSTORE) c’è ancora highlight blu. Sarebbe bello se fosse nero con testo bianco per una frazione di secondo quando clicco, così da feedback.
+
+    Si è una bassa priorità. Prima metto lo script che rende le img responsive, la home, il logo che si sposta… sta già segnato anche sul reame di github… ma da fare at refinement time, later...
 
 - [ ] home instagram, feed da @studiobinocle con #pictureoftheday oreder by mostliked, che dici?
 
@@ -96,8 +99,6 @@ Also can use this to work photos 1 by 1, from CLI:
 
 ## BUGS?!
 
-- [ ] Su mobile se clicco su progetti (per es. BASTARDSTORE) c’è ancora highlight blu. Sarebbe bello se fosse nero con testo bianco per una frazione di secondo quando clicco, così da feedback.
 
-    Si è una bassa priorità. Prima metto lo script che rende le img responsive, la home, il logo che si sposta… sta già segnato anche sul reame di github… ma da fare at refinement time, later...
 
 - [ ] Sono sulla home (http://binocle.junglestar.org/) clicco BINOCLE e le due scritte ‘BINOCLE’ e ‘WORKS’ si spostano leggermente sulla sinistra… succede anche a te? Cliccando su ‘WORKS’ invece rimane bello fermo come dev’essere…

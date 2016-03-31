@@ -8,32 +8,16 @@
   padding: 0 2rem;
   @include media( "screen", ">minWidth") {
       text-align: justify;
+      &:after{
+        content: "";
+        background: url(/safari-pinned-tab.svg) no-repeat center center;
+        background-size: contain;
+        width: 3rem;
+        height: 3rem;
+        position: relative;
+        left: calc(50% - 1.5rem);
+      }
   }
-  //
-  // &:before {
-  //   content: "";
-  //   display: block;
-  //   margin: 10vw auto 0 auto;
-  //   background-image: url(/assets/p/binocle-02.jpg);
-  //   background-position: center center;
-  //   background-repeat: no-repeat;
-  //   background-size: 50vw 50vw;
-  //   width: 50vw;
-  //   height: 50vw;
-  //   border-radius: 50%;
-  //   @include media( "screen", ">minWidth") {
-  //     background-size: 40vw 40vw;
-  //     width: 40vw;
-  //     height: 40vw;
-  //     border-radius: 50%;
-  //   }
-  //   @include media( "screen", ">bp1Width") {
-  //     background-size: 30vw 30vw;
-  //     width: 30vw;
-  //     height: 30vw;
-  //     border-radius: 50%;
-  //   }
-  // }
 
   h2{
     margin-top: 2rem;

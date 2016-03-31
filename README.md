@@ -67,9 +67,9 @@ Use ```/src/p_input``` and  ```/src/p_jpeg``` to store photos to process. Then u
 ```gulp jpgs``` to produce sized copies
 
 
-Also can use this to work photos 1 by 1, from CLI:
+Also can use [grafickmagik](http://aheckmann.github.io/gm/docs.html) to work photos 1 by 1, from CLI, like this:
 ```gm convert pippa-01.tif pippa-01.jpg```
- [grafickmagik](http://aheckmann.github.io/gm/docs.html)
+
 
 
 

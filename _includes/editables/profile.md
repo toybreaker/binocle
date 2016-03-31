@@ -1,5 +1,8 @@
 ## PROFILE
 
-Lorenzo Bini was born in Milan, Italy in 1971. Educated at the **Politecnico** di Milano and at the **SHKS** of Oslo, he graduated in architecture in 1998 and worked for different practices in Milan. In 2000 he moved to The Netherlands to work as a senior architect for **West8 Urban Design & Landscape Architecture**. In 2003 he returned to Milan and co-founded **studiometrico**, an architecture practice that he has been directing until 2011, when the office has ceased business. Beside his professional activity, Lorenzo has been adjunct professor at the Politecnico di Milano and visiting professor at the **Design Academy Eindhoven**.
+BINOCLE is the office led by Italian architect Lorenzo Bini since 2011.
+Born in 1971, educated in Milan and Oslo, Lorenzo graduated in 1998 from Politecnico di Milano and worked for different offices in Milan and Rotterdam until 2003 when he co-founded [studiometrico](www.studiometrico.com), his former practice that ceased business in 2011 after 8 years of shared partnership.
+BINOCLE works on the transformation of existing spaces shifting from temporary structures to permanent buildings and gardens.
+Beside his professional activity, Lorenzo has been adjunct professor at the Politecnico di Milano and visiting professor at the Design Academy Eindhoven.
 
 _Download Lorenzo Bini's CURRICULUM VITAE: [[it]](/assets/pdf/LOREBINI-CV-IT.pdf)  [[en]](/assets//pdf/LOREBINI-CV-EN.pdf)_

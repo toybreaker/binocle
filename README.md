@@ -17,6 +17,9 @@ Thanks, Junglestar team
 
 ## No frills editing Guide:
 
+**set homepage photo**
+Tag the chosen photo with ```#pictureoftheday``` hash. Bum. done! (it prob needs to be a recent upload...)
+
 **New work project?**  
 Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv)
 
@@ -50,7 +53,10 @@ Dependencies:
 
 ```npm install``` setup dependencies
 
+
 ### dev features
+
+Use ```/src/p_input``` and  ```/src/p_jpeg``` to store photos to process. Then use:
 
 ```gulp``` task to compile sass and enable browsersync
 
@@ -61,14 +67,13 @@ Dependencies:
 ```gulp jpgs``` to produce sized copies
 
 
-
 Also can use this to work photos 1 by 1, from CLI:
 ```gm convert pippa-01.tif pippa-01.jpg```
  [grafickmagik](http://aheckmann.github.io/gm/docs.html)
 
 
 
-  Run Jekyll:
+ Run Jekyll:
 
 ```bundle exec Jekyll serve```
 
@@ -90,12 +95,9 @@ Su mobile se clicco su progetti (per es. BASTARDSTORE) c’è ancora highlight b
 
     Si è una bassa priorità. Prima metto lo script che rende le img responsive, la home, il logo che si sposta… sta già segnato anche sul reame di github… ma da fare at refinement time, later...
 
-- [ ] home instagram, feed da @studiobinocle con #pictureoftheday sorted by mostliked, che dici?
+- [ ] footer: maybe binocle logo as favicon instead of ↺
 
-      Che funge solo con foto postate di recente, come abbiamo testato… però si. Se poi diventa noioso da mantenere, allora cambieremo..._
-
-- [ ] footer: binocle logo as favicon instead of ↺
-
+- [x] home instagram, feed da @studiobinocle con #pictureoftheday sorted by mostliked.
 
 ## BUGS?!
 

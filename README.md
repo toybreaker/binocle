@@ -90,7 +90,7 @@ Su mobile se clicco su progetti (per es. BASTARDSTORE) c’è ancora highlight b
 
     Si è una bassa priorità. Prima metto lo script che rende le img responsive, la home, il logo che si sposta… sta già segnato anche sul reame di github… ma da fare at refinement time, later...
 
-- [ ] home instagram, feed da @studiobinocle con #pictureoftheday oreder by mostliked, che dici?
+- [ ] home instagram, feed da @studiobinocle con #pictureoftheday sorted by mostliked, che dici?
 
       Che funge solo con foto postate di recente, come abbiamo testato… però si. Se poi diventa noioso da mantenere, allora cambieremo..._
 

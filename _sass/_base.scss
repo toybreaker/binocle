@@ -54,6 +54,19 @@ svg{
   text-align: center;
 }
 
+
+//footer
 .go_home {
-  font-size: 2rem;
+  display: block;
+  font-size: 140px;
+  line-height: 40px;
+  background: url(/safari-pinned-tab.svg) no-repeat top center;
+  background-size: 40px 40px;
+  text-indent: -9999px;
+  // &:before {
+  //   content: "";
+  //   width: 10rem;
+  //   height: 2rem;
+  //   background: #e0e0e0 url('data:image/svg+xml;dataset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 13"><path fill="#59a6ca" d="M15.57 2.845L14.238 1.51c-.13-.13-.353-.13-.48 0L6.66 8.623l-3.093-3.11c-.13-.13-.352-.13-.482 0L1.75 6.845c-.128.13-.128.352 0 .48l4.67 4.67c.073.055.147.092.24.092s.167-.037.24-.093l8.67-8.67c.13-.13.13-.35 0-.48z"/></svg>') 50% 50% no-repeat;
+  // }
 }

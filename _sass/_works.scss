@@ -48,6 +48,10 @@ margin: $vertical_rhythm 0;
       padding-bottom: .25rem;;
       vertical-align: baseline;
     }
+    td:first-child{
+      width: 220px;
+      font-style: italic;
+    }
   }
 }
 

@@ -19,20 +19,20 @@ Thanks, Junglestar team
 
 ## No frills editing Guide:
 
-**set homepage photo**   
+**Set homepage photo**   
 Tag the chosen photo with ```#pictureoftheday``` hash. Bum. done! (it prob needs to be a recent upload...)
-
-**New work project?**  
-Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv)
 
 **Update contact infos, tel?**     
 Change [lines 11>15 in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_config.yml)
 
-**Profile fine tuning?**     
+**PROFILE fine tuning?**     
 Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
 
 **WORKS: disable + enable project?**   
 Move project row form [works.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv) to [works_to_finish.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works_to_finish.csv). When done, move it back.
+
+**WORKS: new project?**  
+Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv)
 
 
 ## dev

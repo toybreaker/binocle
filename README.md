@@ -8,12 +8,14 @@ All photos © Binocle. All rights reserved.
 Thanks, Junglestar team  
 
 ## Features:
-- [X] standalone webapp (after "add to home screen" on android)
-- [X] csv driven menu
-- [X] plain javascript
+- [X] standalone webapp (after "add to home screen" on android).
+- [X] csv driven menu.
+- [X] plain javascript.
 - [X] address use [microformat](https://schema.org/Organization)
-- [X] work intro use markdown inside {{content}}
-
+- [X] work intros use markdown inside {{content}}.
+- [X] responsive images with BBC's . [Imager.js](https://github.com/BBC-News/Imager.js/)
+- [X] Instagram most-liked picture on homepage.
+- [X] FULL HD - up to 1920px wide shots.
 
 ## No frills editing Guide:
 
@@ -76,29 +78,16 @@ Run Jekyll:
 ```bundle exec Jekyll serve```
 
 
-#### frontend features:
-
- - no jquery yet...
-
- - [RWD](https://en.wikipedia.org/wiki/Responsive_web_design) with [Imager.js](https://github.com/BBC-News/Imager.js/) to handle images
-
-
 
 ## 2DOs:
 
-- [ ] responsive images
+- [ ] invece dell'azzurro (:focus outline) nero con testo bianco per una frazione di secondo quando clicco, così da feedback.
 
-- [ ] invece dell'azzurro (:focus outline) quando schiacci testo link su mobile.  
-Su mobile se clicco su progetti (per es. BASTARDSTORE) c’è ancora highlight blu. Sarebbe bello se fosse nero con testo bianco per una frazione di secondo quando clicco, così da feedback.
+- [ ] home instagram, feed serving only 640x640. how to get 1080?
 
-    Si è una bassa priorità. Prima metto lo script che rende le img responsive, la home, il logo che si sposta… sta già segnato anche sul reame di github… ma da fare at refinement time, later...
 
-- [ ] footer: maybe binocle logo as favicon instead of ↺
-
-- [x] home instagram, feed da @studiobinocle con #pictureoftheday sorted by mostliked.
 
 ## BUGS?!
-
 
 
 - [ ] Sono sulla home (http://binocle.junglestar.org/) clicco BINOCLE e le due scritte ‘BINOCLE’ e ‘WORKS’ si spostano leggermente sulla sinistra… succede anche a te? Cliccando su ‘WORKS’ invece rimane bello fermo come dev’essere…

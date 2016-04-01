@@ -35,23 +35,35 @@ margin: $vertical_rhythm 0;
 }
 
 .intro {
-  padding:0 $vertical_rhythm $vertical_rhythm*2 $vertical_rhythm;
   font-size:1.1rem;
   text-align: left;
   @include media( "screen", ">bp1Width") { text-align: justify;}
+  p {
+    padding:0 $vertical_rhythm;
+  }
 
   table {
-    width: 100%;
-    font-size:1rem;
+    padding:0 $vertical_rhythm $vertical_rhythm*2 $vertical_rhythm;
+    display: block;
+    //width: 100%;
+    font-size: 1rem;
+    td:first-child {
+      width: 220px;
+      font-style: italic;
+      @include media( "screen", "<bp1Width") {
+        padding-top: .5rem;
+      }
+    }
     td {
       text-align: left;
       padding-bottom: .25rem;;
       vertical-align: baseline;
+      @include media( "screen", "<bp1Width") {
+        display: block;
+        width: 70vw;
+      }
     }
-    td:first-child{
-      width: 220px;
-      font-style: italic;
-    }
+
   }
 }
 

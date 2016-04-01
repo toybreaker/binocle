@@ -5,7 +5,7 @@
   font-size: 1rem;
   font-weight: 200;
   text-align: left;
-  padding: 0 2rem;
+  padding: 0 $vertical_rhythm;
   @include media( "screen", ">minWidth") {
       text-align: justify;
       &:after{
@@ -20,7 +20,7 @@
   }
 
   h2{
-    margin-top: 2rem;
+    margin-top: $vertical_rhythm;
     text-align: center;
     font-size: 1.1rem;
     @include media( "screen", ">bp1Width") { font-size: 1.5rem;}

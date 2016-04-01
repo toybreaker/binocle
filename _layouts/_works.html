@@ -17,7 +17,7 @@
 
         <h2 class="work_name">{{page.project}}</h2>
 
-        <div class="intro">{{ content | markdownify }}</div>
+        <div class="intro text_content">{{ content | markdownify }}</div>
 
         <div class="go_away_link {{page.hash}}">
           <img src="/assets/p/{{page.hash}}-01-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>

@@ -39,17 +39,28 @@ svg{
 .bungkus{
   padding: 1rem 0;
   max-width: 100%;
-  @include media( "screen", ">bp1Width") {
-      max-width: 800px;
+  @include media( "screen", ">bp1Width") {//800
+      width: 90vw;
+      max-width: 1200px;
       margin: 0 auto;
   }
+  @include media( "screen", ">maxWidth") {//1260
+      width: 90vw;
+      max-width: 1920px;// max photo pixel size
+      margin: 0 auto;
+  }
+}
+
+.text_content {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .footer{
   display: block;
   position: relative;
   bottom: 1rem;
-  margin-top: 2rem;
+  margin-top: $vertical_rhythm;
   width: 100%;
   text-align: center;
 }

@@ -31,11 +31,11 @@
 
 .sucked_shots:nth-child(1) {
 background-color: red;
-margin:2rem 0;
+margin: $vertical_rhythm 0;
 }
 
 .intro {
-  padding:0 2rem 2rem 2rem;
+  padding:0 $vertical_rhythm $vertical_rhythm*2 $vertical_rhythm;
   font-size:1.1rem;
   text-align: left;
   @include media( "screen", ">bp1Width") { text-align: justify;}

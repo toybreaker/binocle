@@ -56,22 +56,27 @@
       <img src="/assets/p/binocle-02-1920.jpg" alt="Binocle profile"/>
     </div>
 
-    {% capture prof %}{% include editables/profile.md %}{% endcapture %}
-    {{ prof | markdownify }}
+    <div class="text_content">
 
-    <div class="contact" itemscope itemtype="http://schema.org/Organization">
+      {% capture prof %}{% include editables/profile.md %}{% endcapture %}
+      {{ prof | markdownify }}
 
-      <h3 id="contact">Contact</h3>
+      <div class="contact" itemscope itemtype="http://schema.org/Organization">
 
-      <p>
-        <span itemprop="name">{{site.title}}</span>
-        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-          <span itemprop="streetAddress">{{site.address}}</span>
-          <span itemprop="postalCode">{{site.zip}}</span>
-          <span itemprop="addressLocality">{{site.city}}, {{site.country}}</span>
-        </span>
-        <span itemprop="telephone">{{site.telephone}}</span> - <a href="mailto:{{site.email}}"><span itemprop="email">{{site.email}}</span></a>
-      </p>
+        <h3 id="contact">Contact</h3>
+
+        <p>
+          <span itemprop="name">{{site.title}}</span>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">{{site.address}}</span>
+            <span itemprop="postalCode">{{site.zip}}</span>
+            <span itemprop="addressLocality">{{site.city}}, {{site.country}}</span>
+          </span>
+          <span itemprop="telephone">{{site.telephone}}</span> - <a href="mailto:{{site.email}}"><span itemprop="email">{{site.email}}</span></a>
+        </p>
+
+      </div>
+
     </div>
   </div>
 </div>

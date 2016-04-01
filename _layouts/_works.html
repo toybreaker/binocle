@@ -1,0 +1,104 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="works">
+
+    <div class="bungkus group">
+
+      {% include header.html %}
+
+      <div id="instafeed" class="{{page.hash}} sucked_shots group">
+
+        <h2 class="work_name">{{page.project}}</h2>
+
+        <div class="intro">{{ content | markdownify }}</div>
+
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-01-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-02-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-03-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-04-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-05-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-06-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-07-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-08-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-09-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-10-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-11-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-12-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-13-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-14-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-15-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-16-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-17-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-18-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-19-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+        <div class="go_away_link {{page.hash}}">
+          <img src="/assets/p/{{page.hash}}-20-1920.jpg" alt="{{page.project | uppercase }}"  onError="style.display = 'none';"/>
+        </div>
+      </div>
+
+
+      <div style="width: 640px">
+        <div class="delayed-image-load" data-src="/assets/p/{{page.hash}}-20-{width}" data-alt="{{page.project | uppercase }}"></div>
+      </div>
+
+      <script>
+          new Imager({ availableWidths: [640, 1024, 1920] });
+      </script>
+
+
+    </div>
+
+    {% include footer.html %}
+
+    {% include script_menu_toggle.html %}
+    {% include script_profile_toggle.html %}
+    {% include script_google_analytics.html %}
+
+  </body>
+
+</html>

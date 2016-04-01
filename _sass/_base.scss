@@ -66,6 +66,15 @@ svg{
 }
 
 
+//stop Intagram pictures degrading
+img[src*="cdninstagram"] {
+  max-width: 1080px;
+  margin: 0 auto;
+  a & {
+    display: -webkit-box;
+    display: flex;
+  }
+}
 
 //footer
 .go_home {

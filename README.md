@@ -1,4 +1,4 @@
-binocle
+[binocle.it](binocle.it)
 ---
 
 ## Warning:
@@ -82,7 +82,7 @@ Run Jekyll:
 
 ## 2DOs:
 
-- setup binocle.it
+- check binocle.it analytics
 
 
 ## BUGS?!

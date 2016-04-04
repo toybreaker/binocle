@@ -84,11 +84,10 @@ Run Jekyll:
 
 - [ ] invece dell'azzurro (:focus outline) nero con testo bianco per una frazione di secondo quando clicco, così da feedback.
 
-- [ ] home instagram, feed serving only 640x640. how to get 1080?
-
 
 
 ## BUGS?!
 
+- [ ] home instagram, feed serving only 640x640. how to get 1080?
 
-- [ ] Sono sulla home (http://binocle.junglestar.org/) clicco BINOCLE e le due scritte ‘BINOCLE’ e ‘WORKS’ si spostano leggermente sulla sinistra… succede anche a te? Cliccando su ‘WORKS’ invece rimane bello fermo come dev’essere…
+- [ ] instafeed.js: (limit:1) not working

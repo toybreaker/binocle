@@ -82,8 +82,7 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [ ] invece dell'azzurro (:focus outline) nero con testo bianco per una frazione di secondo quando clicco, così da feedback.
-
+- setup binocle.it
 
 
 ## BUGS?!

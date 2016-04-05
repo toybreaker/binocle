@@ -82,7 +82,7 @@ Run Jekyll:
 
 ## 2DOs:
 
-- check binocle.it analytics
+- [ ] work's text now blocky, make it readeable!
 
 
 ## BUGS?!

@@ -82,8 +82,6 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [ ] work's text now blocky, make it readeable!
-
 
 ## BUGS?!
 

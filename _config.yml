@@ -1,10 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: Binocle
 email: mail@binocle.it
@@ -17,7 +10,7 @@ description: Studio Binocle in Milan, Italy was founded by architect Lorenzo Bin
 copyright: Binocle
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://binocle.dev" # the base hostname & protocol for your site
-version: 0.1.2
+version: 0.2.0
 
 # Build settings
 markdown: kramdown

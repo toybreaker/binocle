@@ -56,11 +56,14 @@ svg{
   margin: 0 auto;
 }
 
+.site_title {
+  text-transform: uppercase;
+}
+
 .footer{
   display: block;
-  position: relative;
-  bottom: 1rem;
   margin-top: $vertical_rhythm;
+  margin-bottom: $vertical_rhythm;
   width: 100%;
   text-align: center;
 }
@@ -80,8 +83,8 @@ img[src*="cdninstagram"] {
 //footer
 .go_home {
   display: block;
-  height: 2rem;
+  height: 3rem;
   background: url(/safari-pinned-tab.svg) no-repeat top center;
-  background-size: 2rem 2rem;
+  background-size: 3rem 3rem;
   text-indent: -9999px;
 }

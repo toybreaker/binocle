@@ -43,7 +43,7 @@ margin: $vertical_rhythm 0;
   }
 
   table {
-    padding:0 $vertical_rhythm $vertical_rhythm*2 $vertical_rhythm;
+    padding:$vertical_rhythm $vertical_rhythm $vertical_rhythm*2 $vertical_rhythm;
     display: block;
     //width: 100%;
     font-size: 1rem;

@@ -82,10 +82,10 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [ ] fix the bugs...
+- [ ] tests.
 
 ## BUGS?!
 
-- [ ] home instagram, feed serving only 640x640. how to get 1080?
+- [ ] Instagram feed serving only 640x640. How to get 1080? We can't. See this [instanfeed.js open bug](https://github.com/stevenschobert/instafeed.js/issues/393) (I'm afraid Instagrams API doesn't support the full resolution yet.)
 
 - [ ] instafeed.js: (limit:1) not working

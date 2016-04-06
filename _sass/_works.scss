@@ -39,11 +39,11 @@ margin: $vertical_rhythm 0;
   text-align: left;
   @include media( "screen", ">bp1Width") { text-align: justify;}
   p {
-    padding:0 $vertical_rhythm*2;
+    margin:0 $vertical_rhythm*1.5;
   }
 
   table {
-    padding:$vertical_rhythm $vertical_rhythm*2 $vertical_rhythm*2 $vertical_rhythm*2;
+    padding:$vertical_rhythm $vertical_rhythm*1.5 $vertical_rhythm*2 $vertical_rhythm*1.5;
     display: block;
     //width: 100%;
     font-size: 1rem;

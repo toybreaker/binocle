@@ -39,7 +39,8 @@ margin: $vertical_rhythm 0;
   text-align: left;
   @include media( "screen", ">bp1Width") { text-align: justify;}
   p {
-    margin:0 $vertical_rhythm*1.5;
+    margin-left: $vertical_rhythm*1.5;
+    margin-right: $vertical_rhythm*1.5;
   }
 
   table {

@@ -82,6 +82,7 @@ Run Jekyll:
 
 ## 2DOs:
 
+- [ ] fix the bugs...
 
 ## BUGS?!
 

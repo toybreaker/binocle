@@ -20,7 +20,7 @@ Thanks, Junglestar team
 ## No frills editing Guide:
 
 **Set homepage photo**   
-Tag the chosen photo with ```#pictureoftheday``` hash. Bum. done! (it prob needs to be a recent upload...)
+Tag the chosen photo with ```#pictureoftheday``` hash. Bum. done! (probably it needs to be a recent uploaded shot...)
 
 **Update contact infos, tel?**     
 Change [lines 11>15 in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_config.yml)

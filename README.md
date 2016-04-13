@@ -82,10 +82,10 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [ ] tests.
-- [X] reduce insta img size.
 - [ ] twitter-cards
 - [ ] og:metas
+- [ ] tests.
+- [X] reduce insta img size.
 
 ## BUGS?!
 

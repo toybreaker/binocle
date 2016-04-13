@@ -86,7 +86,7 @@ Run Jekyll:
 - [ ] og:metas
 - [ ] in home menu jumps, in works it does not.
 - [X] reduce insta img size.
-
+- [X] menu alternate hide and show, not together.
 
 ## BUGS?!
 

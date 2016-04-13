@@ -83,6 +83,7 @@ Run Jekyll:
 ## 2DOs:
 
 - [ ] tests.
+- [ ] reduce insta img size.
 
 ## BUGS?!
 

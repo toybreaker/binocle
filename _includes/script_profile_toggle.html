@@ -16,7 +16,11 @@
   }
 
   document.getElementById('binocle').addEventListener('click', function() {
-      toggleClass(document.getElementById('profile'), 'hide'),
-      toggleClass(document.body, 'showing-profile');
+    if (document.body.classList.contains('showing_menu')) {
+        toggleClass(document.getElementById('menu'), 'hide'),
+        toggleClass(document.body, 'showing_menu');
+    }
+    toggleClass(document.getElementById('profile'), 'hide'),
+    toggleClass(document.body, 'showing_profile');
   });
 </script>

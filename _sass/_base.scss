@@ -1,4 +1,4 @@
-// apply a natural box layout model to all elements, but allowing components to change
+/* apply a natural box layout model to all elements, but allowing components to change*/
 html {
   box-sizing: border-box;
 }
@@ -29,25 +29,25 @@ a {
   &.active { color:black; }
 }
 
-//SVGs
+/*SVGs*/
 svg{
   width:100%;
   height:100%;
 }
 
-//wrap
+/*wrap*/
 .bungkus{
-  padding: 1rem 0;
+  padding: $vertical_rhythm 0 0 0;
   max-width: 100%;
   overflow-x: hidden;
-  @include media( "screen", ">bp1Width") {//800
+  @include media( "screen", ">bp1Width") {/*800*/
       width: 90vw;
       max-width: 1200px;
       margin: 0 auto;
   }
-  @include media( "screen", ">maxWidth") {//1260
+  @include media( "screen", ">maxWidth") {/*1260*/
       width: 90vw;
-      max-width: 1920px;// max photo pixel size
+      max-width: 1920px;/* max photo pixel size*/
       margin: 0 auto;
   }
 }
@@ -66,24 +66,24 @@ svg{
 .footer{
   display: block;
   margin-top: $vertical_rhythm;
-  margin-bottom: $vertical_rhythm;
+  margin-bottom: $vertical_rhythm*2;
   width: 100%;
   text-align: center;
 }
 
-
-//stop Intagram pictures degrading
-//bug: Istagram currently serve 640px only...
+/*bug: Istagram currently serve 640px only...*/
 img[src*="cdninstagram"] {
   max-width: 640px;
   margin: 0 auto;
   a & {
     display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
   }
 }
 
-//footer
+/*footer*/
 .go_home {
   display: block;
   height: 3rem;
@@ -92,11 +92,15 @@ img[src*="cdninstagram"] {
   text-indent: -9999px;
 }
 
-//pictureoftheday
+/*pictureoftheday*/
 .pictureoftheday {
   padding-left:2rem;
   padding-right:2rem;
-  .showing-profile & {
+
+  .showing_profile & {
+    display: none;
+  }
+  .showing_menu & {
     display: none;
   }
 }

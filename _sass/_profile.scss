@@ -1,22 +1,13 @@
 
-.profile{
+.profile {
   max-width: 100%;
-  margin: 3rem auto 8rem auto;
+  margin: $vertical_rhythm auto 0 auto;
   font-size: 1rem;
   font-weight: 200;
   text-align: left;
   padding: 0 $vertical_rhythm;
   @include media( "screen", ">minWidth") {
     text-align: justify;
-    // &:after{
-    //   content: "";
-    //   background: url(/safari-pinned-tab.svg) no-repeat center center;
-    //   background-size: contain;
-    //   width: 3rem;
-    //   height: 3rem;
-    //   position: relative;
-    //   left: calc(50% - 1.5rem);
-    // }
   }
 
   .profile_photo {

@@ -16,7 +16,14 @@
   }
 
   document.getElementById('works').addEventListener('click', function() {
-      toggleClass(document.getElementById('menu'), 'hide'),
-      toggleClass(document.body, 'showing-menu');
+    if (document.body.classList.contains('showing_profile')) {
+        toggleClass(document.getElementById('profile'), 'hide'),
+        toggleClass(document.body, 'showing_profile');
+    }
+    toggleClass(document.getElementById('menu'), 'hide'),
+    toggleClass(document.body, 'showing_menu');
   });
+
+
+
 </script>

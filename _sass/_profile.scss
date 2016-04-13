@@ -22,10 +22,11 @@
   .profile_photo {
     width: 100%;
     display: block;
-    float: left;
-    margin: 0;
+    float: none;
+    margin: 0 auto;
     margin-bottom: 2.5rem;
     position: relative;
+    max-width: 640px;
   }
 
   h2 {

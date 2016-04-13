@@ -83,10 +83,12 @@ Run Jekyll:
 ## 2DOs:
 
 - [ ] tests.
-- [ ] reduce insta img size.
+- [X] reduce insta img size.
+- [ ] twitter-cards
+- [ ] og:metas
 
 ## BUGS?!
 
-- [ ] Instagram feed serving only 640x640. How to get 1080? We can't. See this [instanfeed.js open bug](https://github.com/stevenschobert/instafeed.js/issues/393) (I'm afraid Instagrams API doesn't support the full resolution yet.)
+- Instagram feed serving only 640x640. How to get 1080? We can't. See this [instanfeed.js open bug](https://github.com/stevenschobert/instafeed.js/issues/393) (I'm afraid Instagrams API doesn't support the full resolution yet.)
 
-- [ ] instafeed.js: (limit:1) not working
+- instafeed.js: (limit:1) not working

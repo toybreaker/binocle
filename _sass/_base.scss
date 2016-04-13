@@ -75,7 +75,7 @@ svg{
 //stop Intagram pictures degrading
 //bug: Istagram currently serve 640px only...
 img[src*="cdninstagram"] {
-  max-width: 1080px;
+  max-width: 640px;
   margin: 0 auto;
   a & {
     display: -webkit-box;

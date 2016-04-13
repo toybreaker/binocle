@@ -96,4 +96,7 @@ img[src*="cdninstagram"] {
 .pictureoftheday {
   padding-left:2rem;
   padding-right:2rem;
+  .showing-profile & {
+    display: none;
+  }
 }

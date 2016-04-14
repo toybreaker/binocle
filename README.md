@@ -13,7 +13,7 @@ Thanks, Junglestar team
 - [X] plain javascript.
 - [X] address use [microformat](https://schema.org/Organization)
 - [X] work intros use markdown inside {{content}}.
-- [X] responsive images with BBC's . [Imager.js](https://github.com/BBC-News/Imager.js/)
+- [X] responsive images with BBC's  [Imager.js](https://github.com/BBC-News/Imager.js/)
 - [X] Instagram most-liked picture on homepage.
 - [X] FULL HD - up to 1920px wide shots.
 

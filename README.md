@@ -84,9 +84,8 @@ Run Jekyll:
 
 - [ ] twitter-cards
 - [ ] og:metas
-- [ ] in home menu jumps, in works it does not.
-- [X] reduce insta img size.
-- [X] menu alternate hide and show, not together.
+- [ ] on Chrome Windows: in home menu jumps, in works it does not.
+
 
 ## BUGS?!
 

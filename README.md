@@ -8,7 +8,7 @@ All photos © Binocle. All rights reserved.
 Thanks, Junglestar team  
 
 ## Features:
-- [X] standalone webapp (after "add to home screen" on android).
+- [X] standalone web-app (after "add to home screen" on android).
 - [X] csv driven menu.
 - [X] plain javascript.
 - [X] address use [microformat](https://schema.org/Organization)
@@ -16,6 +16,7 @@ Thanks, Junglestar team
 - [X] responsive images with BBC's  [Imager.js](https://github.com/BBC-News/Imager.js/)
 - [X] Instagram most-liked picture on homepage with [instafeed.js](https://github.com/stevenschobert/instafeed.js). [see pen](http://codepen.io/stevenschobert/pen/vJloI)
 - [X] FULL HD - up to 1920px wide shots.
+- [X] opengraph & twitter-cards.
 
 ## No frills editing Guide:
 
@@ -30,7 +31,7 @@ Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/e
 
 
 **PROFILE image change?**     
-Upload a picture named profile.jpg to the shared gdrive folder with same specs as for works images, then it will be processed by gulp as works images. (If in a hurry [upload](https://github.com/toybreaker/binocle/tree/gh-pages/assets/p) 3 pictures properly dimensioned named profile-640.jpg, profile-1024.jpg, profile-1920.jpg overwriting the existing ones.) 
+Upload a picture named profile.jpg to the shared gdrive folder with same specs as for works images, then it will be processed by gulp as works images. (If in a hurry [upload](https://github.com/toybreaker/binocle/tree/gh-pages/assets/p) 3 pictures properly dimensioned named profile-640.jpg, profile-1024.jpg, profile-1920.jpg overwriting the existing ones.)
 
 **WORKS: disable + enable project?**   
 Move project row form [works.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv) to [works_to_finish.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works_to_finish.csv). When done, move it back.

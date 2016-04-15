@@ -6,7 +6,8 @@
 	<meta name="twitter:title" content="{{ site.title }} | {{ page.project }}">
 	{% endif %}
 
-	{% if page.excerpt %}<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:15 }}">
+	{% if page.hash == 'pictureoftheday' %}
+	<meta name="twitter:description" content="{{ site.description }}">
 	{% else %}
 	<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:15 }}">
 	{% endif %}

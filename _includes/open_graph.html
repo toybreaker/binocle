@@ -1,27 +1,29 @@
 <!-- Twitter Cards -->
 
+	{% if page.hash == 'pictureoftheday' %}
+	<meta name="twitter:title" content="{{ site.title }} | {{ site.description }}">
+	{% else %}
 	<meta name="twitter:title" content="{{ site.title }} | {{ page.project }}">
+	{% endif %}
 
 	{% if page.excerpt %}<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:15 }}">
 	{% else %}
-	<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:15 }}">{% endif %}
+	<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:15 }}">
+	{% endif %}
 
 	{% if site.owner.twitter %}<meta name="twitter:site" content="@{{ site.owner.twitter }}">{% endif %}
 
-
-	{% if site.twitter %}
-	<meta name="twitter:creator" content="@{{ owner.twitter }}">
-	{% endif %}
+	{% if site.twitter %}<meta name="twitter:creator" content="@{{ owner.twitter }}">{% endif %}
 
 	{% if page.hash == 'pictureoftheday' %}
 
 			{% comment %}
 			in home how to grab instagram img?
 			this is not workin', need some JS i guess!
-			<meta name="twitter:card" content="summary_large_image">
-			<meta name="twitter:image:src" content="{{instafeed_img}}">
 			{% endcomment %}
 
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/profile-640.jpg">
 	{% else %}
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/{{ page.hash }}/{{ page.hash }}-01-640.jpg">
@@ -34,9 +36,23 @@
 	<meta property="og:locale" content="en_US">
 	<meta property="og:locale:alternate" content="it_IT" />
 	<meta property="og:type" content="article">
+	{% if page.hash == 'pictureoftheday' %}
+	<meta property="og:title" content="{{ site.title }} | {{ site.description }}">
+	{% else %}
 	<meta property="og:title" content="{{ site.title }} | {{ page.project }}">
+	{% endif %}
 
+	{% if page.hash == 'pictureoftheday' %}
+
+			{% comment %}
+			in home how to grab instagram img?
+			this is not workin', need some JS i guess!
+			{% endcomment %}
+
+	<meta property="og:image" content="{{ site.url }}/assets/p/profile-640.jpg">
+	{% else %}
 	<meta property="og:image" content="{{ site.url }}/assets/p/{{ page.hash }}/{{ page.hash }}-01-640.jpg">
+	{% endif %}
 
 	<meta property="og:description" content="{{ page.content|strip_html|strip_newlines|truncatewords:33 }}">
 

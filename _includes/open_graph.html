@@ -1,0 +1,44 @@
+<!-- Twitter Cards -->
+
+	<meta name="twitter:title" content="{{ site.title }} | {{ page.project }}">
+
+	{% if page.excerpt %}<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:15 }}">
+	{% else %}
+	<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:15 }}">{% endif %}
+
+	{% if site.owner.twitter %}<meta name="twitter:site" content="@{{ site.owner.twitter }}">{% endif %}
+
+
+	{% if site.twitter %}
+	<meta name="twitter:creator" content="@{{ owner.twitter }}">
+	{% endif %}
+
+	{% if page.hash == 'pictureoftheday' %}
+
+			{% comment %}
+			in home how to grab instagram img?
+			this is not workin', need some JS i guess!
+			<meta name="twitter:card" content="summary_large_image">
+			<meta name="twitter:image:src" content="{{instafeed_img}}">
+			{% endcomment %}
+
+	{% else %}
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/{{ page.hash }}/{{ page.hash }}-01-640.jpg">
+	{% endif %}
+
+
+
+
+<!-- Open Graph -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:locale:alternate" content="it_IT" />
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="{{ site.title }} | {{ page.project }}">
+
+	<meta property="og:image" content="{{ site.url }}/assets/p/{{ page.hash }}/{{ page.hash }}-01-640.jpg">
+
+	<meta property="og:description" content="{{ page.content|strip_html|strip_newlines|truncatewords:33 }}">
+
+	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+	<meta property="og:site_name" content="{{ site.title }}">

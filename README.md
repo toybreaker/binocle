@@ -14,7 +14,7 @@ Thanks, Junglestar team
 - [X] address use [microformat](https://schema.org/Organization)
 - [X] work intros use markdown inside {{content}}.
 - [X] responsive images with BBC's  [Imager.js](https://github.com/BBC-News/Imager.js/)
-- [X] Instagram most-liked picture on homepage with [instafeed.js](https://github.com/stevenschobert/instafeed.js).
+- [X] Instagram most-liked picture on homepage with [instafeed.js](https://github.com/stevenschobert/instafeed.js). [see pen](http://codepen.io/stevenschobert/pen/vJloI)
 - [X] FULL HD - up to 1920px wide shots.
 
 ## No frills editing Guide:

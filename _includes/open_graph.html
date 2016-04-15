@@ -1,4 +1,17 @@
 <!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@rokmatwit">
+
+	{% if site.twitter %}<meta name="twitter:creator" content="@{{ owner.twitter }}">
+	{% else %}
+	<meta name="twitter:creator" content="@rokmatwit">
+	{% endif %}
+
+	{% if page.hash == 'pictureoftheday' %}
+	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/profile-640.jpg">
+	{% else %}
+	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/{{ page.hash }}/{{ page.hash }}-01-640.jpg">
+	{% endif %}
 
 	{% if page.hash == 'pictureoftheday' %}
 	<meta name="twitter:title" content="{{ site.title }} | {{ site.description }}">
@@ -11,25 +24,6 @@
 	{% else %}
 	<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:15 }}">
 	{% endif %}
-
-	{% if site.owner.twitter %}<meta name="twitter:site" content="@{{ site.owner.twitter }}">{% endif %}
-
-	{% if site.twitter %}<meta name="twitter:creator" content="@{{ owner.twitter }}">{% endif %}
-
-	{% if page.hash == 'pictureoftheday' %}
-
-			{% comment %}
-			in home how to grab instagram img?
-			this is not workin', need some JS i guess!
-			{% endcomment %}
-
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/profile-640.jpg">
-	{% else %}
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:image:src" content="{{ site.url }}/assets/p/{{ page.hash }}/{{ page.hash }}-01-640.jpg">
-	{% endif %}
-
 
 
 
@@ -45,10 +39,10 @@
 
 	{% if page.hash == 'pictureoftheday' %}
 
-			{% comment %}
-			in home how to grab instagram img?
-			this is not workin', need some JS i guess!
-			{% endcomment %}
+		{% comment %}
+		in home how to grab instagram img?
+		this is not workin', need some JS i guess!
+		{% endcomment %}
 
 	<meta property="og:image" content="{{ site.url }}/assets/p/profile-640.jpg">
 	{% else %}

@@ -87,11 +87,10 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [X] twitter-cards
-- [X] og:metas
 - [ ] test OG metas
 - [ ] on Chrome Windows: in home menu jumps, in works it does not.
-
+- [X] twitter-cards
+- [X] og:metas
 
 ## BUGS?!
 

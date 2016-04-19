@@ -16,7 +16,7 @@ Thanks, Junglestar team
 - [X] responsive images with BBC's  [Imager.js](https://github.com/BBC-News/Imager.js/)
 - [X] Instagram most-liked picture on homepage with [instafeed.js](https://github.com/stevenschobert/instafeed.js). [see pen](http://codepen.io/stevenschobert/pen/vJloI)
 - [X] FULL HD - up to 1920px wide shots.
-- [X] opengraph & twitter-cards.
+- [X] open-graph & twitter-cards.
 
 ## No frills editing Guide:
 
@@ -87,10 +87,11 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [ ] test OG metas
-- [ ] on Chrome Windows: in home menu jumps, in works it does not.
-- [X] twitter-cards
-- [X] og:metas
+- [X] test OG metas
+- [X] Menu Jumps:
+  - on Chrome Windows (which version?): in home only, menu jumps.
+  - Tested on a Windows10 VM, with Chrome, IE11, Edge and menu does NOT jump. (both with full width browser window and without.)
+
 
 ## BUGS?!
 

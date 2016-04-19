@@ -1,6 +1,9 @@
 .header {
  display: block;
  margin: $vertical_rhythm 0;
+ // look too squeezed to ceiling.. so
+ padding-top: $vertical_rhythm/2;
+ 
  .showing-menu &,
  .showing-profile & {
    height: auto;

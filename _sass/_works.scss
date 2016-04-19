@@ -63,7 +63,7 @@
         padding-top: .5rem;
       }
     }
-    
+
     td {
       text-align: left;
       padding-bottom: .25rem;;
@@ -82,7 +82,7 @@
   display: block;
   float: left;
   margin: 0;
-  margin-bottom: .5rem;
+  margin-bottom: $vertical_rhythm/2;
   position: relative;
 
   img {

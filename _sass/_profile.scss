@@ -49,9 +49,15 @@
   }
   p {
     padding:0 $vertical_rhythm;
+    @include media( "screen", ">minWidth") {
+      padding:0 $vertical_rhythm/2;
+    }
+    @include media( "screen", ">bp1Width") {
+      padding:0;
+    }
     margin-left: auto;
     margin-right: auto;
-    max-width: 700px;
+    max-width: 640px;
   }
 
 }

@@ -9,11 +9,16 @@
  }
 }
 
-.logo {
+.logo {//a
   width: 100%;
+  text-align: center;
+  display: block;
   svg {
     height: 7vw;
-    max-height: 50px;
+    @include media( "screen", ">minWidth") {height: 7vw;}
+    @include media( "screen", ">bp1Width") {
+      width: 640px;
+    }
     &:hover { cursor: pointer;}
   }
 }

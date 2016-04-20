@@ -88,7 +88,7 @@ Run Jekyll:
 ## 2DOs:
 
 - [ ] indicate current work on menu with gray color.
-- [ ] Menu Jumps on Windows10 with Chrome, Edge (when fullscreen)
+- [X] Menu Jumps on Windows10 with Chrome, Edge (when fullscreen): fixed by deleting heigh: 7vw in header... and sizing it with px.
 
 
 ## BUGS?!

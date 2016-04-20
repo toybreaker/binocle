@@ -25,7 +25,7 @@ a {
   text-decoration: none;
   color:$link_color;
   text-transform: capitalize;
-  &.active { color:black; }
+  &.active { color: lighten($link_color, 40%); }
 }
 
 svg{

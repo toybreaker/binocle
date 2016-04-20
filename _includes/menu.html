@@ -1,5 +1,9 @@
 <ul class="menu group hide" id="menu">
 {% for work in site.data.works %}
-  <li><a href="/works/{{work.hashtag}}/">{{work.name}}</a></li>
+  {% if page.url contains work.hashtag %}
+    <li><a href="/works/{{work.hashtag}}/" class="active">{{work.name}}</a></li>
+  {% else %}
+    <li><a href="/works/{{work.hashtag}}/">{{work.name}}</a></li>
+  {% endif %}
 {% endfor %}
 </ul>

@@ -87,10 +87,8 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [X] test OG metas
-- [X] Menu Jumps:
-  - on Chrome Windows (which version?): in home only, menu jumps.
-  - Tested on a Windows10 VM, with Chrome, IE11, Edge and menu does NOT jump. (both with full width browser window and without.)
+- [ ] indicate current work on menu with gray color.
+- [ ] Menu Jumps on Windows10 with Chrome, Edge (when fullscreen)
 
 
 ## BUGS?!

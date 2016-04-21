@@ -87,11 +87,10 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [ ] indicate current work on menu with gray color.
-- [X] Menu Jumps on Windows10 with Chrome, Edge (when fullscreen): fixed by deleting heigh: 7vw in header... and sizing it with px.
+- JS: grab pictureoftheday form home body.el and swap it in head.meta
 
 
-## BUGS?!
+## LIMITS (BUGS?!)
 
 - Instagram feed serving only 640x640. How to get 1080? We can't. See this [instanfeed.js open bug](https://github.com/stevenschobert/instafeed.js/issues/393) (I'm afraid Instagrams API doesn't support the full resolution yet.)
 

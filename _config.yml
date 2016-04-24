@@ -34,11 +34,17 @@ exclude:
 github: toybreaker
 instagram: studiobinocle
 google:
-  plus: #username
-  analytics: UA-74264050-1
-  verify: Rt71Q1qGvbUviohh6n8KmtRoGUd-XeuuuKLBjCMvHO8
+ plus: #username
+ analytics: UA-74264050-1
+ verify: Rt71Q1qGvbUviohh6n8KmtRoGUd-XeuuuKLBjCMvHO8
 
 # instuff
 userId: '1568291819'
 clientId: '387d80cc65e1414198434cac0666c7d0'
 accessToken: '1568291819.387d80c.54f7945b8fd9410a9966d9d79f7f7762'
+
+gems:
+  - jekyll-feed
+  - github-pages
+  - html-proofer
+  - jekyll-sitemap

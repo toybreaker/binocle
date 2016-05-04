@@ -89,7 +89,6 @@ Run Jekyll:
 
 - [ ] menu salta su win edge ie
 - [ ] segoue ui nn esce su chrome win
-- [ ] logo footer invert
 - [ ] JS: grab pictureoftheday form home body.el and swap it in head.meta
 
 - [X] azzurro attivo diventa trasparente

@@ -90,11 +90,23 @@ img[src*="cdninstagram"] {
 }
 
 .go_home {
-  display: block;
-  height: 3rem;
-  background: url(/safari-pinned-tab.svg) no-repeat top center;
-  background-size: 3rem 3rem;
-  text-indent: -9999px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  svg {
+    height: 4rem;
+    width:  4rem;
+  }
 }
 
 

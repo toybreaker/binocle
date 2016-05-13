@@ -87,13 +87,10 @@ Run Jekyll:
 
 ## 2DOs:
 
+- [ ] JS: grab pictureoftheday form home body.el and swap it in head.meta
 - [ ] menu salta su win edge ie
 - [ ] segoue ui nn esce su chrome win
-- [ ] JS: grab pictureoftheday form home body.el and swap it in head.meta
 
-- [X] logo footer invert
-- [X] azzurro attivo diventa trasparente
-- [X] grigio webapp diventa bianco
 
 ## LIMITS (BUGS?!)
 

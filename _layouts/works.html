@@ -13,11 +13,11 @@
 
       {% include header.html %}
 
-      <div id="instafeed" class="{{page.hash}} sucked_shots group">
+      <div id="instafeed" class="{{page.hash}} sucked_shots group" itemscope itemtype="http://schema.org/Article">
 
-        <h2 class="work_name">{{page.project}}</h2>
+        <h2 class="work_name" itemprop="name">{{page.project}}</h2>
 
-        <div class="intro text_content">{{ content | markdownify }}</div>
+        <div class="intro text_content" itemprop="description">{{ content | markdownify }}</div>
 
 
         {% if page.image1 %}

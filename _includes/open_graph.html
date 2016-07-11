@@ -17,7 +17,7 @@
 	{% if page.hash == 'pictureoftheday' %}
 	<meta name="twitter:title" content="{{ site.title }}">
 	{% else %}
-	<meta name="twitter:title" content="{{ site.title }} - {{ page.project | uppercase }}">
+	<meta name="twitter:title" content="{{ site.title }} - {{ page.project | upcase }}">
 	{% endif %}
 
 	{% if page.hash == 'pictureoftheday' %}
@@ -35,7 +35,7 @@
 	{% if page.hash == 'pictureoftheday' %}
 	<meta property="og:title" content="{{ site.title }} - {{ site.description }}">
 	{% else %}
-	<meta property="og:title" content="{{ site.title }} - {{ page.project | uppercase }}">
+	<meta property="og:title" content="{{ site.title }} - {{ page.project | upcase }}">
 	{% endif %}
 
 	{% if page.hash == 'pictureoftheday' %}
@@ -51,7 +51,7 @@
 	<meta property="og:image" content="{{ site.url }}/assets/p/{{ page.hash }}/{{ page.hash }}-01-640.jpg">
 	{% endif %}
 
-	<meta property="og:description" content="{{ page.content|strip_html|strip_newlines|truncatewords:33 }}">
+	<meta property="og:description" content="{{ page.content|strip_html|strip_newlines|truncatewords:30 }}">
 
 	<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 

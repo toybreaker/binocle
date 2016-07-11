@@ -17,13 +17,13 @@
 	{% if page.hash == 'pictureoftheday' %}
 	<meta name="twitter:title" content="{{ site.title }}">
 	{% else %}
-	<meta name="twitter:title" content="{{ site.title }} | {{ page.project }}">
+	<meta name="twitter:title" content="{{ site.title }} - {{ page.project }}">
 	{% endif %}
 
 	{% if page.hash == 'pictureoftheday' %}
 	<meta name="twitter:description" content="{{ site.description }}">
 	{% else %}
-	<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:15 }}">
+	<meta name="twitter:description" content="{{ page.content | strip_html | strip_newlines | truncatewords:30 }}">
 	{% endif %}
 
 
@@ -33,16 +33,16 @@
 	<meta property="og:locale:alternate" content="it_IT" />
 	<meta property="og:type" content="article">
 	{% if page.hash == 'pictureoftheday' %}
-	<meta property="og:title" content="{{ site.title }} | {{ site.description }}">
+	<meta property="og:title" content="{{ site.title }} - {{ site.description }}">
 	{% else %}
-	<meta property="og:title" content="{{ site.title }} | {{ page.project }}">
+	<meta property="og:title" content="{{ site.title }} - {{ page.project }}">
 	{% endif %}
 
 	{% if page.hash == 'pictureoftheday' %}
 
 		{% comment %}
 		in home how to grab instagram img?
-		this is not workin', need some JS i guess!
+		need some JS i guess!
 		{% endcomment %}
 
 	<meta property="og:image" content="{{ site.url }}/assets/p/profile-640.jpg">

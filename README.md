@@ -11,7 +11,7 @@ Thanks, Junglestar team
 - [X] standalone web-app (after "add to home screen" on android).
 - [X] csv driven menu.
 - [X] plain javascript.
-- [X] address use [microformat](https://schema.org/Organization)
+- [X] address use [microformat](https://schema.org/Organization). [See test](https://search.google.com/structured-data/testing-tool#url=http%3A%2F%2Fbinocle.it%2F)
 - [X] work intros use markdown inside {{content}}.
 - [X] responsive images with BBC's  [Imager.js](https://github.com/BBC-News/Imager.js/)
 - [X] Instagram most-liked picture on homepage with [instafeed.js](https://github.com/stevenschobert/instafeed.js). [see pen](http://codepen.io/stevenschobert/pen/vJloI)

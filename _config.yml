@@ -9,9 +9,9 @@ telephone: +39 02 78625376
 description: Studio Binocle in Milan, Italy was founded by architect Lorenzo Bini.
 copyright: Binocle
 twitter:
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://binocle.it" # the base hostname & protocol for your site
-version: 0.2.1
+baseurl: ""
+url: "http://binocle.it" 
+version: 0.2.2
 
 # Build settings
 markdown: kramdown

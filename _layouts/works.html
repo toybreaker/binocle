@@ -11,11 +11,7 @@
 
     <div class="bungkus group">
 
-      <div id="toggle_works">
-
-        {% include header.html %}
-
-      </div>
+      {% include header.html %}
 
       <div id="instafeed" class="{{page.hash}} shots group" itemscope itemtype="http://schema.org/Article">
 
@@ -71,7 +67,7 @@
         {% if page.image8 %}
         <div class="image_wrap {{page.hash}}">
           <div class="delayed-image-load" data-src="/assets/p/{{page.hash}}/{{page.hash}}-08-{width}.jpg" data-alt="{{page.project | uppercase }}"></div>
- image_wrap>
+        </div>
         {% endif %}
 
 
@@ -160,14 +156,25 @@
         </div>
         {% endif %}
 
-
-
-
     </div>
 
     {% include footer.html %}
+
     {% include script_imager.html %}
+
     {% include script_menu_toggle.html %}
+
+    <script type="text/javascript">
+      document.getElementById('see_more_icon').addEventListener('click', function() {
+        if (document.body.classList.contains('showing_profile')) {
+            toggleClass(document.getElementById('profile'), 'hide'),
+            toggleClass(document.body, 'showing_profile');
+        }
+        toggleClass(document.getElementById('menu'), 'hide'),
+        toggleClass(document.body, 'showing_menu');
+      });
+    </script>
+
     {% include script_google_analytics.html %}
 
   </body>

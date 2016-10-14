@@ -3,7 +3,7 @@
  margin: $vertical_rhythm 0;
  padding-top: $vertical_rhythm/2;
 
- &:hover { cursor: pointer;}
+
 
  .showing_menu &,
  .showing_profile & {
@@ -15,6 +15,7 @@
   width: 100%;
   text-align: center;
   display: block;
+  &:hover { cursor: pointer;}
   svg {
     height: 7vw;
     @include media( "screen", ">minWidth") {height: 7vw;}

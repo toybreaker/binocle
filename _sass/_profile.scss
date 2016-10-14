@@ -63,7 +63,5 @@
 }
 .contact a:not(.instagram) { text-transform: lowercase; }
 
-.home #back_home_icon { display: none;}
-
-.showing_profile #binocle_mini_logo { display: none;}
-.showing_profile #back_home_icon { display: block;}
+.showing_profile .footer { display: none;}
+.showing_menu #see_more_icon { display: none;}

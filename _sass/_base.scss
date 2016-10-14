@@ -107,13 +107,19 @@ img[src*="cdninstagram"] {
     height: 2.75rem;
     width:  2.75rem;
   }
+  &:hover { cursor: pointer;}
 }
 
 
-.pictureoftheday,
-.sucked_shots {
-  // padding-left:2rem;
-  // padding-right:2rem;
+.pictureoftheday:hover {
+   cursor: pointer;
+ }
+
+.pictureoftheday img {
+    width: 100%;
+}
+
+.shots {
 
   .showing_profile & {
     display: none;

@@ -3,13 +3,15 @@
  margin: $vertical_rhythm 0;
  padding-top: $vertical_rhythm/2;
 
- .showing-menu &,
- .showing-profile & {
+ &:hover { cursor: pointer;}
+
+ .showing_menu &,
+ .showing_profile & {
    height: auto;
  }
 }
 
-.logo {//a
+.logo {//span
   width: 100%;
   text-align: center;
   display: block;
@@ -19,7 +21,6 @@
     @include media( "screen", ">bp1Width") {
       width: 640px;
     }
-    &:hover { cursor: pointer;}
   }
 }
 

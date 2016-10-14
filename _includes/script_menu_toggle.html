@@ -15,7 +15,7 @@
       element.className = classString;
   }
 
-  document.getElementById('works').addEventListener('click', function() {
+  document.getElementById('toggle_works').addEventListener('click', function() {
     if (document.body.classList.contains('showing_profile')) {
         toggleClass(document.getElementById('profile'), 'hide'),
         toggleClass(document.body, 'showing_profile');

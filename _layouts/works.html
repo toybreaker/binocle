@@ -1,7 +1,6 @@
 ---
 
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,7 +43,6 @@
         </div>
         {% endif %}
 
-
         {% if page.image5 %}
         <div class="image_wrap {{page.hash}}">
           <div class="delayed-image-load" data-src="/assets/p/{{page.hash}}/{{page.hash}}-05-{width}.jpg" data-alt="{{page.project | uppercase }}"></div>
@@ -56,7 +54,6 @@
           <div class="delayed-image-load" data-src="/assets/p/{{page.hash}}/{{page.hash}}-06-{width}.jpg" data-alt="{{page.project | uppercase }}"></div>
         </div>
         {% endif %}
-
 
         {% if page.image7 %}
         <div class="image_wrap {{page.hash}}">
@@ -70,7 +67,6 @@
         </div>
         {% endif %}
 
-
         {% if page.image9 %}
         <div class="image_wrap {{page.hash}}">
           <div class="delayed-image-load" data-src="/assets/p/{{page.hash}}/{{page.hash}}-09-{width}.jpg" data-alt="{{page.project | uppercase }}"></div>
@@ -82,7 +78,6 @@
           <div class="delayed-image-load" data-src="/assets/p/{{page.hash}}/{{page.hash}}-10-{width}.jpg" data-alt="{{page.project | uppercase }}"></div>
         </div>
         {% endif %}
-
 
         {% if page.image11 %}
         <div class="image_wrap {{page.hash}}">
@@ -156,6 +151,8 @@
         </div>
         {% endif %}
 
+      </div>
+
     </div>
 
     {% include footer.html %}
@@ -172,6 +169,17 @@
         }
         toggleClass(document.getElementById('menu'), 'hide'),
         toggleClass(document.body, 'showing_menu');
+      });
+    </script>
+
+    <script type="text/javascript">
+      document.getElementById('toggle_about_binocle').addEventListener('click', function() {
+        if (document.body.classList.contains('showing_menu')) {
+            toggleClass(document.getElementById('menu'), 'hide'),
+            toggleClass(document.body, 'showing_menu');
+        }
+        toggleClass(document.getElementById('profile'), 'hide'),
+        toggleClass(document.body, 'showing_profile');
       });
     </script>
 

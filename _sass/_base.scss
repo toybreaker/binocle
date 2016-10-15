@@ -128,3 +128,9 @@ img[src*="cdninstagram"] {
     display: none;
   }
 }
+
+
+.showing_menu #see_more_icon { display: none;}
+:not(.showing_menu) #binocle_mini_logo { display: none;}
+.home #binocle_mini_logo { display: block;}
+.showing_menu #binocle_mini_logo { display: block;}

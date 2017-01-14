@@ -39,6 +39,7 @@ gulp.task("tifs", function () {
 
 
 // Reponsive sizing
+// NOTE: this does not create the destination dir for the work. Create it manually and move files inside. This task create jpgs in ./assets/p/
 // OK!
 gulp.task('jpgs', function () {
   return gulp.src('./_src/p_jpeg/*.jpg')

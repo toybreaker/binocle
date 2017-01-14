@@ -14,7 +14,7 @@ Thanks, Junglestar team
 - [X] address use [microformat](https://schema.org/Organization). [See test](https://search.google.com/structured-data/testing-tool#url=http%3A%2F%2Fbinocle.it%2F)
 - [X] work intros use markdown inside {{content}}.
 - [X] responsive images with BBC's  [Imager.js](https://github.com/BBC-News/Imager.js/)
-- [X] Instagram most-liked picture on homepage with [instafeed.js](https://github.com/stevenschobert/instafeed.js). [see pen](http://codepen.io/stevenschobert/pen/vJloI)
+- [X] Instagram most-liked picture on homepage with [instafeed.js](https://github.com/stevenschobert/instafeed.js). [see pen](http://codepen.io/rokma/full/RoYKPJ/)
 - [X] FULL HD - up to 1920px wide shots.
 - [X] open-graph & twitter-cards.
 
@@ -37,8 +37,7 @@ Upload a picture named profile.jpg to the shared gdrive folder with same specs a
 Move project row form [works.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv) to [works_to_finish.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works_to_finish.csv). When done, move it back.
 
 **WORKS: new project?**  
-Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv)
-
+Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv), make a folder with the work name and an index.htm inside it, with the correct front-matter.
 
 ## dev
 

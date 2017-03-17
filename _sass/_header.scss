@@ -17,10 +17,11 @@
   display: block;
   &:hover { cursor: pointer;}
   svg {
-    height: 7vw;
-    @include media( "screen", ">minWidth") {height: 7vw;}
+    height: 12vw;
+    max-width: 640px;
     @include media( "screen", ">bp1Width") {
       width: 640px;
+      height: auto;
     }
   }
 }

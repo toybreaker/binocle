@@ -13,15 +13,7 @@ var rename       = require('gulp-rename');
 var responsive   = require('gulp-responsive');
 var gm           = require('gulp-gm');
 
-// testing...
-var gulpSharp    = require('gulp-sharp');
-var imagemin     = require('gulp-imagemin');
-var pngquant     = require('imagemin-pngquant');
-// end testing
-
 var reload       = browserSync.reload;
-
-
 
 // GM GraphicsMagick
 // OK!
@@ -84,105 +76,6 @@ gulp.task("lower", function () {
      }))
     .pipe(gulp.dest( './_src/p' ));
 });
-
-
-// start______TEST STUFF__________
-
-// not OK! TIFFFetchNormalTag error
-gulp.task("tif", function () {
-  gulp.src('./_src/p_input/*.tif')
-
-    .pipe(gm(function (gmfile) {
-
-      return gmfile.format("jpg");
-
-    }, {
-      imageMagick: true
-    }))
-
-    .pipe(gulp.dest('./_src/p_jpeg'));
-});
-
-// should work, but doesnt..
-gulp.task('tif', function () {
-  return gulp.src('./_src/p_lowercased/*.tif')
-    .pipe(responsive({
-      '*.tif': [{
-        //nexus5
-        width: 640,
-        quality: 51,
-        progressive: true,
-        sharper: true,
-        rename: {
-          suffix: '-640',
-          extname: '.jpg'
-        }
-      }, {
-        //ipad
-        width: 1024,
-        quality: 51,
-        progressive: true,
-        rename: {
-          suffix: '-1024',
-          extname: '.jpg'
-        }
-      }, {
-        //fullHD
-        width: 1920,
-        quality: 44,
-        progressive: true,
-        rename: {
-          suffix: '-1920',
-          extname: '.jpg'
-        }
-      }]
-    }))
-    .pipe(gulp.dest('./assets/p'));
-});
-
-// working only with jpg and how to rename?
-gulp.task('imageresize', function() {
-  return gulp.src('./_src/p_lowercased/*.+(jpeg|jpg|png|tiff|webp)')
-    .pipe(imageResize({ width: 1920 }))
-    .pipe(rename(function (path) { path.basename += "-1920"; }))
-    .pipe(imagemin({
-      progressive: true
-    }))
-    .pipe(gulp.dest('./assets/p'))
-    .pipe(rename({
-      suffix: '@2x'
-    }))
-    .pipe(imageResize({ width: 960 }))
-    .pipe(imagemin({
-      progressive: true
-    }))
-    .pipe(gulp.dest('./assets/p'))
-});
-
-// sharp lab.. maybe not
-gulp.task('sha', function(){
-
-  return gulp.src( './_src/p_lowercased/*.+(jpeg|jpg|png|tiff|webp)' )
-    .pipe(gulpSharp({
-      resize : [640],
-      max : true,
-      quality : 55,
-      progressive : true
-    }))
-    .pipe(gulp.dest('./assets/p'));
-
-});
-
-// Compress jpegs
-gulp.task('imagemin', function () {
-  return gulp.src('./assets/p/*.jpg')
-      pipe(imagemin({
-        progressive: true
-      }))
-      .pipe(gulp.dest('./assets/p/min'));
-});
-
-// end______TEST STUFF__________
 
 
 // Static Server + watching scss/html files

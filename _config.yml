@@ -15,9 +15,9 @@ version: 2.1.1
 
 # Build settings
 markdown: kramdown
-# kramdown:
-#  input: GFM
-#  hard_wrap: false
+kramdown:
+ input: GFM
+ hard_wrap: false
 permalink: /:categories/:title/
 
 exclude:

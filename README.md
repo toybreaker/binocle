@@ -8,6 +8,7 @@ All photos © Binocle. All rights reserved.
 Thanks, Junglestar team  
 
 ## Features:
+
 - [X] standalone web-app (after "add to home screen" on android).
 - [X] csv driven menu.
 - [X] plain javascript.
@@ -17,6 +18,7 @@ Thanks, Junglestar team
 - [X] Instagram most-liked picture on homepage with [instafeed.js](https://github.com/stevenschobert/instafeed.js). [see pen](http://codepen.io/rokma/full/zNKGQK/)
 - [X] FULL HD - up to 1920px wide shots.
 - [X] open-graph & twitter-cards.
+- [X] SSL/https thanks to netlify.
 
 ## No frills editing Guide:
 
@@ -28,7 +30,6 @@ Change [lines 11>15 in this file](https://github.com/toybreaker/binocle/blob/gh-
 
 **PROFILE fine tuning?**     
 Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
-
 
 **PROFILE image change?**     
 Upload a picture named profile.jpg to the shared gdrive folder with same specs as for works images, then it will be processed by gulp as works images. (If in a hurry [upload](https://github.com/toybreaker/binocle/tree/gh-pages/assets/p) 3 pictures properly dimensioned named profile-640.jpg, profile-1024.jpg, profile-1920.jpg overwriting the existing ones.)
@@ -81,7 +82,6 @@ Also can use [grafickmagik](http://aheckmann.github.io/gm/docs.html) to work pho
 Run Jekyll:
 
 ```bundle exec Jekyll serve```
-
 
 
 ## 2DOs:

@@ -45,6 +45,4 @@ accessToken: '1568291819.387d80c.54f7945b8fd9410a9966d9d79f7f7762'
 
 gems:
   - jekyll-feed
-  - github-pages
-  - html-proofer
   - jekyll-sitemap

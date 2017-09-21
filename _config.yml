@@ -10,8 +10,8 @@ description: Studio Binocle in Milan, Italy was founded by architect Lorenzo Bin
 copyright: Binocle
 twitter:
 baseurl: ""
-url: "http://binocle.it"
-version: 2.1.0
+url: "https://binocle.it"
+version: 2.1.1
 
 # Build settings
 markdown: kramdown

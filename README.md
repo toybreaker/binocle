@@ -87,8 +87,6 @@ Run Jekyll:
 ## 2DOs:
 
 - [ ] JS: grab pictureoftheday form home body.el and swap it in head.meta
-- [ ] menu salta su win edge ie
-- [ ] segoue ui nn esce su chrome win
 
 
 ## LIMITS (BUGS?!)

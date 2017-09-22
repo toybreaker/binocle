@@ -1,6 +1,6 @@
 {
   "name": "binocle-imager",
-  "version": "0.3.0",
+  "version": "2.1.2",
   "description": "binocle",
   "main": "gulpfile.js",
   "devDependencies": {

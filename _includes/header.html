@@ -16,12 +16,14 @@
 
     <div class="text_content">
 
+      <h1 class="work_name">Profile</h1>
+
       {% capture prof %}{% include editables/profile.md %}{% endcapture %}
       {{ prof | markdownify }}
 
       <div class="contact" itemscope itemtype="http://schema.org/Organization">
 
-        <h3 id="contact">Contact</h3>
+        <h1 class="work_name" id="contact">Contact</h1>
 
         <p class="site_title">
           <span itemprop="name"><strong>{{site.title}}</strong></span>

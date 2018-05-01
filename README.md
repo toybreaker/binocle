@@ -1,4 +1,4 @@
-[binocle.it](http://binocle.it)
+[binocle.it](https://binocle.it)
 ---
 
 ## Warning:
@@ -64,9 +64,7 @@ Dependencies:
 
 ### dev features
 
-Use ```/src/p_input``` and  ```/src/p_jpeg``` to store photos to process. Then use:
-
-```gulp``` task to compile sass and enable browsersync
+Use ```/src/p_input``` if not yet lowercase or ```/src/p_lowercase```otherwise, or if already .jpg use ```/src/p_jpeg``` to store photos to process. Then use:
 
 ```gulp lower``` to lowercase all photo names
 

@@ -1,39 +1,29 @@
 'use strict';
-// GULP here process sass and enable browsersync
-// sourcemap handled automagically by gulp-ruby-sass
-// images task to optimize images. (+experiments)
+// GULP image tasks to work images.
 
 // w/watch function now... and it works!!!!!
-var gulp         = require('gulp');
-var sass         = require('gulp-ruby-sass');
-var filter       = require('gulp-filter');
-var browserSync  = require('browser-sync');
 var changeCase   = require('change-case');
+var gulp         = require('gulp');
+var gm           = require('gulp-gm');
 var rename       = require('gulp-rename');
 var responsive   = require('gulp-responsive');
-var gm           = require('gulp-gm');
 
-var reload       = browserSync.reload;
-
-// GM GraphicsMagick
+// GM GraphicsMagick w/ gulp4
 // OK!
-gulp.task("tifs", function () {
-
-  gulp.src('./_src/p_input/*.tif')
+gulp.task('tifs', function(done) {
+  gulp.src('./_src/p_lowercase/*.tif')
     .pipe(gm(function (gmfile) {
-
       return gmfile.setFormat('jpg');
-
     }))
-
     .pipe(gulp.dest('./_src/p_jpeg'));
+  done();
 });
 
 
-// Reponsive sizing
+// Reponsive sizing w/ gulp4
 // NOTE: this does not create the destination dir for the work. Create it manually and move files inside. This task create jpgs in ./assets/p/
 // OK!
-gulp.task('jpgs', function () {
+gulp.task('jpgs', function (done) {
   return gulp.src('./_src/p_jpeg/*.jpg')
     .pipe(responsive({
       '*.jpg': [{
@@ -64,40 +54,16 @@ gulp.task('jpgs', function () {
       }]
     }))
     .pipe(gulp.dest('./assets/p'));
+  done();
 });
 
 
-// Rename all to lowercase
+// Rename all to lowercase w/ gulp4
 // OK!
-gulp.task("lower", function () {
+gulp.task(function lower() {
   return gulp.src( './_src/p_input/*.*' )
     .pipe(rename(function(fix) {
        fix.basename = changeCase.lowerCase(fix.basename);
      }))
-    .pipe(gulp.dest( './_src/p' ));
+    .pipe(gulp.dest( './_src/p_lowercase' ));
 });
-
-
-// Static Server + watching scss/html files
-gulp.task('serve', ['sass'], function() {
-
-  browserSync({
-    proxy: "binocle.dev"
-  });
-
-  gulp.watch("_sass/*.scss", ['sass']);
-  gulp.watch("*.css").on('change', reload);
-  gulp.watch("*.htm").on('change', reload);
-  gulp.watch("*.js").on('change', reload);
-});
-
-
-gulp.task('sass', function () {
-  return gulp.src('_sass/**/*.scss')
-      .pipe(sass())
-      .pipe(gulp.dest('assets/css'))// Write CSS (& Source maps)?
-      .pipe(filter('**/*.css')) // Filtering stream to only css files
-      .pipe(browserSync.reload({stream:true}));
-});
-
-gulp.task('default', ['serve']);

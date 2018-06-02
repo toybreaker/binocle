@@ -44,7 +44,7 @@ Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-page
 
 Dependencies:
 
-```npm install --save imager.js```
+```npm install --dev gulp@4.0.0```
 
 ```npm install --save-dev gulp-rename```
 

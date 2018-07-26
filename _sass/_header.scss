@@ -12,11 +12,13 @@
 }
 
 .logo {//span
+  user-select: none;
   width: 100%;
   text-align: center;
   display: block;
   &:hover { cursor: pointer;}
   svg {
+    user-select: none;
     height: 12vw;
     max-width: 640px;
     @include media( "screen", ">bp1Width") {

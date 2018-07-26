@@ -1,19 +1,22 @@
-.work_name {//h2
+.work_name {
+  //h2
   font-size: 2rem;
-  @include media( "screen", ">minWidth") { font-size: 2.5rem;}
-  @include media( "screen", ">bp1Width") { font-size: 3rem;}
+  @include media("screen", ">minWidth") {
+    font-size: 2.5rem;
+  }
+  @include media("screen", ">bp1Width") {
+    font-size: 3rem;
+  }
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
 }
-
 
 .shots {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -21,53 +24,54 @@
   flex-direction: column;
 
   * {
-    -webkit-box-ordinal-group:2;
-    -webkit-order:1;
-    -ms-flex-order:1;
-    order:1;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
   }
 
   :nth-child(3) {
-    -webkit-box-ordinal-group:0;
-    -webkit-order:-1;
-    -ms-flex-order:-1;
-    order:-1;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
   }
 }
 
-
 .intro {
-  font-size:1.1rem;
+  font-size: 1.1rem;
   text-align: left;
-  @include media( "screen", ">bp1Width") { text-align: justify;}
+  @include media("screen", ">bp1Width") {
+    text-align: justify;
+  }
+
   p {
     margin-left: $vertical_rhythm*2;
     margin-right: $vertical_rhythm*2;
   }
 
   table {
-    padding:$vertical_rhythm $vertical_rhythm*2 $vertical_rhythm*2 $vertical_rhythm*2;
+    padding: $vertical_rhythm $vertical_rhythm*2 $vertical_rhythm*2;
     display: block;
     font-size: 1rem;
 
     td:first-child {
       width: 220px;
       font-style: italic;
-      @include media( "screen", "<bp1Width") {
-        padding-top: .5rem;
+      @include media("screen", "<bp1Width") {
+        padding-top: 0.5rem;
       }
     }
 
     td {
       text-align: left;
-      padding-bottom: .25rem;;
+      padding-bottom: 0.25rem;
       vertical-align: baseline;
-      @include media( "screen", "<bp1Width") {
+      @include media("screen", "<bp1Width") {
         display: block;
         width: 70vw;
       }
     }
-
   }
 }
 
@@ -75,8 +79,7 @@
   width: 100%;
   display: block;
   float: left;
-  margin: 0;
-  margin-bottom: $vertical_rhythm/2;
+  margin: 0 0 $vertical_rhythm/2;
   position: relative;
 
   img {

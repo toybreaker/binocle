@@ -1,11 +1,10 @@
-
 .profile {
   max-width: 100%;
-  margin: $vertical_rhythm auto 0 auto;
+  margin: $vertical_rhythm auto 0;
   font-size: 1rem;
   text-align: left;
   padding: 0 $vertical_rhythm;
-  @include media( "screen", ">minWidth") {
+  @include media("screen", ">minWidth") {
     text-align: justify;
   }
 
@@ -13,8 +12,7 @@
     width: 100%;
     display: block;
     float: none;
-    margin: 0 auto;
-    margin-bottom: 2.5rem;
+    margin: 0 auto 2.5rem;
     position: relative;
     max-width: 640px;
   }
@@ -31,7 +29,9 @@
     text-align: center;
   }
 
-  strong { font-weight: 400; }
+  strong {
+    font-weight: 400;
+  }
 
   em {
     display: block;
@@ -39,20 +39,25 @@
     font-style: normal;
     text-align: center;
   }
+
   p {
-    padding:0 $vertical_rhythm;
-    @include media( "screen", ">minWidth") {
-      padding:0 $vertical_rhythm/2;
+    padding: 0 $vertical_rhythm;
+    @include media("screen", ">minWidth") {
+      padding: 0 $vertical_rhythm/2;
     }
-    @include media( "screen", ">bp1Width") {
-      padding:0;
+    @include media("screen", ">bp1Width") {
+      padding: 0;
     }
     margin-left: auto;
     margin-right: auto;
     max-width: 640px;
   }
-
 }
-.contact a:not(.instagram) { text-transform: lowercase; }
 
-.showing_profile .footer { display: none;}
+.contact a:not(.instagram) {
+  text-transform: lowercase;
+}
+
+.showing_profile .footer {
+  display: none;
+}

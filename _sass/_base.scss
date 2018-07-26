@@ -1,16 +1,21 @@
 html {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-*, *:before, *:after {
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
 
-input,
-textarea,
+a,
 button,
-select,
+input,
 label,
-a {
+select,
+textarea {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
@@ -20,48 +25,59 @@ body {
   font-weight: 300;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  margin:0;
-  padding:0;
-  background-color:$bg_color;
+  margin: 0;
+  padding: 0;
+  background-color: $bg_color;
 }
 
-.hide {display: none;}
+.hide {
+  display: none;
+}
 
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear: both; }
+.group:after,
+.group:before {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
 
 a {
   text-decoration: none;
-  color:$link_color;
+  color: $link_color;
   text-transform: capitalize;
-  &.active { color: lighten($link_color, 40%); }
+
+  &.active {
+    color: lighten($link_color, 40%);
+  }
 }
 
-svg{
-  width:100%;
-  height:100%;
+svg {
+  width: 100%;
+  height: 100%;
 }
 
-.bungkus{
+.bungkus {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
-  @include media( "screen", ">bp1Width") {
-      width: 90vw;
-      max-width: 1200px;
-      margin: 0 auto;
+  @include media("screen", ">bp1Width") {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  @include media( "screen", ">maxWidth") {
-      width: 90vw;
-      max-width: 1920px;
-      margin: 0 auto;
+  @include media("screen", ">maxWidth") {
+    width: 90vw;
+    max-width: 1920px;
+    margin: 0 auto;
   }
 }
 
 .text_content {
   max-width: 960px;
-  @include media( "screen", ">bp1Width") {
+  @include media("screen", ">bp1Width") {
     margin: 0 auto;
   }
 }
@@ -70,7 +86,7 @@ svg{
   text-transform: uppercase;
 }
 
-.footer{
+.footer {
   display: block;
   margin-top: $vertical_rhythm;
   margin-bottom: $vertical_rhythm;
@@ -82,6 +98,7 @@ svg{
 img[src*="cdninstagram"] {
   max-width: 640px;
   margin: 0 auto;
+
   a & {
     display: -webkit-box;
     display: -webkit-flex;
@@ -104,34 +121,47 @@ img[src*="cdninstagram"] {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+
   svg {
     height: 2.75rem;
-    width:  2.75rem;
+    width: 2.75rem;
   }
-  &:hover { cursor: pointer;}
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
-
 .pictureoftheday:hover {
-   cursor: pointer;
- }
+  cursor: pointer;
+}
 
 .pictureoftheday img {
-    width: 100%;
+  width: 100%;
 }
 
 .shots {
-
   .showing_profile & {
     display: none;
   }
+
   .showing_menu & {
     display: none;
   }
 }
 
+.showing_menu #see_more_icon {
+  display: none;
+}
 
-.showing_menu #see_more_icon { display: none;}
-:not(.showing_menu) #binocle_mini_logo { display: none;}
-.home #binocle_mini_logo { display: block;}
-.showing_menu #binocle_mini_logo { display: block;}
+:not(.showing_menu) #binocle_mini_logo {
+  display: none;
+}
+
+.home #binocle_mini_logo {
+  display: block;
+}
+
+.showing_menu #binocle_mini_logo {
+  display: block;
+}

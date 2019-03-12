@@ -11,7 +11,7 @@ copyright: Binocle
 twitter:
 baseurl: ""
 url: "https://binocle.it"
-version: 2.1.3
+version: 2.2.0
 
 # Build settings
 markdown: kramdown

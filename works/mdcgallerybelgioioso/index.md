@@ -1,8 +1,8 @@
 ---
 layout: works
-hash: mdcgallery
-project: mdc gallery
-image: assets/p/mdcgallery/mdcgallery-01-1024.jpg
+hash: mdcgallerybelgioioso
+project: mdc gallery belgioioso
+image: assets/p/mdcgallery/mdcgallerybelgioioso-01-1024.jpg
 image1: 01
 image2: 02
 image3: 03

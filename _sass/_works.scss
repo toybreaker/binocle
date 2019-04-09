@@ -55,6 +55,13 @@
     display: block;
     font-size: 1rem;
 
+    a {
+      text-transform: none;
+      &:hover {
+        color: black;
+      }
+    }
+
     td:first-child {
       width: 220px;
       font-style: italic;

@@ -137,7 +137,11 @@ img[src*="cdninstagram"] {
 }
 
 .pictureoftheday img {
+
   width: 100%;
+  @media only screen and (min-width: 640px) {
+    width: auto;
+  }
 }
 
 .shots {

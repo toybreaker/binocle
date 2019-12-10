@@ -70,7 +70,7 @@ Use ```/src/p_input``` if not yet lowercase or ```/src/p_lowercase```otherwise, 
 
 ```gulp tifs``` to produce jpg from tifs
 
-```gulp jpgs``` to produce sized copies
+```gulp jpgs``` to produce sized copies into /assets/p then move it to the properly named folder
 
 
 Also can use [grafickmagik](http://aheckmann.github.io/gm/docs.html) to work photos 1 by 1, from CLI, like this:
@@ -84,7 +84,7 @@ Run Jekyll:
 
 ## 2DOs:
 
-- [ ] JS: grab pictureoftheday form home body.el and swap it in head.meta
+- [ ] JS: grab pictureoftheday from home body.el and swap it in head.meta
 
 
 ## LIMITS (BUGS?!)

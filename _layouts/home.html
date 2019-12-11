@@ -42,7 +42,7 @@
           resolution: 'standard_resolution',
           links: 'false',
           target: 'instafeed',
-          template: '<img src="{{instafeed_img}}" />',
+          template: '<img alt="this is Binocle latest featured image from our Instagram feed" src="{{instafeed_img}}" />',
           filter: function(image) {
             return image.tags.indexOf('{{page.hash}}') >= 0;
           }

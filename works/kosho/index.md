@@ -20,7 +20,7 @@ Our proposal for Sukkah City, a design competition that took place in New York i
 KOSHO is a symmetrical polyhedron, simply assembled through the use of modular elements and easily replicable by anyone willing to follow our shared manual of instructions.
 
 |:-------------|:----------------------------------------------------|
-| Location:    | Secretive                                           |
+| Location:    | Undisclosed                                         |
 | Client:      | Sukkah City Design Competition                      |
 | Year:        | 2010                                                |
 | Status:      | Proposal                                            |

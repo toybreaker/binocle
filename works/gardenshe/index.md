@@ -29,7 +29,7 @@ Transformation of a 7.500 sqm area around an old farmstead in the North East of 
 The works were completed in 2008 and incorporated several installations from the collection of the owners including works by Dan Graham, Olafur Eliasson, Maurizio Cattelan, Jeppe Hein, Massimo Bartolini, Pavel Althamer and Mario Airò.
 
 |:-------------|:---------------------------------|
-| Location:    | Secretive                        |
+| Location:    | Undisclosed                      |
 | Client:      | Private                          |
 | Year:        | 2004-2008                        |
 | Status:      | Completed                        |

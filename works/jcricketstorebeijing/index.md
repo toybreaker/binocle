@@ -1,8 +1,8 @@
 ---
 layout: works
-hash: jcricketstore
-project: j.cricket store
-image: assets/p/jcricketstore/jcricket-01-1024.jpg
+hash: jcricketstorebeijing
+project: j.cricket store beijing
+image: assets/p/jcricketstorebeijing/jcricket-01-1024.jpg
 image1: 01
 image2: 02
 image3: 03
@@ -16,8 +16,6 @@ image10: 10
 image11: 11
 image12: 12
 ---
-
-J.CRICKET STORE BEIJING
 
 The first J.Cricket store in the world opened in SKP-S Beijing and was conceived as a background sequence for the brand’s collection and for Jimin Lee’s world of inspiration.
 

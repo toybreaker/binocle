@@ -3,14 +3,14 @@
 
 ## Warning:
 
-Despite this repo being public, it doesn't mean that all these assets are open-source and/or copyright free, or even that you may use any of them. Please, ask for permission first by contacting us: info@junglestar.org  
+Despite this repo being public, it doesn't mean that all these assets are open-source and/or copyright free, or even that you may use any of them. Please, ask for permission first, by contacting us: info@junglestar.org  
 All photos © Binocle. All rights reserved.  
 Thanks, Junglestar team  
 
 ## Features:
 
 - [X] standalone web-app (after "add to home screen" on android).
-- [X] csv driven menu.
+- [X] CSV driven menu.
 - [X] plain javascript.
 - [X] address use [microformat](https://schema.org/Organization). [See test](https://search.google.com/structured-data/testing-tool#url=http%3A%2F%2Fbinocle.it%2F)
 - [X] work intros use markdown inside {{content}}.
@@ -20,7 +20,7 @@ Thanks, Junglestar team
 - [X] open-graph & twitter-cards.
 - [X] SSL/https thanks to netlify.
 
-## No frills editing Guide:
+## No frills editing guide:
 
 **Set homepage photo**   
 Tag the chosen photo with ```#pictureoftheday``` hash. Bum. done! (probably it needs to be a recent uploaded shot...)
@@ -40,7 +40,7 @@ Move project row form [works.csv](https://github.com/toybreaker/binocle/blob/gh-
 **WORKS: new project?**  
 Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv), make a folder with the work name and an index.htm inside it, with the correct front-matter.
 
-## dev
+## Dev
 
 Dependencies:
 
@@ -55,22 +55,22 @@ Dependencies:
 ```npm install --save-dev gulp-gm```
 
 
-### setup
+### Setup
 
 ```bundle install``` setup
 
 ```npm install``` setup dependencies
 
 
-### dev features
+### Dev features
 
-Use ```/src/p_input``` if not yet lowercase or ```/src/p_lowercase```otherwise, or if already .jpg use ```/src/p_jpeg``` to store photos to process. Then use:
+Put images to process in ```/src/p_lower``` if not yet lowercase, or ```/src/p_tif```if .tif, or if already .jpg use ```/src/p_jpg```. Then use:
 
-```gulp lower``` to lowercase all photo names
+```gulp lower``` to lowercase all photos names
 
 ```gulp tifs``` to produce jpg from tifs
 
-```gulp jpgs``` to produce sized copies into /assets/p then move it to the properly named folder
+```gulp jpgs``` to produce sized copies into /assets/p, then move it to the properly named folder
 
 
 Also can use [grafickmagik](http://aheckmann.github.io/gm/docs.html) to work photos 1 by 1, from CLI, like this:

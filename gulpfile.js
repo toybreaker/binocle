@@ -11,7 +11,7 @@ var responsive   = require('gulp-responsive');
 // GM GraphicsMagick w/ gulp4
 // OK!
 gulp.task('tifs', function(done) {
-  gulp.src('./_src/p_lowercase/*.tif')
+  gulp.src('./_src/p_tif/*.tif')
     .pipe(gm(function (gmfile) {
       return gmfile.setFormat('jpg');
     }))
@@ -24,7 +24,7 @@ gulp.task('tifs', function(done) {
 // NOTE: this does not create the destination dir for the work. Create it manually and move files inside. This task create jpgs in ./assets/p/
 // OK!
 gulp.task('jpgs', function (done) {
-  return gulp.src('./_src/p_jpeg/*.jpg')
+  return gulp.src('./_src/p_jpg/*.jpg')
     .pipe(responsive({
       '*.jpg': [{
         //nexus5
@@ -61,9 +61,9 @@ gulp.task('jpgs', function (done) {
 // Rename all to lowercase w/ gulp4
 // OK!
 gulp.task(function lower() {
-  return gulp.src( './_src/p_input/*.*' )
+  return gulp.src( './_src/p_lower/*.*' )
     .pipe(rename(function(fix) {
        fix.basename = changeCase.lowerCase(fix.basename);
      }))
-    .pipe(gulp.dest( './_src/p_lowercase' ));
+    .pipe(gulp.dest( './_src/p_jpg' ));
 });

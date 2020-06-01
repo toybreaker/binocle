@@ -4,7 +4,7 @@ _site/
 node_modules
 __lab
 .workinprogress
-DS_Store
+.DS_Store
 Icon
 _src/
 *.tif

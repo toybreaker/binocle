@@ -16,7 +16,9 @@
 
       {% include header.html %}
 
-      <div id="instafeed" class="shots pictureoftheday group"></div>
+      <div id="instafeed" class="shots pictureoftheday group">
+        <img src="/assets/pictureoftheday/picture-of-the-day.jpg" alt="">
+      </div>
 
     </div>
 
@@ -28,11 +30,11 @@
       </span>
     </footer>
 
-    <script type="text/javascript" src="/assets/js/instafeed.min.js"></script>
+    <!-- <script type="text/javascript" src="/assets/js/instafeed.min.js"></script> -->
 
     {{ content }}
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       var userFeed = new Instafeed({
           get: 'user',
           userId: '{{site.userId}}',
@@ -48,7 +50,7 @@
           }
         });
       userFeed.run();
-    </script>
+    </script> -->
 
     {% include script_menu_toggle.html %}
 

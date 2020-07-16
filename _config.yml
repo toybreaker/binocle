@@ -1,24 +1,24 @@
 # Site settings
-title: Binocle
-email: now@binocle.it
-address: Via Giuseppe Colombo 81/a
-zip: 20133
-city: Milan
-country: Italy
-telephone: +39 02 78625376
+title:       Binocle
+email:       now@binocle.it
+address:     Via Giuseppe Colombo 81/a
+zip:         20133
+city:        Milan
+country:     Italy
+telephone:   +39 02 78625376
 description: Studio Binocle in Milan, Italy was founded by architect Lorenzo Bini.
-copyright: Binocle
+copyright:   Binocle
 twitter:
-baseurl: ""
-url: "https://binocle.it"
-version: 2.3.0
+baseurl:     ""
+url:         "https://binocle.it"
+version:     2.4.0
 
 # Build settings
-markdown: kramdown
+markdown:    kramdown
 kramdown:
- input: GFM
- hard_wrap: false
-permalink: /:categories/:title/
+ input:      GFM
+ hard_wrap:  false
+permalink:   /:categories/:title/
 
 exclude:
  - Gemfile
@@ -32,16 +32,16 @@ exclude:
  - node_modules
  - .workinprogress
 
-github: toybreaker
-instagram: studiobinocle
+github:      toybreaker
+instagram:   studiobinocle
 google:
- plus: +LorenzoBini
- analytics: UA-74264050-1
- verify: Rt71Q1qGvbUviohh6n8KmtRoGUd-XeuuuKLBjCMvHO8
+ plus:       +LorenzoBini
+ analytics:  UA-74264050-1
+ verify:     Rt71Q1qGvbUviohh6n8KmtRoGUd-XeuuuKLBjCMvHO8
 
 # instuff
-userId: '1568291819'
-clientId: '387d80cc65e1414198434cac0666c7d0'
+userId:      '1568291819'
+clientId:    '387d80cc65e1414198434cac0666c7d0'
 accessToken: '1568291819.387d80c.54f7945b8fd9410a9966d9d79f7f7762'
 
 plugins:

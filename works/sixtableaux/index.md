@@ -38,4 +38,4 @@ Presented for the first time in occasion of the Milan Design Week 2019 with an e
 | Partners:          | Atzara Marmi, Margraf S.p.A.                             |
 | food installation: | Casalinghe di Tokyo                                      |
 | Photographs:       | 1/5 Lorenzo Bini, 6/20 André Lucat                       |
-| link:              | [binocle.it/six-tab.pdf](https://binocle.it/six-tab.pdf) |
+| link:              | [sixtableaux.binocle.it](https://sixtableaux.binocle.it) |

@@ -21,7 +21,7 @@ image15: 15
 ---
 Set up for the exhibition ‘Vico Magistretti. Architetto milanese’ organised by Triennale Milano in collaboration with Fondazione studio museo Vico Magistretti in occasion of the centenary of the architect’s birth.
 
-The main structures - a large table, a long shelf/wall and a gigantic hood - are designed as blow-ups of domestic archetypes, organise the exhibition space and allude to a place in which to work, design, think, stay and live. A single construction system and a single material confer unity and recognisability to the installation.
+The main structures - a large table, a long shelf/wall and a gigantic hood - are designed as blow-ups of domestic archetypes, organises the exhibition space and alludes to a place in which to work, design, think, stay and live. A single construction system and a single material confers unity and recognisability to the installation.
 
 
 |:-------------|:-----------------------|

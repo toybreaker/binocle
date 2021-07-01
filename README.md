@@ -1,11 +1,13 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7ed81ca4-5f64-40a4-8cc4-e8af135648a8/deploy-status)](https://app.netlify.com/sites/binocle/deploys)
+
 [binocle.it](https://binocle.it)
 ---
 
 ## Warning:
 
-Despite this repo being public, it doesn't mean that all these assets are open-source and/or copyright free, or even that you may use any of them. Please, ask for permission first, by contacting us: info@junglestar.org  
-All photos © Binocle. All rights reserved.  
-Thanks, Junglestar team  
+Despite this repo being public, it doesn't mean that all these assets are open-source and/or copyright free, or even that you may use any of them. Please, ask for permission first, by contacting us: info@junglestar.org
+All photos © Binocle. All rights reserved.
+Thanks, Junglestar team
 
 ## Features:
 
@@ -22,22 +24,22 @@ Thanks, Junglestar team
 
 ## No frills editing guide:
 
-**Set homepage photo**   
+**Set homepage photo**
 Tag the chosen photo with ```#pictureoftheday``` hash. Bum. done! (probably it needs to be a recent uploaded shot...)
 
-**Update contact infos, tel?**     
+**Update contact infos, tel?**
 Change [lines 11>15 in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_config.yml)
 
-**PROFILE fine tuning?**     
+**PROFILE fine tuning?**
 Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
 
-**PROFILE image change?**     
+**PROFILE image change?**
 Upload a picture named profile.jpg to the shared gdrive folder with same specs as for works images, then it will be processed by gulp as works images. (If in a hurry [upload](https://github.com/toybreaker/binocle/tree/gh-pages/assets/p) 3 pictures properly dimensioned named profile-640.jpg, profile-1024.jpg, profile-1920.jpg overwriting the existing ones.)
 
-**WORKS: disable + enable project?**   
+**WORKS: disable + enable project?**
 Move project row form [works.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv) to [works_to_finish.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works_to_finish.csv). When done, move it back.
 
-**WORKS: new project?**  
+**WORKS: new project?**
 Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv), make a folder with the work name and an index.htm inside it, with the correct front-matter.
 
 ## Dev

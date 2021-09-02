@@ -2,6 +2,8 @@
 layout: works
 hash: basementgo
 project: basement g o
+title: Binocle - Basement g o
+description: "Conversion of the 90sqm basement of villa from a small town into the private archive, studio and exhibition space for a couple of entrepreneurs and art collectors."
 image: assets/p/basementgo/basementgo-01-1024.jpg
 image1: 01
 image2: 02

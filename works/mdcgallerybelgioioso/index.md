@@ -2,6 +2,9 @@
 layout: works
 hash: mdcgallerybelgioioso
 project: mdc gallery belgioioso
+title: Binocle - Mdc gallery belgioioso
+description: "In 2016 Massimo De Carlo opened his second gallery in Milan.
+The 120sqm venue is located inside Palazzo Belgioioso, a historical building by G. Piermarini..."
 image: assets/p/mdcgallerybelgioioso/mdcgallerybelgioioso-01-1024.jpg
 image1: 01
 image2: 02

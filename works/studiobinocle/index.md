@@ -2,6 +2,8 @@
 layout: works
 hash: studiobinocle
 project: studio binocle
+title: Binocle - Studio binocle
+description: "Our office is located atop of an unusual building from the 20’s known by people from Milan as ‘Cremlino’. The dome, under which we moved in 2014, measures 9m..."
 image: assets/p/studiobinocle/studiobinocle-01-1024.jpg
 image1: 01
 image2: 02

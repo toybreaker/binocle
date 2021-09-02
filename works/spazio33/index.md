@@ -2,6 +2,8 @@
 layout: works
 hash: spazio33
 project: spazio33
+title: Binocle - Spazio33
+description: "Transformation of a decadent masonry pavilion into a new bar cafeteria available for the visitors of a small town’s public garden. Inserted into the existing..."
 image: assets/p/spazio33/spazio33-01-1024.jpg
 image1: 01
 image2: 02

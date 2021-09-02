@@ -2,6 +2,8 @@
 layout: works
 hash: housedl
 project: house d l
+title: Binocle - House d l
+description: "Conversion of a derelict old house on the edge of a small village near Orvieto into the holiday residence for a Milanese art dealer and his guests."
 image: assets/p/housedl/housedl-01-1024.jpg
 image1: 01
 image2: 02

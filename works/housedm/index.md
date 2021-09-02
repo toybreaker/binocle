@@ -2,6 +2,8 @@
 layout: works
 hash: housedm
 project: house d m
+title: Binocle - House d m
+description: "Through brutal demolitions, hardy excavations and daring structural steelworks, an existing row house with a fairly small footprint has been utterly transformed"
 image: assets/p/housedm/housedm-01-1024.jpg
 image1: 01
 image2: 02

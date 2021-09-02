@@ -2,6 +2,8 @@
 layout: works
 hash: nikestadium
 project: nike stadium
+title: Binocle - Nike stadium
+description: "Developed in 2010 for an invited competition, this design proposal envisaged a new model of store and suggested a new shopping experience for Nike’s customers"
 image: assets/p/nikestadium/nikestadium-01-1024.jpg
 image1: 01
 image2: 02

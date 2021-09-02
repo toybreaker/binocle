@@ -2,6 +2,8 @@
 layout: works
 hash: yanpeiming
 project: atelier yan pei ming
+title: Binocle - Atelier yan pei ming
+description: "Proposal for the conversion of an old industrial warehouse into the new atelier, archive and gallery for Yan Pei-Ming, a Chinese painter based  near Paris."
 image: assets/p/yanpeiming/yanpeiming-01-1024.jpg
 image1: 01
 image2: 02

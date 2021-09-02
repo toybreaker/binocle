@@ -2,6 +2,8 @@
 layout: works
 hash: patiovm
 project: patio v m
+title: Binocle - Patio v m
+description: "This small patio is the center around which the Milanese flat of an italian architect and his French wife is articulated and organized."
 image: assets/p/patiovm/patiovm-01-1024.jpg
 image1: 01
 image2: 02

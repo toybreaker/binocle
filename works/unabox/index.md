@@ -2,6 +2,8 @@
 layout: works
 hash: unabox
 project: unabox
+title: Binocle - Unabox
+description: "UnaBox is a tiny secret case, inspired by an even smaller Indian box, designed and built as a gift for a six months old baby. Made of olive tree wood..."
 image: assets/p/unabox/unabox-01-1024.jpg
 image1: 01
 image2: 02

@@ -2,6 +2,8 @@
 layout: works
 hash: sixtableaux
 project: six tableaux
+title: Binocle - Six tableaux
+description: "A series of marble tables characterised by an irregular shapes obtained by retracing details or portions of works by six different contemporary artists."
 image: assets/p/sixtableaux/sixtableaux-01-1024.jpg
 image1: 01
 image2: 02

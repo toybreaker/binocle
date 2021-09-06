@@ -11,6 +11,7 @@ Thanks, Junglestar team
 
 ## Features:
 
+- [X] progressive image in home using <picture> and ".avif" w/ jpg fallback.
 - [X] standalone web-app (after "add to home screen" on android).
 - [X] CSV driven menu.
 - [X] plain javascript.
@@ -23,7 +24,7 @@ Thanks, Junglestar team
 ## No frills editing guide:
 
 **Set homepage photo**
-Tag the chosen photo with ```#pictureoftheday``` hash. Bum. done! (probably it needs to be a recent uploaded shot...)
+Mail the chosen photo named ```picture-of-the-day```. Min width 1800px (webmaster will make the image set!)
 
 **Update contact infos, tel?**
 Change [lines 11>15 in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_config.yml)

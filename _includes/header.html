@@ -11,7 +11,13 @@
   <div class="profile group hide" id="profile">
 
     <div class="image_wrap profile_photo">
-      <img src="/assets/p/profile-1920.jpg" alt="Binocle profile"/>
+
+      <picture>
+        <source type="image/avif" srcset="/assets/p/profile-640.avif 640w, /assets/p/profile-880.avif 880w, /assets/p/profile-1024.avif 1024w, /assets/p/profile-1920.avif 1920w" sizes="100vw">
+        <source type="image/jpeg" srcset="/assets/p/profile.jpg 640w, /assets/p/profile-880.jpg 880w, /assets/p/profile-1024.jpg 1024w, /assets/p/profile-1920.jpg 1920w" sizes="100vw">
+        <img alt="Binocle profile" loading="lazy" decoding="async" src="/assets/p/profile-640.jpg" width="1024" height="683">
+      </picture>
+
     </div>
 
     <div class="text_content">

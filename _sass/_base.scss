@@ -137,12 +137,22 @@ img[src*="cdninstagram"] {
   cursor: pointer;
 }
 
+
+// to verticalise picture filling the screen on mobiles
+// off now since the img is square
+// .pictureoftheday img {
+//   height: auto;
+//   @include media("screen", ">minWidth") {
+//     width: 100%;
+//   }
+// }
+
+// when img is square
 .pictureoftheday img {
   height: auto;
-  @include media("screen", ">minWidth") {
-    width: 100%;
-  }
+  width: 100%;
 }
+
 
 .shots {
   .showing_profile & {

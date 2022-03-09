@@ -36,8 +36,8 @@ github:      toybreaker
 instagram:   studiobinocle
 google:
  plus:       +LorenzoBini
- analytics:  UA-74264050-1
- verify:     Rt71Q1qGvbUviohh6n8KmtRoGUd-XeuuuKLBjCMvHO8
+ analytics:  #UA-74264050-1
+ verify:     # Rt71Q1qGvbUviohh6n8KmtRoGUd-XeuuuKLBjCMvHO8
 
 plugins:
   - jekyll-sitemap

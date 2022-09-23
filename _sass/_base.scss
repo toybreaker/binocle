@@ -133,15 +133,6 @@ svg {
   }
 }
 
-.shots {
-  .showing_profile & {
-    display: none;
-  }
-
-  .showing_menu & {
-    display: none;
-  }
-}
 
 .showing_menu #see_more_icon {
   display: none;

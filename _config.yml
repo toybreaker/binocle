@@ -11,7 +11,7 @@ copyright:   Binocle
 twitter:
 baseurl:     ""
 url:         "https://binocle.it"
-version:     3.5.0
+version:     3.6.0
 
 # Build settings
 markdown:    kramdown
@@ -24,7 +24,6 @@ exclude:
  - Gemfile
  - Gemfile.lock
  - LICENSEß
- - gulpfile.js
  - package.json
  - package-lock.json
  - DS_Store
@@ -36,7 +35,7 @@ github:      toybreaker
 instagram:   studiobinocle
 google:
  plus:       +LorenzoBini
- analytics:  #UA-74264050-1
+ analytics:  # UA-74264050-1
  verify:     # Rt71Q1qGvbUviohh6n8KmtRoGUd-XeuuuKLBjCMvHO8
 
 plugins:

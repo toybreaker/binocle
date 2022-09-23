@@ -96,17 +96,17 @@ svg {
   text-align: center;
 }
 
-img[src*="cdninstagram"] {
-  max-width: 640px;
-  margin: 0 auto;
+// img[src*="cdninstagram"] {
+//   max-width: 640px;
+//   margin: 0 auto;
 
-  a & {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
+//   a & {
+//     display: -webkit-box;
+//     display: -webkit-flex;
+//     display: -ms-flexbox;
+//     display: flex;
+//   }
+// }
 
 .go_home {
   width: 100%;
@@ -132,27 +132,6 @@ img[src*="cdninstagram"] {
     cursor: pointer;
   }
 }
-
-.pictureoftheday:hover {
-  cursor: pointer;
-}
-
-
-// to verticalise picture filling the screen on mobiles
-// off now since the img is square
-// .pictureoftheday img {
-//   height: auto;
-//   @include media("screen", ">minWidth") {
-//     width: 100%;
-//   }
-// }
-
-// when img is square
-.pictureoftheday img {
-  height: auto;
-  width: 100%;
-}
-
 
 .shots {
   .showing_profile & {

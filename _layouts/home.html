@@ -1,10 +1,6 @@
 ---
 
 ---
-{% assign instafeed_img = '{{image}}' %}
-{% assign instafeed_link = '{{link}}' %}
-{% assign instafeed_likes = '{{likes}}' %}
-{% assign instafeed_caption = '{{caption}}' %}
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 
@@ -12,16 +8,16 @@
 
   <body class="home">
 
-    <div class="bungkus group">
+    <div class="bungkus">
 
       {% include header.html %}
 
-      <div id="instafeed" class="shots pictureoftheday group">
+      <div class="pictureoftheday">
 
         <picture>
           <source type="image/avif" srcset="/assets/pictureoftheday/picture-of-the-day-640.avif 640w, /assets/pictureoftheday/picture-of-the-day-880.avif 880w, /assets/pictureoftheday/picture-of-the-day-1024.avif 1024w, /assets/pictureoftheday/picture-of-the-day-1920.avif 1920w" sizes="100vw">
           <source type="image/jpeg" srcset="/assets/pictureoftheday/picture-of-the-day.jpg 640w, /assets/pictureoftheday/picture-of-the-day-880.jpg 880w, /assets/pictureoftheday/picture-of-the-day-1024.jpg 1024w, /assets/pictureoftheday/picture-of-the-day-1920.jpg 1920w" sizes="100vw">
-          <img alt="Binocle picture of the day" loading="lazy" decoding="async" src="/assets/pictureoftheday/picture-of-the-day-640.jpg" width="1024" height="732">
+          <img alt="Binocle picture of the day" loading="lazy" decoding="async" src="/assets/pictureoftheday/picture-of-the-day-640.jpg" width="100%" height="auto">
         </picture>
 
       </div>
@@ -36,44 +32,11 @@
       </span>
     </footer>
 
-    <!-- <script type="text/javascript" src="/assets/js/instafeed.min.js"></script> -->
-
     {{ content }}
-
-    <!-- <script type="text/javascript">
-      var userFeed = new Instafeed({
-          get: 'user',
-          userId: '{{site.userId}}',
-          clientId: '{{site.clientId}}',
-          accessToken: '{{site.accessToken}}',
-          sortBy: 'most-liked',
-          resolution: 'standard_resolution',
-          links: 'false',
-          target: 'instafeed',
-          template: '<img alt="this is Binocle latest featured image from our Instagram feed" src="{{instafeed_img}}" />',
-          filter: function(image) {
-            return image.tags.indexOf('{{page.hash}}') >= 0;
-          }
-        });
-      userFeed.run();
-    </script> -->
 
     {% include script_menu_toggle.html %}
 
-    <script type="text/javascript">
-      document.getElementById('instafeed').addEventListener('click', function() {
-        if (document.body.classList.contains('showing_profile')) {
-            toggleClass(document.getElementById('profile'), 'hide'),
-            toggleClass(document.body, 'showing_profile');
-        }
-        toggleClass(document.getElementById('menu'), 'hide'),
-        toggleClass(document.body, 'showing_menu');
-      });
-    </script>
-
     {% include script_profile_toggle.html %}
-
-    {% include script_google_analytics.html %}
 
   </body>
 

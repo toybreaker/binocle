@@ -1,0 +1,17 @@
+body.home {
+  min-height: 100vh;
+}
+
+.pictureoftheday {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  picture {
+    height: 100%;
+    max-height: 1920px;
+    width: auto;
+    object-fit: cover;
+  }
+
+}

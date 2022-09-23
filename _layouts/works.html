@@ -12,7 +12,7 @@
 
       {% include header.html %}
 
-      <div id="instafeed" class="{{page.hash}} shots group" itemscope itemtype="http://schema.org/Article">
+      <div class="{{page.hash}} shots" itemscope itemtype="http://schema.org/Article">
 
         <h2 class="work_name" itemprop="name">{{page.project}}</h2>
 
@@ -234,8 +234,6 @@
     </script>
 
     {% include script_ext_link.html %}
-
-    {% include script_google_analytics.html %}
 
   </body>
 

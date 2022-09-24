@@ -14,4 +14,12 @@ body.home {
     object-fit: cover;
   }
 
+  .showing_menu & {
+    display: none;
+  }
+
+  .showing_profile & {
+    display: none;
+  }
+
 }

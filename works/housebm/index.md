@@ -41,4 +41,4 @@ The inclusion of a new circular staircase in exposed reinforced concrete, the re
 |Year:|2016-2019|
 |Status:|Completed|
 |Program:|Residential|
-|Photographs:|Louis De Belle|
+|Photographs:|[Louis De Belle](https://www.louisdebelle.com/)|

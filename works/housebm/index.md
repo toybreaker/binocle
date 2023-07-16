@@ -35,13 +35,10 @@ After years of neglect following the school's move, the property was purchased b
 The inclusion of a new circular staircase in exposed reinforced concrete, the reorganisation of the internal spaces and external elevations, the expansion of the basement and the texture of the little tower that hosts the new lift are the significant elements of this project.
 
 
-|:----------|:-----------------------|
-|Location:|Milano, Italy|
-|Client:|Private|
-|Year:|2016-2019|
-|Status:|Completed|
-|Program:|Residential|
-|Photographs:|[Louis De Belle](https://www.louisdebelle.com/)|
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI3NjU3NjBdfQ==
--->
+|:------------|:-----------------------|
+|Location:    |Milano, Italy|
+|Client:      |Private|
+|Year:        |2016-2019|
+|Status:      |Completed|
+|Program:     |Residential|
+|Photographs: |[Louis De Belle](https://www.louisdebelle.com/)|

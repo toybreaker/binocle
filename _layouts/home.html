@@ -1,43 +1,51 @@
 ---
-
 ---
+
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
-
   {% include head.html %}
 
   <body class="home">
-
     <div class="bungkus">
-
       {% include header.html %}
 
-      <div class="home">
+      <div class="home shots">
         <a href="/works/housebm/" title="Take a look at HOUSE B M project">
           <picture>
-            <source type="image/avif" srcset="/assets/home/home-640.avif 640w, /assets/home/home-880.avif 880w, /assets/home/home-1024.avif 1024w, /assets/home/home-1920.avif 1920w" sizes="100vw">
-            <source type="image/jpeg" srcset="/assets/home/picture-of-the-day.jpg 640w, /assets/home/home-880.jpg 880w, /assets/home/home-1024.jpg 1024w, /assets/home/home-1920.jpg 1920w" sizes="100vw">
-            <img alt="Binocle picture of the day" loading="lazy" decoding="async" src="/assets/home/home-640.jpg" width="100%" height="auto">
+            <source
+              type="image/avif"
+              srcset="
+                /assets/home/home-640.avif   640w,
+                /assets/home/home-880.avif   880w,
+                /assets/home/home-1024.avif 1024w,
+                /assets/home/home-1920.avif 1920w
+              "
+              sizes="100vw" />
+            <source
+              type="image/jpeg"
+              srcset="
+                /assets/home/picture-of-the-day.jpg  640w,
+                /assets/home/home-880.jpg            880w,
+                /assets/home/home-1024.jpg          1024w,
+                /assets/home/home-1920.jpg          1920w
+              "
+              sizes="100vw" />
+            <img
+              alt="Binocle picture of the day"
+              loading="lazy"
+              decoding="async"
+              src="/assets/home/home-640.jpg"
+              width="100%"
+              height="auto" />
           </picture>
         </a>
       </div>
-
     </div>
 
     <footer class="footer" id="toggle_about_binocle">
-      <span class="go_home">
-
-        {% include svg_oc.html %}
-
-      </span>
+      <span class="go_home"> {% include svg_oc.html %} </span>
     </footer>
 
-    {{ content }}
-
-    {% include script_menu_toggle.html %}
-
-    {% include script_profile_toggle.html %}
-
+    {{ content }} {% include script_menu_toggle.html %} {% include script_profile_toggle.html %}
   </body>
-
 </html>

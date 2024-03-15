@@ -41,6 +41,6 @@ Two storeys of a neoclassical building in the centre of Oleggio have been transf
 |Year:|2019-2023|
 |Status:|Completed|
 |Program:|Space for art|
-|Team:|Giulio Giori, Martina Tangari, Anna Pierotello|
+|Team:|Ivana Di Chiara, Giulio Giori, Martina Tangari, Anna Pierotello|
 |Collaborators:|[Rossi Bianchi lighting design](https://www.rossibianchi.com/)|
 |Photographs:|2,6,7,8,10,11,13,15,18,21,25 [Mattia Micheli](https://mattiamicheli.com), all the others Lorenzo Bini|

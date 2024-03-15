@@ -40,6 +40,6 @@ Two storeys of a neoclassical building in the centre of Oleggio have been transf
 |Client:|Private|
 |Year:|2019-2023|
 |Status:|Completed|
-|Program:|Private Art Gallery|
+|Program:|Space for art|
 |Team:|Giulio Giori, Martina Tangari, Anna Pierotello|
 |Photographs:|2,6,7,8,10,11,13,15,18,21,25 [Mattia Micheli](https://mattiamicheli.com), all the others Lorenzo Bini|

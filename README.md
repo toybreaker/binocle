@@ -1,7 +1,6 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7ed81ca4-5f64-40a4-8cc4-e8af135648a8/deploy-status)](https://app.netlify.com/sites/binocle/deploys)
 
-[binocle.it](https://binocle.it)
----
+## [binocle.it](https://binocle.it)
 
 ## Warning:
 
@@ -11,21 +10,21 @@ Thanks, Junglestar team
 
 ## Features:
 
-- [X] progressive image in home using picture and ".avif" w/ jpg fallback.
-- [X] standalone web-app (after "add to home screen" on android).
-- [X] CSV driven menu.
-- [X] plain javascript.
-- [X] address use [microformat](https://schema.org/Organization). [See test](https://search.google.com/structured-data/testing-tool#url=http%3A%2F%2Fbinocle.it%2F)
-- [X] work intros use markdown inside {{content}}.
-- [X] FULL HD - up to 1920px wide shots.
-- [X] open-graph & twitter-cards.
-- [X] SSL/https thanks to netlify.
+- [x] progressive image in home using picture and ".avif" w/ jpg fallback.
+- [x] standalone web-app (after "add to home screen" on android).
+- [x] CSV driven menu.
+- [x] plain javascript.
+- [x] address use [microformat](https://schema.org/Organization). [See test](https://search.google.com/structured-data/testing-tool#url=http%3A%2F%2Fbinocle.it%2F)
+- [x] work intros use markdown inside {{content}}.
+- [x] FULL HD - up to 1920px wide shots.
+- [x] open-graph & twitter-cards.
+- [x] SSL/https thanks to netlify.
 
 ## No frills editing guide:
 
-**Set homepage photo**
+**Naming photos**
 
-Mail the chosen photo named ```picture-of-the-day```. Min width 1800px (webmaster will make the image set!)
+Photos should be named as follow: projectname-01.jpg, projectname-02.jpg, etc.. Note: so first the name of the project without spaces and all lowercase, then dash, and then the progressive number of the photos starting from 01.
 
 **Update contact infos, tel?**
 
@@ -45,7 +44,7 @@ Move project row form [works.csv](https://github.com/toybreaker/binocle/blob/gh-
 
 **WORKS: new project?**
 
-Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv), make a folder with the work name and an index.htm inside it, with the correct front-matter.
+Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv) with the work details, look at existing lines to understand the logic, make a folder with the work name and an index.htm inside it, with the correct front-matter.
 
 ## 2DOs:
 

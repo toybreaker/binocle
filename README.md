@@ -2,13 +2,13 @@
 
 ## [binocle.it](https://binocle.it)
 
-## Warning:
+## Warning
 
 Despite this repo being public, it doesn't mean that all these assets are open-source and/or copyright free, or even that you may use any of them. Please, ask for permission first, by contacting us: info@junglestar.org
 All photos © Binocle. All rights reserved.
 Thanks, Junglestar team
 
-## Features:
+## Features
 
 - [x] progressive image in home using picture and ".avif" w/ jpg fallback.
 - [x] standalone web-app (after "add to home screen" on android).
@@ -20,29 +20,35 @@ Thanks, Junglestar team
 - [x] open-graph & twitter-cards.
 - [x] SSL/https thanks to netlify.
 
-## No frills editing guide:
+## No frills editing guide
 
-**Naming photos**
+### IMAGES NAMING
 
-Photos should be named as follow: projectname-01.jpg, projectname-02.jpg, etc.. Note: so first the name of the project without spaces and all lowercase, then dash, and then the progressive number of the photos starting from 01.
+Photos should be named as follow: projectname-01.jpg, projectname-02.jpg, etc..
 
-**Update contact infos, tel?**
+Note:
+
+- first the name of the project without spaces and dashes and all lowercase,
+- then dash,
+- then the progressive number of the photos starting from 01.
+
+### Update CONTACT INFOS, tel?
 
 Change [lines 11>15 in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_config.yml)
 
-**PROFILE fine tuning?**
+### PROFILE fine tuning?
 
 Edit [this file](https://github.com/toybreaker/binocle/blob/gh-pages/_includes/editables/profile.md)
 
-**PROFILE image change?**
+### PROFILE image change?
 
 Upload a picture named profile.jpg to the shared gdrive folder with same specs as for works images, then it will be processed by gulp as works images. (If in a hurry [upload](https://github.com/toybreaker/binocle/tree/gh-pages/assets/p) 3 pictures properly dimensioned named profile-640.jpg, profile-1024.jpg, profile-1920.jpg overwriting the existing ones.)
 
-**WORKS: disable + enable project?**
+### WORKS: disable + enable project?
 
 Move project row form [works.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv) to [works_to_finish.csv](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works_to_finish.csv). When done, move it back.
 
-**WORKS: new project?**
+### WORKS: new project?
 
 Add a new line [in this file](https://github.com/toybreaker/binocle/blob/gh-pages/_data/works.csv) with the work details, look at existing lines to understand the logic, make a folder with the work name and an index.htm inside it, with the correct front-matter.
 

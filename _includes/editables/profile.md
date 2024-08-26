@@ -1,10 +1,10 @@
-**BINOCLE** is the office led by Italian architect Lorenzo Bini since 2011.  
+**BINOCLE** is the office led by Italian architect Lorenzo Bini that deals with the transformation of existing spaces, from temporary structures to permanent buildings and gardens.  
 
-Born in 1971, educated in Milan and Oslo, Lorenzo graduated in 1998 from Politecnico di Milano and worked for different offices in Milan and Rotterdam until 2003 when he co-founded **[studiometrico](http://www.studiometrico.com/)**, his former practice that ceased business in 2011 after 8 years of shared partnership.  
+Born in 1971 and educated in Milan and Oslo, Lorenzo graduated in 1998 from Politecnico di Milano and worked in Milan and Rotterdam until 2003 when he started his own practice in Milano.
 
-**BINOCLE** works on the transformation of existing spaces shifting from temporary structures to permanent buildings and gardens.  
+Alongside the professional activity, Lorenzo has taught at the **Politecnico di Milano**, at the **Design Academy Eindhoven** and at **NABA, Nuova Accademia di Belle Arti in Milan**.
 
-Beside his professional activity, Lorenzo is teaching at Politecnico and Nuova Accademia di Belle Arti in Milan and was visiting professor at the **Design Academy Eindhoven**.  
+In 2021 he became a member of the Council of the Order of Architects, Landscape Planners and Conservators of the Province of Milan with responsibility for cultural activities.
 
 <br/>
 
